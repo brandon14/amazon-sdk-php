@@ -1,0 +1,10 @@
+# ReportScheduleList
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**report_schedules** | [**\TNT\Amazon\Reports\V20210630\Model\ReportSchedule[]**](ReportSchedule.md) |  | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

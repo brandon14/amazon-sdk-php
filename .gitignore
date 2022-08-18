@@ -1,0 +1,28 @@
+# Composer vendor folder
+/vendor
+
+# PHP Unit code coverage files
+coverage.xml
+coverage.text
+coverage.html
+coverage/
+
+# PHP Unit cache files
+.phpunit.result.cache
+
+# PHP Coding Standards Fixer cache file
+.php_cs.cache
+.php-cs-fixer.cache
+
+# PHP Code Sniffer cache
+.phpcs.cache
+
+# Doctum docs
+doctum_cache
+
+# Editor files.
+.vscode
+.idea
+
+# CGHooks lock file
+cghooks.lock

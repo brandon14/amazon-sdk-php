@@ -1,0 +1,40 @@
+{
+    "name": "{{#composerVendorName}}{{.}}{{/composerVendorName}}{{^composerVendorName}}{{gitUserId}}{{/composerVendorName}}/{{#composerProjectName}}{{.}}{{/composerProjectName}}{{^composerProjectName}}{{gitRepoId}}{{/composerProjectName}}",
+    {{#artifactVersion}}
+    "version": "{{artifactVersion}}",
+    {{/artifactVersion}}
+    "description": "{{{description}}}",
+    "keywords": ["swagger", "swagger-codegen, "openapi", "php", "sdk", "rest", "api", "amazon"],
+    "homepage": "https://github.com/{{gitUserId}}/{{gitRepoId}}",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Swagger and contributors",
+            "homepage": "https://github.com/swagger-api/swagger-codegen"
+        },
+        {
+            "name": "Brandon Clothier",
+            "email": "brclothier@trollandtoad.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.5.8 || ^7.4.5",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },{{#includeTests}}
+    "require-dev": {
+        "phpunit/phpunit": "^8.5.23 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^2.12"
+    },{{/includeTests}}
+    "autoload": {
+        "psr-4": {
+            "{{escapedInvokerPackage}}\\" : "{{srcBasePath}}/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "{{escapedInvokerPackage}}\\Test\\" : "{{testBasePath}}/" }
+    }
+}

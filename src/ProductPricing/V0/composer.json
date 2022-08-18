@@ -1,0 +1,33 @@
+{
+    "name": "brandon14/amazon-product-pricing-v0",
+    "description": "",
+    "keywords": ["swagger", "swagger-codegen, "openapi", "php", "sdk", "rest", "api", "amazon"],
+    "homepage": "https://github.com/brandon14/amazon-product-pricing-v0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Swagger and contributors",
+            "homepage": "https://github.com/swagger-api/swagger-codegen"
+        },
+        {
+            "name": "Brandon Clothier",
+            "email": "brclothier@trollandtoad.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.5.8 || ^7.4.5",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TNT\\Amazon\\ProductPricing\\V0\\" : "/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "TNT\\Amazon\\ProductPricing\\V0\\Test\\" : "test/" }
+    }
+}

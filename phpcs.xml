@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ruleset name="amazon-sdk-php Standard" namespace="App\CS\Standard">
+  <description>The phpcs coding standard for the brandon14/amazon-sdk-php project.</description>
+
+  <!-- Only process .php files. -->
+  <arg name="extensions" value="php" />
+  <!-- Show all errors. -->
+  <arg name="error-severity" value="1" />
+  <!-- Hide warnings. -->
+  <arg name="warning-severity" value="0" />
+  <arg name="colors" />
+  <arg value="sp" />
+
+  <!-- Ignore vendor folder. -->
+  <exclude-pattern>vendor</exclude-pattern>
+  <!-- Exclude tests -->
+  <exclude-pattern>tests/</exclude-pattern>
+  <!-- Exclude doctum cache -->
+  <exclude-pattern>doctum_cache/</exclude-pattern>
+  <!-- Exclude docs folder -->
+  <exclude-pattern>docs/</exclude-pattern>
+
+  <!-- Run against the PHPCompatibility ruleset -->
+  <rule ref="PHPCompatibility">
+    <!-- Jank for an Amazon data model named String go figure... -->
+    <exclude name="PHPCompatibility.Keywords.ForbiddenNamesAsDeclared.stringFound"></exclude>
+  </rule>
+
+  <config name="testVersion" value="7.2-"/>
+
+  <!-- Check for PSR-12 style -->
+  <rule ref="PSR12" >
+    <exclude name="PSR12.Operators.OperatorSpacing.NoSpaceBefore"></exclude>
+    <exclude name="PSR12.Operators.OperatorSpacing.NoSpaceAfter"></exclude>
+    <exclude name="PSR12.Files.FileHeader.IncorrectOrder"></exclude>
+    <exclude name="PSR1.Methods.CamelCapsMethodName.NotCamelCaps"></exclude>
+  </rule>
+
+</ruleset>
