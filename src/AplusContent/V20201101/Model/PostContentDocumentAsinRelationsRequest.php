@@ -60,7 +60,6 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
@@ -72,7 +71,7 @@ use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PostContentDocumentAsinRelationsRequest implements ModelInterface, ArrayAccess
+class PostContentDocumentAsinRelationsRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * SKUPrepInstructions Class Doc Comment.
  *
  * @category Class
+ *
  * @description Labeling requirements and item preparation instructions to help you prepare items for shipment to Amazon&#39;s fulfillment network.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SKUPrepInstructions implements ModelInterface, ArrayAccess
+class SKUPrepInstructions implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

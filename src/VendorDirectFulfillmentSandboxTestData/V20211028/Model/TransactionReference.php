@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\ObjectSerializer;
 
 /**
  * TransactionReference Class Doc Comment.
  *
  * @category Class
+ *
  * @description A GUID assigned by Amazon to identify this transaction.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TransactionReference implements ModelInterface, ArrayAccess
+class TransactionReference implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

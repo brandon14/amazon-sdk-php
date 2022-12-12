@@ -366,7 +366,7 @@ class UpdateInventoryApi
         // Path params.
         if ($warehouse_id !== null) {
             $resourcePath = str_replace(
-                '{'.'warehouseId'.'}',
+                '{warehouseId}',
                 ObjectSerializer::toPathValue($warehouse_id),
                 $resourcePath
             );

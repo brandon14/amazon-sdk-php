@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Reports\V20200904\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Reports\V20200904\ObjectSerializer;
 
 /**
  * ReportDocumentEncryptionDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description Encryption details required for decryption of a report document&#39;s contents.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ReportDocumentEncryptionDetails implements ModelInterface, ArrayAccess
+class ReportDocumentEncryptionDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

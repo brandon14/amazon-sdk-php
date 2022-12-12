@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FbaSmallAndLight\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FbaSmallAndLight\V1\ObjectSerializer;
 
 /**
  * SmallAndLightEnrollment Class Doc Comment.
  *
  * @category Class
+ *
  * @description The Small and Light enrollment status of the item indicated by the specified seller SKU.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SmallAndLightEnrollment implements ModelInterface, ArrayAccess
+class SmallAndLightEnrollment implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

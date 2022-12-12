@@ -64,6 +64,7 @@ namespace TNT\Amazon\EasyShip\V20220323\Model;
  * PackageStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description The status of the package.
  *
  * @author   Swagger Codegen team

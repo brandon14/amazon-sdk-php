@@ -381,7 +381,7 @@ class ServiceApi
         // Path params.
         if ($service_job_id !== null) {
             $resourcePath = str_replace(
-                '{'.'serviceJobId'.'}',
+                '{serviceJobId}',
                 ObjectSerializer::toPathValue($service_job_id),
                 $resourcePath
             );
@@ -738,7 +738,7 @@ class ServiceApi
         // Path params.
         if ($service_job_id !== null) {
             $resourcePath = str_replace(
-                '{'.'serviceJobId'.'}',
+                '{serviceJobId}',
                 ObjectSerializer::toPathValue($service_job_id),
                 $resourcePath
             );
@@ -746,7 +746,7 @@ class ServiceApi
         // Path params.
         if ($appointment_id !== null) {
             $resourcePath = str_replace(
-                '{'.'appointmentId'.'}',
+                '{appointmentId}',
                 ObjectSerializer::toPathValue($appointment_id),
                 $resourcePath
             );
@@ -1089,7 +1089,7 @@ class ServiceApi
         // Path params.
         if ($reservation_id !== null) {
             $resourcePath = str_replace(
-                '{'.'reservationId'.'}',
+                '{reservationId}',
                 ObjectSerializer::toPathValue($reservation_id),
                 $resourcePath
             );
@@ -1441,7 +1441,7 @@ class ServiceApi
         // Path params.
         if ($service_job_id !== null) {
             $resourcePath = str_replace(
-                '{'.'serviceJobId'.'}',
+                '{serviceJobId}',
                 ObjectSerializer::toPathValue($service_job_id),
                 $resourcePath
             );
@@ -1769,7 +1769,7 @@ class ServiceApi
         // Path params.
         if ($service_job_id !== null) {
             $resourcePath = str_replace(
-                '{'.'serviceJobId'.'}',
+                '{serviceJobId}',
                 ObjectSerializer::toPathValue($service_job_id),
                 $resourcePath
             );
@@ -3136,7 +3136,7 @@ class ServiceApi
         // Path params.
         if ($service_job_id !== null) {
             $resourcePath = str_replace(
-                '{'.'serviceJobId'.'}',
+                '{serviceJobId}',
                 ObjectSerializer::toPathValue($service_job_id),
                 $resourcePath
             );
@@ -3502,7 +3502,7 @@ class ServiceApi
         // Path params.
         if ($resource_id !== null) {
             $resourcePath = str_replace(
-                '{'.'resourceId'.'}',
+                '{resourceId}',
                 ObjectSerializer::toPathValue($resource_id),
                 $resourcePath
             );
@@ -3871,7 +3871,7 @@ class ServiceApi
         // Path params.
         if ($resource_id !== null) {
             $resourcePath = str_replace(
-                '{'.'resourceId'.'}',
+                '{resourceId}',
                 ObjectSerializer::toPathValue($resource_id),
                 $resourcePath
             );
@@ -4202,7 +4202,7 @@ class ServiceApi
         // Path params.
         if ($service_job_id !== null) {
             $resourcePath = str_replace(
-                '{'.'serviceJobId'.'}',
+                '{serviceJobId}',
                 ObjectSerializer::toPathValue($service_job_id),
                 $resourcePath
             );
@@ -5051,7 +5051,7 @@ class ServiceApi
         // Path params.
         if ($service_job_id !== null) {
             $resourcePath = str_replace(
-                '{'.'serviceJobId'.'}',
+                '{serviceJobId}',
                 ObjectSerializer::toPathValue($service_job_id),
                 $resourcePath
             );
@@ -5059,7 +5059,7 @@ class ServiceApi
         // Path params.
         if ($appointment_id !== null) {
             $resourcePath = str_replace(
-                '{'.'appointmentId'.'}',
+                '{appointmentId}',
                 ObjectSerializer::toPathValue($appointment_id),
                 $resourcePath
             );
@@ -5416,7 +5416,7 @@ class ServiceApi
         // Path params.
         if ($service_job_id !== null) {
             $resourcePath = str_replace(
-                '{'.'serviceJobId'.'}',
+                '{serviceJobId}',
                 ObjectSerializer::toPathValue($service_job_id),
                 $resourcePath
             );
@@ -5424,7 +5424,7 @@ class ServiceApi
         // Path params.
         if ($appointment_id !== null) {
             $resourcePath = str_replace(
-                '{'.'appointmentId'.'}',
+                '{appointmentId}',
                 ObjectSerializer::toPathValue($appointment_id),
                 $resourcePath
             );
@@ -5776,7 +5776,7 @@ class ServiceApi
         // Path params.
         if ($reservation_id !== null) {
             $resourcePath = str_replace(
-                '{'.'reservationId'.'}',
+                '{reservationId}',
                 ObjectSerializer::toPathValue($reservation_id),
                 $resourcePath
             );
@@ -6128,7 +6128,7 @@ class ServiceApi
         // Path params.
         if ($resource_id !== null) {
             $resourcePath = str_replace(
-                '{'.'resourceId'.'}',
+                '{resourceId}',
                 ObjectSerializer::toPathValue($resource_id),
                 $resourcePath
             );

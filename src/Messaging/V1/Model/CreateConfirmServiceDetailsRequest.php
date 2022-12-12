@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Messaging\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Messaging\V1\ObjectSerializer;
 
 /**
  * CreateConfirmServiceDetailsRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request schema for the createConfirmServiceDetails operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateConfirmServiceDetailsRequest implements ModelInterface, ArrayAccess
+class CreateConfirmServiceDetailsRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

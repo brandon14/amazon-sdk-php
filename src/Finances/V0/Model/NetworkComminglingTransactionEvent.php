@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * NetworkComminglingTransactionEvent Class Doc Comment.
  *
  * @category Class
+ *
  * @description A network commingling transaction event.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class NetworkComminglingTransactionEvent implements ModelInterface, ArrayAccess
+class NetworkComminglingTransactionEvent implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Notifications\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Notifications\V1\ObjectSerializer;
 
 /**
  * AggregationSettings Class Doc Comment.
  *
  * @category Class
+ *
  * @description A container that holds all of the necessary properties to configure the aggregation of notifications.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AggregationSettings implements ModelInterface, ArrayAccess
+class AggregationSettings implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * SolutionProviderCreditEvent Class Doc Comment.
  *
  * @category Class
+ *
  * @description A credit given to a solution provider.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SolutionProviderCreditEvent implements ModelInterface, ArrayAccess
+class SolutionProviderCreditEvent implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

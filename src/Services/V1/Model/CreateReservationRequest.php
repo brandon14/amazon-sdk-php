@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * CreateReservationRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description Request schema for the &#x60;createReservation&#x60; operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateReservationRequest implements ModelInterface, ArrayAccess
+class CreateReservationRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

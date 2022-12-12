@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * Currency Class Doc Comment.
  *
  * @category Class
+ *
  * @description A currency type and amount.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Currency implements ModelInterface, ArrayAccess
+class Currency implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

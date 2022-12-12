@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * FinancialEventGroup Class Doc Comment.
  *
  * @category Class
+ *
  * @description Information related to a financial event group.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class FinancialEventGroup implements ModelInterface, ArrayAccess
+class FinancialEventGroup implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

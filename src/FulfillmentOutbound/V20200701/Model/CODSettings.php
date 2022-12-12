@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * CODSettings Class Doc Comment.
  *
  * @category Class
+ *
  * @description The COD (Cash On Delivery) charges that you associate with a COD fulfillment order.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CODSettings implements ModelInterface, ArrayAccess
+class CODSettings implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

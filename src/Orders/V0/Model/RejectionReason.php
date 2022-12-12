@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * RejectionReason Class Doc Comment.
  *
  * @category Class
+ *
  * @description The reason for rejecting the order&#39;s regulated information. Not present if the order isn&#39;t rejected.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class RejectionReason implements ModelInterface, ArrayAccess
+class RejectionReason implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

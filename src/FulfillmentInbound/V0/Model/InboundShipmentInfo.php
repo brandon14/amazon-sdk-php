@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * InboundShipmentInfo Class Doc Comment.
  *
  * @category Class
+ *
  * @description Information about the seller&#39;s inbound shipments. Returned by the listInboundShipments operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class InboundShipmentInfo implements ModelInterface, ArrayAccess
+class InboundShipmentInfo implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

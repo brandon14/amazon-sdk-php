@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Messaging\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Messaging\V1\ObjectSerializer;
 
 /**
  * CreateUnexpectedProblemResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the createUnexpectedProblem operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateUnexpectedProblemResponse implements ModelInterface, ArrayAccess
+class CreateUnexpectedProblemResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

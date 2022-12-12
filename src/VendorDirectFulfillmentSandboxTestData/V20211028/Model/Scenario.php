@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\ObjectSerializer;
 
 /**
  * Scenario Class Doc Comment.
  *
  * @category Class
+ *
  * @description A scenario test case response returned when the request is successful.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Scenario implements ModelInterface, ArrayAccess
+class Scenario implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

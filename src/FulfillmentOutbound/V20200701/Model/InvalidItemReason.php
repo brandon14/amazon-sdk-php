@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * InvalidItemReason Class Doc Comment.
  *
  * @category Class
+ *
  * @description The reason that the item is invalid for return.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class InvalidItemReason implements ModelInterface, ArrayAccess
+class InvalidItemReason implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

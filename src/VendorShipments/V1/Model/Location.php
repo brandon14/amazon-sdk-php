@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorShipments\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorShipments\V1\ObjectSerializer;
 
 /**
  * Location Class Doc Comment.
  *
  * @category Class
+ *
  * @description Location identifier.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Location implements ModelInterface, ArrayAccess
+class Location implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V20220401\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V20220401\ObjectSerializer;
 
 /**
  * ItemSummaries Class Doc Comment.
  *
  * @category Class
+ *
  * @description Summary details of an Amazon catalog item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemSummaries implements ModelInterface, ArrayAccess
+class ItemSummaries implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

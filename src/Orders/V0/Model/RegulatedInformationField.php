@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * RegulatedInformationField Class Doc Comment.
  *
  * @category Class
+ *
  * @description A field collected from the regulatory form.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class RegulatedInformationField implements ModelInterface, ArrayAccess
+class RegulatedInformationField implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * TrackingId Class Doc Comment.
  *
  * @category Class
+ *
  * @description The shipment tracking identifier provided by the carrier.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TrackingId implements ModelInterface, ArrayAccess
+class TrackingId implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

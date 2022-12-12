@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * EmailAddress Class Doc Comment.
  *
  * @category Class
+ *
  * @description The email address.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class EmailAddress implements ModelInterface, ArrayAccess
+class EmailAddress implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

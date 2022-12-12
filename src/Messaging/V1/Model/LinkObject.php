@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Messaging\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Messaging\V1\ObjectSerializer;
 
 /**
  * LinkObject Class Doc Comment.
  *
  * @category Class
+ *
  * @description A Link object.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class LinkObject implements ModelInterface, ArrayAccess
+class LinkObject implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

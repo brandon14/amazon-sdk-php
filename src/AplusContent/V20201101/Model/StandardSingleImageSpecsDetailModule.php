@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * StandardSingleImageSpecsDetailModule Class Doc Comment.
  *
  * @category Class
+ *
  * @description A standard image with paragraphs and a bulleted list, and extra space for technical details.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StandardSingleImageSpecsDetailModule implements ModelInterface, ArrayAccess
+class StandardSingleImageSpecsDetailModule implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FbaInventory\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FbaInventory\V1\ObjectSerializer;
 
 /**
  * ResearchingQuantityEntry Class Doc Comment.
  *
  * @category Class
+ *
  * @description The misplaced or warehouse damaged inventory that is actively being confirmed at our fulfillment centers.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ResearchingQuantityEntry implements ModelInterface, ArrayAccess
+class ResearchingQuantityEntry implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

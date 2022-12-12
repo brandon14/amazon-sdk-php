@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * CompetitivePricingType Class Doc Comment.
  *
  * @category Class
+ *
  * @description Competitive pricing information for the item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CompetitivePricingType implements ModelInterface, ArrayAccess
+class CompetitivePricingType implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

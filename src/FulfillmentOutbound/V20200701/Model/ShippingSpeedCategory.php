@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
  * ShippingSpeedCategory Class Doc Comment.
  *
  * @category Class
+ *
  * @description The shipping method used for the fulfillment order.
  *
  * @author   Swagger Codegen team

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * SellerFeedbackType Class Doc Comment.
  *
  * @category Class
+ *
  * @description Information about the seller&#39;s feedback, including the percentage of positive feedback, and the total number of ratings received.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SellerFeedbackType implements ModelInterface, ArrayAccess
+class SellerFeedbackType implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

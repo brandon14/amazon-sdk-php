@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * PurchaseLabelsRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request schema for the purchaseLabels operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PurchaseLabelsRequest implements ModelInterface, ArrayAccess
+class PurchaseLabelsRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

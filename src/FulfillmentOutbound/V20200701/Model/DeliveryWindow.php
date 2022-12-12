@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * DeliveryWindow Class Doc Comment.
  *
  * @category Class
+ *
  * @description The time range within which a Scheduled Delivery fulfillment order should be delivered.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class DeliveryWindow implements ModelInterface, ArrayAccess
+class DeliveryWindow implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

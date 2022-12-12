@@ -715,7 +715,7 @@ class AplusContentApi
         // Path params.
         if ($content_reference_key !== null) {
             $resourcePath = str_replace(
-                '{'.'contentReferenceKey'.'}',
+                '{contentReferenceKey}',
                 ObjectSerializer::toPathValue($content_reference_key),
                 $resourcePath
             );
@@ -1089,7 +1089,7 @@ class AplusContentApi
         // Path params.
         if ($content_reference_key !== null) {
             $resourcePath = str_replace(
-                '{'.'contentReferenceKey'.'}',
+                '{contentReferenceKey}',
                 ObjectSerializer::toPathValue($content_reference_key),
                 $resourcePath
             );
@@ -1424,7 +1424,7 @@ class AplusContentApi
         // Path params.
         if ($content_reference_key !== null) {
             $resourcePath = str_replace(
-                '{'.'contentReferenceKey'.'}',
+                '{contentReferenceKey}',
                 ObjectSerializer::toPathValue($content_reference_key),
                 $resourcePath
             );
@@ -1769,7 +1769,7 @@ class AplusContentApi
         // Path params.
         if ($content_reference_key !== null) {
             $resourcePath = str_replace(
-                '{'.'contentReferenceKey'.'}',
+                '{contentReferenceKey}',
                 ObjectSerializer::toPathValue($content_reference_key),
                 $resourcePath
             );
@@ -2107,7 +2107,7 @@ class AplusContentApi
         // Path params.
         if ($content_reference_key !== null) {
             $resourcePath = str_replace(
-                '{'.'contentReferenceKey'.'}',
+                '{contentReferenceKey}',
                 ObjectSerializer::toPathValue($content_reference_key),
                 $resourcePath
             );
@@ -3113,7 +3113,7 @@ class AplusContentApi
         // Path params.
         if ($content_reference_key !== null) {
             $resourcePath = str_replace(
-                '{'.'contentReferenceKey'.'}',
+                '{contentReferenceKey}',
                 ObjectSerializer::toPathValue($content_reference_key),
                 $resourcePath
             );

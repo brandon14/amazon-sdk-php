@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * ReasonCodeDetailsList Class Doc Comment.
  *
  * @category Class
+ *
  * @description An array of return reason code details.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ReasonCodeDetailsList implements ModelInterface, ArrayAccess
+class ReasonCodeDetailsList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

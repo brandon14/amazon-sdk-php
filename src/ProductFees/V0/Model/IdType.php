@@ -64,6 +64,7 @@ namespace TNT\Amazon\ProductFees\V0\Model;
  * IdType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The type of product identifier used in a &#x60;FeesEstimateByIdRequest&#x60;.
  *
  * @author   Swagger Codegen team

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * ContentBadgeSet Class Doc Comment.
  *
  * @category Class
+ *
  * @description The set of content badges.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ContentBadgeSet implements ModelInterface, ArrayAccess
+class ContentBadgeSet implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentInbound\V0\Model;
  * CurrencyCode Class Doc Comment.
  *
  * @category Class
+ *
  * @description The currency code.
  *
  * @author   Swagger Codegen team

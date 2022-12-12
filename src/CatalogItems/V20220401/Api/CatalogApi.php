@@ -393,7 +393,7 @@ class CatalogApi
         // Path params.
         if ($asin !== null) {
             $resourcePath = str_replace(
-                '{'.'asin'.'}',
+                '{asin}',
                 ObjectSerializer::toPathValue($asin),
                 $resourcePath
             );

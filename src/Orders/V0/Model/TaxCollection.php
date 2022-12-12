@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * TaxCollection Class Doc Comment.
  *
  * @category Class
+ *
  * @description Information about withheld taxes.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TaxCollection implements ModelInterface, ArrayAccess
+class TaxCollection implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

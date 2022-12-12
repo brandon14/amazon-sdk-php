@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductFees\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductFees\V0\ObjectSerializer;
 
 /**
  * IncludedFeeDetailList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of other fees that contribute to a given fee.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class IncludedFeeDetailList implements ModelInterface, ArrayAccess
+class IncludedFeeDetailList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

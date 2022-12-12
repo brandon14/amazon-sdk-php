@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentPayments\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentPayments\V1\ObjectSerializer;
 
 /**
  * AdditionalDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description A field where selling party can provide additional information for tax related or any other purposes.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AdditionalDetails implements ModelInterface, ArrayAccess
+class AdditionalDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

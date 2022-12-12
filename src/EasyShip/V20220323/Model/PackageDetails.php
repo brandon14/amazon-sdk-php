@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * PackageDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description Package details. Includes &#x60;packageItems&#x60;, &#x60;packageTimeSlot&#x60;, and &#x60;packageIdentifier&#x60;.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PackageDetails implements ModelInterface, ArrayAccess
+class PackageDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

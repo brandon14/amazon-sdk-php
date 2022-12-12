@@ -335,7 +335,7 @@ class SmallAndLightApi
         // Path params.
         if ($seller_sku !== null) {
             $resourcePath = str_replace(
-                '{'.'sellerSKU'.'}',
+                '{sellerSKU}',
                 ObjectSerializer::toPathValue($seller_sku),
                 $resourcePath
             );
@@ -668,7 +668,7 @@ class SmallAndLightApi
         // Path params.
         if ($seller_sku !== null) {
             $resourcePath = str_replace(
-                '{'.'sellerSKU'.'}',
+                '{sellerSKU}',
                 ObjectSerializer::toPathValue($seller_sku),
                 $resourcePath
             );
@@ -1001,7 +1001,7 @@ class SmallAndLightApi
         // Path params.
         if ($seller_sku !== null) {
             $resourcePath = str_replace(
-                '{'.'sellerSKU'.'}',
+                '{sellerSKU}',
                 ObjectSerializer::toPathValue($seller_sku),
                 $resourcePath
             );
@@ -1634,7 +1634,7 @@ class SmallAndLightApi
         // Path params.
         if ($seller_sku !== null) {
             $resourcePath = str_replace(
-                '{'.'sellerSKU'.'}',
+                '{sellerSKU}',
                 ObjectSerializer::toPathValue($seller_sku),
                 $resourcePath
             );

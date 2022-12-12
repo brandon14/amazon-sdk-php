@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * PrepDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description Preparation instructions and who is responsible for the preparation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PrepDetails implements ModelInterface, ArrayAccess
+class PrepDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorInvoices\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorInvoices\V1\ObjectSerializer;
 
 /**
  * PaymentTerms Class Doc Comment.
  *
  * @category Class
+ *
  * @description Terms of the payment for the invoice. The basis of the payment terms is the invoice date.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PaymentTerms implements ModelInterface, ArrayAccess
+class PaymentTerms implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

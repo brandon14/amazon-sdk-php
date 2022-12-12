@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * TransportContent Class Doc Comment.
  *
  * @category Class
+ *
  * @description Inbound shipment information, including carrier details, shipment status, and the workflow status for a request for shipment with an Amazon-partnered carrier.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TransportContent implements ModelInterface, ArrayAccess
+class TransportContent implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

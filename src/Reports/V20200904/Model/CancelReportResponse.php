@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Reports\V20200904\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Reports\V20200904\ObjectSerializer;
 
 /**
  * CancelReportResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response for the cancelReport operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CancelReportResponse implements ModelInterface, ArrayAccess
+class CancelReportResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

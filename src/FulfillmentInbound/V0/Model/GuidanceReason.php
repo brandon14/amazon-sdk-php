@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentInbound\V0\Model;
  * GuidanceReason Class Doc Comment.
  *
  * @category Class
+ *
  * @description A reason for the current inbound guidance for an item.
  *
  * @author   Swagger Codegen team

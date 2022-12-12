@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * TemporarilyUnavailableCarrier Class Doc Comment.
  *
  * @category Class
+ *
  * @description A carrier who is temporarily unavailable, most likely due to a service outage experienced by the carrier.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TemporarilyUnavailableCarrier implements ModelInterface, ArrayAccess
+class TemporarilyUnavailableCarrier implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

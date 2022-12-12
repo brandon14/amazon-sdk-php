@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ShipmentInvoicing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ShipmentInvoicing\V0\ObjectSerializer;
 
 /**
  * SerialNumbersList Class Doc Comment.
  *
  * @category Class
+ *
  * @description The list of serial numbers.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SerialNumbersList implements ModelInterface, ArrayAccess
+class SerialNumbersList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

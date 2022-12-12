@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ListingsRestrictions\V20210801\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ListingsRestrictions\V20210801\ObjectSerializer;
 
 /**
  * Restriction Class Doc Comment.
  *
  * @category Class
+ *
  * @description A listing restriction, optionally qualified by a condition, with a list of reasons for the restriction.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Restriction implements ModelInterface, ArrayAccess
+class Restriction implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

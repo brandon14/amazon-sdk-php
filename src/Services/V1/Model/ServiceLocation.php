@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * ServiceLocation Class Doc Comment.
  *
  * @category Class
+ *
  * @description Information about the location of the service job.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ServiceLocation implements ModelInterface, ArrayAccess
+class ServiceLocation implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

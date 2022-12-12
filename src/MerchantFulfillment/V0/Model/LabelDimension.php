@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * LabelDimension Class Doc Comment.
  *
  * @category Class
+ *
  * @description A label dimension.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class LabelDimension implements ModelInterface, ArrayAccess
+class LabelDimension implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

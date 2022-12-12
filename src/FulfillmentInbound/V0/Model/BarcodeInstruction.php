@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentInbound\V0\Model;
  * BarcodeInstruction Class Doc Comment.
  *
  * @category Class
+ *
  * @description Labeling requirements for the item. For more information about FBA labeling requirements, see the Seller Central Help for your marketplace.
  *
  * @author   Swagger Codegen team

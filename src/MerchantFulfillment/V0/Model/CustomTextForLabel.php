@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * CustomTextForLabel Class Doc Comment.
  *
  * @category Class
+ *
  * @description Custom text to print on the label.  Note: Custom text is only included on labels that are in ZPL format (ZPL203). FedEx does not support CustomTextForLabel.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CustomTextForLabel implements ModelInterface, ArrayAccess
+class CustomTextForLabel implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

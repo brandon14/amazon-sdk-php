@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentShipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentShipping\V1\ObjectSerializer;
 
 /**
  * Decimal Class Doc Comment.
  *
  * @category Class
+ *
  * @description A decimal number with no loss of precision. Useful when precision loss is unacceptable, as with currencies. Follows RFC7159 for number representation.  &lt;br&gt;**Pattern** : &#x60;^-?(0|([1-9]\\\\d*))(\\\\.\\\\d+)?([eE][+-]?\\\\d+)?$&#x60;.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Decimal implements ModelInterface, ArrayAccess
+class Decimal implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

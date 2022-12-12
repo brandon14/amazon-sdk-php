@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * TimeSlot Class Doc Comment.
  *
  * @category Class
+ *
  * @description A time window to hand over an Easy Ship package to Amazon Logistics.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TimeSlot implements ModelInterface, ArrayAccess
+class TimeSlot implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

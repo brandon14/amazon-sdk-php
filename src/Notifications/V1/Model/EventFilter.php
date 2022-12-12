@@ -66,6 +66,7 @@ use TNT\Amazon\Notifications\V1\ObjectSerializer;
  * EventFilter Class Doc Comment.
  *
  * @category Class
+ *
  * @description A notificationType specific filter. This object contains all of the currently available filters and properties that you can use to define a notificationType specific filter.
  *
  * @author   Swagger Codegen team

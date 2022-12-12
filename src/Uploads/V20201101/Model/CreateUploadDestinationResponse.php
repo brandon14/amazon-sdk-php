@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Uploads\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Uploads\V20201101\ObjectSerializer;
 
 /**
  * CreateUploadDestinationResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the createUploadDestination operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateUploadDestinationResponse implements ModelInterface, ArrayAccess
+class CreateUploadDestinationResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

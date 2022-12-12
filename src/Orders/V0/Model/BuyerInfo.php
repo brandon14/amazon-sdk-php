@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * BuyerInfo Class Doc Comment.
  *
  * @category Class
+ *
  * @description Buyer information.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class BuyerInfo implements ModelInterface, ArrayAccess
+class BuyerInfo implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

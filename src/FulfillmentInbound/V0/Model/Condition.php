@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentInbound\V0\Model;
  * Condition Class Doc Comment.
  *
  * @category Class
+ *
  * @description The condition of the item.
  *
  * @author   Swagger Codegen team

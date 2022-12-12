@@ -64,6 +64,7 @@ namespace TNT\Amazon\AplusContent\V20201101\Model;
  * PositionType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The relative positioning of content.
  *
  * @author   Swagger Codegen team

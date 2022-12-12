@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V0\ObjectSerializer;
 
 /**
  * DecimalWithUnits Class Doc Comment.
  *
  * @category Class
+ *
  * @description The decimal value and unit.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class DecimalWithUnits implements ModelInterface, ArrayAccess
+class DecimalWithUnits implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

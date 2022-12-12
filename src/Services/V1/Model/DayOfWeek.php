@@ -64,6 +64,7 @@ namespace TNT\Amazon\Services\V1\Model;
  * DayOfWeek Class Doc Comment.
  *
  * @category Class
+ *
  * @description The day of the week.
  *
  * @author   Swagger Codegen team

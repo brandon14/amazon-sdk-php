@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentOrders\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentOrders\V1\ObjectSerializer;
 
 /**
  * GiftDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description Gift details for the item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GiftDetails implements ModelInterface, ArrayAccess
+class GiftDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

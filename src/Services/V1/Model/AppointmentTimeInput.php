@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * AppointmentTimeInput Class Doc Comment.
  *
  * @category Class
+ *
  * @description The input appointment time details.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AppointmentTimeInput implements ModelInterface, ArrayAccess
+class AppointmentTimeInput implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

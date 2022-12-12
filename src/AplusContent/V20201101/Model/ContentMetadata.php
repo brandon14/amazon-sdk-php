@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * ContentMetadata Class Doc Comment.
  *
  * @category Class
+ *
  * @description The metadata of an A+ Content document.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ContentMetadata implements ModelInterface, ArrayAccess
+class ContentMetadata implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
@@ -245,11 +245,11 @@ class ContentMetadata implements ModelInterface, ArrayAccess
         if ($this->container['name'] === null) {
             $invalidProperties[] = "'name' can't be null";
         }
-        if ((mb_strlen($this->container['name']) > 100)) {
+        if (mb_strlen($this->container['name']) > 100) {
             $invalidProperties[] = "invalid value for 'name', the character length must be smaller than or equal to 100.";
         }
 
-        if ((mb_strlen($this->container['name']) < 1)) {
+        if (mb_strlen($this->container['name']) < 1) {
             $invalidProperties[] = "invalid value for 'name', the character length must be bigger than or equal to 1.";
         }
 
@@ -299,10 +299,10 @@ class ContentMetadata implements ModelInterface, ArrayAccess
      */
     public function setName($name)
     {
-        if ((mb_strlen($name) > 100)) {
+        if (mb_strlen($name) > 100) {
             throw new \InvalidArgumentException('invalid length for $name when calling ContentMetadata., must be smaller than or equal to 100.');
         }
-        if ((mb_strlen($name) < 1)) {
+        if (mb_strlen($name) < 1) {
             throw new \InvalidArgumentException('invalid length for $name when calling ContentMetadata., must be bigger than or equal to 1.');
         }
 

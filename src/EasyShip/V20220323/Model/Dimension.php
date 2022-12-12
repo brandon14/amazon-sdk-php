@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * Dimension Class Doc Comment.
  *
  * @category Class
+ *
  * @description The numerical value of the specified dimension.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Dimension implements ModelInterface, ArrayAccess
+class Dimension implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

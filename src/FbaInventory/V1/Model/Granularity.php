@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FbaInventory\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FbaInventory\V1\ObjectSerializer;
 
 /**
  * Granularity Class Doc Comment.
  *
  * @category Class
+ *
  * @description Describes a granularity at which inventory data can be aggregated. For example, if you use Marketplace granularity, the fulfillable quantity will reflect inventory that could be fulfilled in the given marketplace.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Granularity implements ModelInterface, ArrayAccess
+class Granularity implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

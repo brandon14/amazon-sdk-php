@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * ListHandoverSlotsResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the &#x60;listHandoverSlots&#x60; operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ListHandoverSlotsResponse implements ModelInterface, ArrayAccess
+class ListHandoverSlotsResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

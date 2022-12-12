@@ -64,6 +64,7 @@ namespace TNT\Amazon\Orders\V0\Model;
  * ElectronicInvoiceStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description The status of the electronic invoice.
  *
  * @author   Swagger Codegen team

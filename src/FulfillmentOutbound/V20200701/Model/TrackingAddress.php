@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * TrackingAddress Class Doc Comment.
  *
  * @category Class
+ *
  * @description Address information for tracking the package.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TrackingAddress implements ModelInterface, ArrayAccess
+class TrackingAddress implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
@@ -233,21 +233,21 @@ class TrackingAddress implements ModelInterface, ArrayAccess
         if ($this->container['city'] === null) {
             $invalidProperties[] = "'city' can't be null";
         }
-        if ((mb_strlen($this->container['city']) > 150)) {
+        if (mb_strlen($this->container['city']) > 150) {
             $invalidProperties[] = "invalid value for 'city', the character length must be smaller than or equal to 150.";
         }
 
         if ($this->container['state'] === null) {
             $invalidProperties[] = "'state' can't be null";
         }
-        if ((mb_strlen($this->container['state']) > 150)) {
+        if (mb_strlen($this->container['state']) > 150) {
             $invalidProperties[] = "invalid value for 'state', the character length must be smaller than or equal to 150.";
         }
 
         if ($this->container['country'] === null) {
             $invalidProperties[] = "'country' can't be null";
         }
-        if ((mb_strlen($this->container['country']) > 6)) {
+        if (mb_strlen($this->container['country']) > 6) {
             $invalidProperties[] = "invalid value for 'country', the character length must be smaller than or equal to 6.";
         }
 
@@ -284,7 +284,7 @@ class TrackingAddress implements ModelInterface, ArrayAccess
      */
     public function setCity($city)
     {
-        if ((mb_strlen($city) > 150)) {
+        if (mb_strlen($city) > 150) {
             throw new \InvalidArgumentException('invalid length for $city when calling TrackingAddress., must be smaller than or equal to 150.');
         }
 
@@ -312,7 +312,7 @@ class TrackingAddress implements ModelInterface, ArrayAccess
      */
     public function setState($state)
     {
-        if ((mb_strlen($state) > 150)) {
+        if (mb_strlen($state) > 150) {
             throw new \InvalidArgumentException('invalid length for $state when calling TrackingAddress., must be smaller than or equal to 150.');
         }
 
@@ -340,7 +340,7 @@ class TrackingAddress implements ModelInterface, ArrayAccess
      */
     public function setCountry($country)
     {
-        if ((mb_strlen($country) > 6)) {
+        if (mb_strlen($country) > 6) {
             throw new \InvalidArgumentException('invalid length for $country when calling TrackingAddress., must be smaller than or equal to 6.');
         }
 

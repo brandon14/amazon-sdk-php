@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentInbound\V0\Model;
  * ShipmentType Class Doc Comment.
  *
  * @category Class
+ *
  * @description Specifies the carrier shipment type in a putTransportDetails request.
  *
  * @author   Swagger Codegen team

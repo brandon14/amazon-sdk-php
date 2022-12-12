@@ -376,7 +376,7 @@ class SolicitationsApi
         // Path params.
         if ($amazon_order_id !== null) {
             $resourcePath = str_replace(
-                '{'.'amazonOrderId'.'}',
+                '{amazonOrderId}',
                 ObjectSerializer::toPathValue($amazon_order_id),
                 $resourcePath
             );
@@ -709,7 +709,7 @@ class SolicitationsApi
         // Path params.
         if ($amazon_order_id !== null) {
             $resourcePath = str_replace(
-                '{'.'amazonOrderId'.'}',
+                '{amazonOrderId}',
                 ObjectSerializer::toPathValue($amazon_order_id),
                 $resourcePath
             );

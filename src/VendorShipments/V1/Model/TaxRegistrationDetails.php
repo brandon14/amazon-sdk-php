@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorShipments\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorShipments\V1\ObjectSerializer;
 
 /**
  * TaxRegistrationDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description Tax registration details of the entity.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TaxRegistrationDetails implements ModelInterface, ArrayAccess
+class TaxRegistrationDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

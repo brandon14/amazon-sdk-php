@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Notifications\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Notifications\V1\ObjectSerializer;
 
 /**
  * MarketplaceFilter Class Doc Comment.
  *
  * @category Class
+ *
  * @description Use this event filter to customize your subscription to send notifications for only the specified marketplaceId&#39;s.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class MarketplaceFilter implements ModelInterface, ArrayAccess
+class MarketplaceFilter implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

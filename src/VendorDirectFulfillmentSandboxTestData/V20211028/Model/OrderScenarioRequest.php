@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\ObjectSerializer;
 
 /**
  * OrderScenarioRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The party identifiers required to generate the test data.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class OrderScenarioRequest implements ModelInterface, ArrayAccess
+class OrderScenarioRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

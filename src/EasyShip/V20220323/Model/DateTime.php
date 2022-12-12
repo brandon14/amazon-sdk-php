@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * DateTime Class Doc Comment.
  *
  * @category Class
+ *
  * @description A datetime value in ISO 8601 format.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class DateTime implements ModelInterface, ArrayAccess
+class DateTime implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * TermsAndConditionsNotAcceptedCarrierList Class Doc Comment.
  *
  * @category Class
+ *
  * @description List of carriers whose terms and conditions were not accepted by the seller.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TermsAndConditionsNotAcceptedCarrierList implements ModelInterface, ArrayAccess
+class TermsAndConditionsNotAcceptedCarrierList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

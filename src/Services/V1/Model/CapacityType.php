@@ -64,6 +64,7 @@ namespace TNT\Amazon\Services\V1\Model;
  * CapacityType Class Doc Comment.
  *
  * @category Class
+ *
  * @description Type of capacity
  *
  * @author   Swagger Codegen team

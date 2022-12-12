@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * ItemDeliveryPromise Class Doc Comment.
  *
  * @category Class
+ *
  * @description Promised delivery information for the item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemDeliveryPromise implements ModelInterface, ArrayAccess
+class ItemDeliveryPromise implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

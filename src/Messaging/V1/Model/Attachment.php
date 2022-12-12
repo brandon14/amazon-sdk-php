@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Messaging\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Messaging\V1\ObjectSerializer;
 
 /**
  * Attachment Class Doc Comment.
  *
  * @category Class
+ *
  * @description Represents a file uploaded to a destination that was created by the [createUploadDestinationForResource](doc:uploads-api-reference#post-uploads2020-11-01uploaddestinationsresource) operation of the Selling Partner API for Uploads.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Attachment implements ModelInterface, ArrayAccess
+class Attachment implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentOrders\V20211228\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentOrders\V20211228\ObjectSerializer;
 
 /**
  * SubmitAcknowledgementRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request schema for the submitAcknowledgement operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SubmitAcknowledgementRequest implements ModelInterface, ArrayAccess
+class SubmitAcknowledgementRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

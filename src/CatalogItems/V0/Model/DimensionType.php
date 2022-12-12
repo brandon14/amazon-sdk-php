@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V0\ObjectSerializer;
 
 /**
  * DimensionType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The dimension type attribute of an item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class DimensionType implements ModelInterface, ArrayAccess
+class DimensionType implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

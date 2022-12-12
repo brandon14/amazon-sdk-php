@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * AutomatedShippingSettings Class Doc Comment.
  *
  * @category Class
+ *
  * @description Contains information regarding the Shipping Settings Automation program, such as whether the order&#39;s shipping settings were generated automatically, and what those settings are.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AutomatedShippingSettings implements ModelInterface, ArrayAccess
+class AutomatedShippingSettings implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Solicitations\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Solicitations\V1\ObjectSerializer;
 
 /**
  * Schema Class Doc Comment.
  *
  * @category Class
+ *
  * @description A JSON schema document describing the expected payload of the action. This object can be validated against &lt;a href&#x3D;http://json-schema.org/draft-04/schema&gt;http://json-schema.org/draft-04/schema&lt;/a&gt;.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Schema implements ModelInterface, ArrayAccess
+class Schema implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

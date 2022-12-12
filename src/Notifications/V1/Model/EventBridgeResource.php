@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Notifications\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Notifications\V1\ObjectSerializer;
 
 /**
  * EventBridgeResource Class Doc Comment.
  *
  * @category Class
+ *
  * @description Represents an Amazon EventBridge destination.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class EventBridgeResource implements ModelInterface, ArrayAccess
+class EventBridgeResource implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
@@ -233,7 +233,7 @@ class EventBridgeResource implements ModelInterface, ArrayAccess
         if ($this->container['name'] === null) {
             $invalidProperties[] = "'name' can't be null";
         }
-        if ((mb_strlen($this->container['name']) > 256)) {
+        if (mb_strlen($this->container['name']) > 256) {
             $invalidProperties[] = "invalid value for 'name', the character length must be smaller than or equal to 256.";
         }
 
@@ -277,7 +277,7 @@ class EventBridgeResource implements ModelInterface, ArrayAccess
      */
     public function setName($name)
     {
-        if ((mb_strlen($name) > 256)) {
+        if (mb_strlen($name) > 256) {
             throw new \InvalidArgumentException('invalid length for $name when calling EventBridgeResource., must be smaller than or equal to 256.');
         }
 

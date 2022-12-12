@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * TransparencyCode Class Doc Comment.
  *
  * @category Class
+ *
  * @description The Transparency code associated with the item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TransparencyCode implements ModelInterface, ArrayAccess
+class TransparencyCode implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

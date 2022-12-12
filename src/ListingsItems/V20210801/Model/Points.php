@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ListingsItems\V20210801\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ListingsItems\V20210801\ObjectSerializer;
 
 /**
  * Points Class Doc Comment.
  *
  * @category Class
+ *
  * @description The number of Amazon Points offered with the purchase of an item, and their monetary value. Note that the Points element is only returned in Japan (JP).
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Points implements ModelInterface, ArrayAccess
+class Points implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

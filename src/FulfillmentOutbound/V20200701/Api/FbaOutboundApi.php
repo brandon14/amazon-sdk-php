@@ -352,7 +352,7 @@ class FbaOutboundApi
         // Path params.
         if ($seller_fulfillment_order_id !== null) {
             $resourcePath = str_replace(
-                '{'.'sellerFulfillmentOrderId'.'}',
+                '{sellerFulfillmentOrderId}',
                 ObjectSerializer::toPathValue($seller_fulfillment_order_id),
                 $resourcePath
             );
@@ -967,7 +967,7 @@ class FbaOutboundApi
         // Path params.
         if ($seller_fulfillment_order_id !== null) {
             $resourcePath = str_replace(
-                '{'.'sellerFulfillmentOrderId'.'}',
+                '{sellerFulfillmentOrderId}',
                 ObjectSerializer::toPathValue($seller_fulfillment_order_id),
                 $resourcePath
             );
@@ -1299,7 +1299,7 @@ class FbaOutboundApi
         // Path params.
         if ($feature_name !== null) {
             $resourcePath = str_replace(
-                '{'.'featureName'.'}',
+                '{featureName}',
                 ObjectSerializer::toPathValue($feature_name),
                 $resourcePath
             );
@@ -1628,7 +1628,7 @@ class FbaOutboundApi
         // Path params.
         if ($feature_name !== null) {
             $resourcePath = str_replace(
-                '{'.'featureName'.'}',
+                '{featureName}',
                 ObjectSerializer::toPathValue($feature_name),
                 $resourcePath
             );
@@ -1636,7 +1636,7 @@ class FbaOutboundApi
         // Path params.
         if ($seller_sku !== null) {
             $resourcePath = str_replace(
-                '{'.'sellerSku'.'}',
+                '{sellerSku}',
                 ObjectSerializer::toPathValue($seller_sku),
                 $resourcePath
             );
@@ -2247,7 +2247,7 @@ class FbaOutboundApi
         // Path params.
         if ($seller_fulfillment_order_id !== null) {
             $resourcePath = str_replace(
-                '{'.'sellerFulfillmentOrderId'.'}',
+                '{sellerFulfillmentOrderId}',
                 ObjectSerializer::toPathValue($seller_fulfillment_order_id),
                 $resourcePath
             );
@@ -3806,7 +3806,7 @@ class FbaOutboundApi
         // Path params.
         if ($seller_fulfillment_order_id !== null) {
             $resourcePath = str_replace(
-                '{'.'sellerFulfillmentOrderId'.'}',
+                '{sellerFulfillmentOrderId}',
                 ObjectSerializer::toPathValue($seller_fulfillment_order_id),
                 $resourcePath
             );

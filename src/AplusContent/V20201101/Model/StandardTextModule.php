@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * StandardTextModule Class Doc Comment.
  *
  * @category Class
+ *
  * @description A standard headline and body text.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StandardTextModule implements ModelInterface, ArrayAccess
+class StandardTextModule implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

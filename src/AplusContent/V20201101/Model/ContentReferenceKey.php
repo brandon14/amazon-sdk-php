@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * ContentReferenceKey Class Doc Comment.
  *
  * @category Class
+ *
  * @description A unique reference key for the A+ Content document. A content reference key cannot form a permalink and may change in the future. A content reference key is not guaranteed to match any A+ content identifier.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ContentReferenceKey implements ModelInterface, ArrayAccess
+class ContentReferenceKey implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

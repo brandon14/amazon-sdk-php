@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * SetAppointmentResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description Response schema for the &#x60;addAppointmentForServiceJobByServiceJobId&#x60; and &#x60;rescheduleAppointmentForServiceJobByServiceJobId&#x60; operations.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SetAppointmentResponse implements ModelInterface, ArrayAccess
+class SetAppointmentResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

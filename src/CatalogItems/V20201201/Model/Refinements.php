@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V20201201\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V20201201\ObjectSerializer;
 
 /**
  * Refinements Class Doc Comment.
  *
  * @category Class
+ *
  * @description Search refinements.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Refinements implements ModelInterface, ArrayAccess
+class Refinements implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

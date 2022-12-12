@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * ContentModule Class Doc Comment.
  *
  * @category Class
+ *
  * @description An A+ Content module. An A+ Content document is composed of content modules. The contentModuleType property selects which content module types to use.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ContentModule implements ModelInterface, ArrayAccess
+class ContentModule implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

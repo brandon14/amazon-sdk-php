@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * Recurrence Class Doc Comment.
  *
  * @category Class
+ *
  * @description Repeated occurrence of an event in a time range.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Recurrence implements ModelInterface, ArrayAccess
+class Recurrence implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

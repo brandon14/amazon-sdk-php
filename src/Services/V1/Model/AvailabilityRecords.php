@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * AvailabilityRecords Class Doc Comment.
  *
  * @category Class
+ *
  * @description List of &#x60;AvailabilityRecord&#x60;s to represent the capacity of a resource over a time range.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AvailabilityRecords implements ModelInterface, ArrayAccess
+class AvailabilityRecords implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

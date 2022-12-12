@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * ContainerList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of container.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ContainerList implements ModelInterface, ArrayAccess
+class ContainerList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

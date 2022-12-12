@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorInvoices\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorInvoices\V1\ObjectSerializer;
 
 /**
  * CreditNoteDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description References required in order to process a credit note. This information is required only if InvoiceType is CreditNote.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreditNoteDetails implements ModelInterface, ArrayAccess
+class CreditNoteDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

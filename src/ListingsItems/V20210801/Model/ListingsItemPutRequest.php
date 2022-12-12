@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ListingsItems\V20210801\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ListingsItems\V20210801\ObjectSerializer;
 
 /**
  * ListingsItemPutRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request body schema for the putListingsItem operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ListingsItemPutRequest implements ModelInterface, ArrayAccess
+class ListingsItemPutRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

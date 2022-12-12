@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Solicitations\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Solicitations\V1\ObjectSerializer;
 
 /**
  * GetSolicitationActionResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description Describes a solicitation action that can be taken for an order. Provides a JSON Hypertext Application Language (HAL) link to the JSON schema document that describes the expected input.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetSolicitationActionResponse implements ModelInterface, ArrayAccess
+class GetSolicitationActionResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * Decorator Class Doc Comment.
  *
  * @category Class
+ *
  * @description A decorator applied to a content string value in order to create rich text.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Decorator implements ModelInterface, ArrayAccess
+class Decorator implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

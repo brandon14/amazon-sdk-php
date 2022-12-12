@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * GetServiceJobsResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description Response schema for the &#x60;getServiceJobs&#x60; operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetServiceJobsResponse implements ModelInterface, ArrayAccess
+class GetServiceJobsResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -357,7 +357,7 @@ class ShipmentInvoiceApi
         // Path params.
         if ($shipment_id !== null) {
             $resourcePath = str_replace(
-                '{'.'shipmentId'.'}',
+                '{shipmentId}',
                 ObjectSerializer::toPathValue($shipment_id),
                 $resourcePath
             );
@@ -671,7 +671,7 @@ class ShipmentInvoiceApi
         // Path params.
         if ($shipment_id !== null) {
             $resourcePath = str_replace(
-                '{'.'shipmentId'.'}',
+                '{shipmentId}',
                 ObjectSerializer::toPathValue($shipment_id),
                 $resourcePath
             );
@@ -994,7 +994,7 @@ class ShipmentInvoiceApi
         // Path params.
         if ($shipment_id !== null) {
             $resourcePath = str_replace(
-                '{'.'shipmentId'.'}',
+                '{shipmentId}',
                 ObjectSerializer::toPathValue($shipment_id),
                 $resourcePath
             );

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Notifications\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Notifications\V1\ObjectSerializer;
 
 /**
  * DestinationList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of destinations.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class DestinationList implements ModelInterface, ArrayAccess
+class DestinationList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

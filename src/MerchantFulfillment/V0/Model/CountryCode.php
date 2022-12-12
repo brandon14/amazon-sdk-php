@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * CountryCode Class Doc Comment.
  *
  * @category Class
+ *
  * @description The country code. A two-character country code, in ISO 3166-1 alpha-2 format.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CountryCode implements ModelInterface, ArrayAccess
+class CountryCode implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

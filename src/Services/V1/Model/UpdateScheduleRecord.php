@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * UpdateScheduleRecord Class Doc Comment.
  *
  * @category Class
+ *
  * @description &#x60;UpdateScheduleRecord&#x60; entity contains the &#x60;AvailabilityRecord&#x60; if there is an error/warning while performing the requested operation on it.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class UpdateScheduleRecord implements ModelInterface, ArrayAccess
+class UpdateScheduleRecord implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

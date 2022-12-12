@@ -60,7 +60,6 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentShipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentShipping\V1\ObjectSerializer;
 
 /**
@@ -72,7 +71,7 @@ use TNT\Amazon\VendorDirectFulfillmentShipping\V1\ObjectSerializer;
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SubmitShipmentStatusUpdatesRequest implements ModelInterface, ArrayAccess
+class SubmitShipmentStatusUpdatesRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

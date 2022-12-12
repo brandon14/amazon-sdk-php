@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * DebtRecoveryItem Class Doc Comment.
  *
  * @category Class
+ *
  * @description An item of a debt payment or debt adjustment.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class DebtRecoveryItem implements ModelInterface, ArrayAccess
+class DebtRecoveryItem implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

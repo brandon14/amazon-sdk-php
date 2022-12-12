@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * Constraint Class Doc Comment.
  *
  * @category Class
+ *
  * @description A validation constraint.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Constraint implements ModelInterface, ArrayAccess
+class Constraint implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

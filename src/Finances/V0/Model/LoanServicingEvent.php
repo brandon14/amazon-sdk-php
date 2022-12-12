@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * LoanServicingEvent Class Doc Comment.
  *
  * @category Class
+ *
  * @description A loan advance, loan payment, or loan refund.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class LoanServicingEvent implements ModelInterface, ArrayAccess
+class LoanServicingEvent implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

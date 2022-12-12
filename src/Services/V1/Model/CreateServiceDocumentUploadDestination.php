@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * CreateServiceDocumentUploadDestination Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the &#x60;createServiceDocumentUploadDestination&#x60; operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateServiceDocumentUploadDestination implements ModelInterface, ArrayAccess
+class CreateServiceDocumentUploadDestination implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

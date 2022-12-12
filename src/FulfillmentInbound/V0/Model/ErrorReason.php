@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentInbound\V0\Model;
  * ErrorReason Class Doc Comment.
  *
  * @category Class
+ *
  * @description The reason that the ASIN is invalid.
  *
  * @author   Swagger Codegen team

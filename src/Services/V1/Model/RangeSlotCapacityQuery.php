@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * RangeSlotCapacityQuery Class Doc Comment.
  *
  * @category Class
+ *
  * @description Request schema for the &#x60;getRangeSlotCapacity&#x60; operation. This schema is used to define the time range and capacity types that are being queried.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class RangeSlotCapacityQuery implements ModelInterface, ArrayAccess
+class RangeSlotCapacityQuery implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

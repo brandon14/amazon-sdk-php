@@ -64,6 +64,7 @@ namespace TNT\Amazon\EasyShip\V20220323\Model;
  * UnitOfWeight Class Doc Comment.
  *
  * @category Class
+ *
  * @description The unit of measurement used to measure the weight.
  *
  * @author   Swagger Codegen team

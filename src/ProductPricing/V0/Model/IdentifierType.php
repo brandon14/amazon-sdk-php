@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * IdentifierType Class Doc Comment.
  *
  * @category Class
+ *
  * @description Specifies the identifiers used to uniquely identify an item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class IdentifierType implements ModelInterface, ArrayAccess
+class IdentifierType implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

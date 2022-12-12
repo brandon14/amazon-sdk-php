@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
  * EventCode Class Doc Comment.
  *
  * @category Class
+ *
  * @description The event code for the delivery event.
  *
  * @author   Swagger Codegen team

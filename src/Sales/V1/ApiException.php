@@ -70,7 +70,7 @@ use Exception;
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ApiException extends Exception
+class ApiException extends \Exception
 {
     /**
      * The HTTP body of the server response either as Json or string.

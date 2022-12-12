@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * AppointmentResources Class Doc Comment.
  *
  * @category Class
+ *
  * @description List of resources that performs or performed job appointment fulfillment.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AppointmentResources implements ModelInterface, ArrayAccess
+class AppointmentResources implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

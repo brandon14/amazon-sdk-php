@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * PhoneNumber Class Doc Comment.
  *
  * @category Class
+ *
  * @description The phone number.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PhoneNumber implements ModelInterface, ArrayAccess
+class PhoneNumber implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

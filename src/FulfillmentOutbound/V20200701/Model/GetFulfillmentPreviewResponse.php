@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * GetFulfillmentPreviewResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the getFulfillmentPreview operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetFulfillmentPreviewResponse implements ModelInterface, ArrayAccess
+class GetFulfillmentPreviewResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

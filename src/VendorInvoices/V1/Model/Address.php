@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorInvoices\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorInvoices\V1\ObjectSerializer;
 
 /**
  * Address Class Doc Comment.
  *
  * @category Class
+ *
  * @description A physical address.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Address implements ModelInterface, ArrayAccess
+class Address implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
@@ -287,7 +287,7 @@ class Address implements ModelInterface, ArrayAccess
         if ($this->container['country_code'] === null) {
             $invalidProperties[] = "'country_code' can't be null";
         }
-        if ((mb_strlen($this->container['country_code']) > 2)) {
+        if (mb_strlen($this->container['country_code']) > 2) {
             $invalidProperties[] = "invalid value for 'country_code', the character length must be smaller than or equal to 2.";
         }
 
@@ -540,7 +540,7 @@ class Address implements ModelInterface, ArrayAccess
      */
     public function setCountryCode($country_code)
     {
-        if ((mb_strlen($country_code) > 2)) {
+        if (mb_strlen($country_code) > 2) {
             throw new \InvalidArgumentException('invalid length for $country_code when calling Address., must be smaller than or equal to 2.');
         }
 

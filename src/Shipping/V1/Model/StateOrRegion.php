@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * StateOrRegion Class Doc Comment.
  *
  * @category Class
+ *
  * @description The state or region where the person, business or institution is located.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StateOrRegion implements ModelInterface, ArrayAccess
+class StateOrRegion implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

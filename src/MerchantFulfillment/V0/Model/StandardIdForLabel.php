@@ -64,6 +64,7 @@ namespace TNT\Amazon\MerchantFulfillment\V0\Model;
  * StandardIdForLabel Class Doc Comment.
  *
  * @category Class
+ *
  * @description The type of standard identifier to print on the label.
  *
  * @author   Swagger Codegen team

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * NonPartneredSmallParcelPackageInputList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of package tracking information.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class NonPartneredSmallParcelPackageInputList implements ModelInterface, ArrayAccess
+class NonPartneredSmallParcelPackageInputList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

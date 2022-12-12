@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * TextItem Class Doc Comment.
  *
  * @category Class
+ *
  * @description Rich positional text, usually presented as a collection of bullet points.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TextItem implements ModelInterface, ArrayAccess
+class TextItem implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
@@ -227,11 +227,11 @@ class TextItem implements ModelInterface, ArrayAccess
         if ($this->container['position'] === null) {
             $invalidProperties[] = "'position' can't be null";
         }
-        if (($this->container['position'] > 100)) {
+        if ($this->container['position'] > 100) {
             $invalidProperties[] = "invalid value for 'position', must be smaller than or equal to 100.";
         }
 
-        if (($this->container['position'] < 1)) {
+        if ($this->container['position'] < 1) {
             $invalidProperties[] = "invalid value for 'position', must be bigger than or equal to 1.";
         }
 
@@ -272,10 +272,10 @@ class TextItem implements ModelInterface, ArrayAccess
      */
     public function setPosition($position)
     {
-        if (($position > 100)) {
+        if ($position > 100) {
             throw new \InvalidArgumentException('invalid value for $position when calling TextItem., must be smaller than or equal to 100.');
         }
-        if (($position < 1)) {
+        if ($position < 1) {
             throw new \InvalidArgumentException('invalid value for $position when calling TextItem., must be bigger than or equal to 1.');
         }
 

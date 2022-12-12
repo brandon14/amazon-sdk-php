@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * PaymentExecutionDetailItem Class Doc Comment.
  *
  * @category Class
+ *
  * @description Information about a sub-payment method used to pay for a COD order.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PaymentExecutionDetailItem implements ModelInterface, ArrayAccess
+class PaymentExecutionDetailItem implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

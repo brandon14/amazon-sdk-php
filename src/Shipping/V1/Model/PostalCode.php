@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * PostalCode Class Doc Comment.
  *
  * @category Class
+ *
  * @description The postal code of that address. It contains a series of letters or digits or both, sometimes including spaces or punctuation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PostalCode implements ModelInterface, ArrayAccess
+class PostalCode implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

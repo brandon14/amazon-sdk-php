@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\ObjectSerializer;
 
 /**
  * Pagination Class Doc Comment.
  *
  * @category Class
+ *
  * @description A generated string used to pass information to your next request. If NextToken is returned, pass the value of NextToken to the next request. If NextToken is not returned, there are no more order items to return.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Pagination implements ModelInterface, ArrayAccess
+class Pagination implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -64,6 +64,7 @@ namespace TNT\Amazon\MerchantFulfillment\V0\Model;
  * LabelFormat Class Doc Comment.
  *
  * @category Class
+ *
  * @description The label format.
  *
  * @author   Swagger Codegen team

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\ObjectSerializer;
 
 /**
  * CreateShippingLabelsRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request body for the createShippingLabels operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateShippingLabelsRequest implements ModelInterface, ArrayAccess
+class CreateShippingLabelsRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

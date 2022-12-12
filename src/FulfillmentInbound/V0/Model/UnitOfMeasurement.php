@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentInbound\V0\Model;
  * UnitOfMeasurement Class Doc Comment.
  *
  * @category Class
+ *
  * @description Indicates the unit of measurement.
  *
  * @author   Swagger Codegen team

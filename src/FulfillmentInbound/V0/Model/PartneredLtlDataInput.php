@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * PartneredLtlDataInput Class Doc Comment.
  *
  * @category Class
+ *
  * @description Information that is required by an Amazon-partnered carrier to ship a Less Than Truckload/Full Truckload (LTL/FTL) inbound shipment.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PartneredLtlDataInput implements ModelInterface, ArrayAccess
+class PartneredLtlDataInput implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

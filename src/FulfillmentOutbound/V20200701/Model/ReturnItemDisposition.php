@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
  * ReturnItemDisposition Class Doc Comment.
  *
  * @category Class
+ *
  * @description The condition of the return item when received by an Amazon fulfillment center.
  *
  * @author   Swagger Codegen team

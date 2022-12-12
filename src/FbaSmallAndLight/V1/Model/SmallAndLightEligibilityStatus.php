@@ -64,6 +64,7 @@ namespace TNT\Amazon\FbaSmallAndLight\V1\Model;
  * SmallAndLightEligibilityStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description The Small and Light eligibility status of the item.
  *
  * @author   Swagger Codegen team

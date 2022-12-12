@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * AmazonOrderId Class Doc Comment.
  *
  * @category Class
+ *
  * @description An Amazon-defined order identifier, in 3-7-7 format.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AmazonOrderId implements ModelInterface, ArrayAccess
+class AmazonOrderId implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

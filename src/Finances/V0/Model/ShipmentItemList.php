@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * ShipmentItemList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of shipment items.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ShipmentItemList implements ModelInterface, ArrayAccess
+class ShipmentItemList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

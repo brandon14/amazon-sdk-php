@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
  * AdditionalLocationInfo Class Doc Comment.
  *
  * @category Class
+ *
  * @description Additional location information.
  *
  * @author   Swagger Codegen team

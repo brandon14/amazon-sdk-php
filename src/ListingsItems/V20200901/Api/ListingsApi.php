@@ -383,7 +383,7 @@ class ListingsApi
         // Path params.
         if ($seller_id !== null) {
             $resourcePath = str_replace(
-                '{'.'sellerId'.'}',
+                '{sellerId}',
                 ObjectSerializer::toPathValue($seller_id),
                 $resourcePath
             );
@@ -391,7 +391,7 @@ class ListingsApi
         // Path params.
         if ($sku !== null) {
             $resourcePath = str_replace(
-                '{'.'sku'.'}',
+                '{sku}',
                 ObjectSerializer::toPathValue($sku),
                 $resourcePath
             );
@@ -740,7 +740,7 @@ class ListingsApi
         // Path params.
         if ($seller_id !== null) {
             $resourcePath = str_replace(
-                '{'.'sellerId'.'}',
+                '{sellerId}',
                 ObjectSerializer::toPathValue($seller_id),
                 $resourcePath
             );
@@ -748,7 +748,7 @@ class ListingsApi
         // Path params.
         if ($sku !== null) {
             $resourcePath = str_replace(
-                '{'.'sku'.'}',
+                '{sku}',
                 ObjectSerializer::toPathValue($sku),
                 $resourcePath
             );
@@ -1100,7 +1100,7 @@ class ListingsApi
         // Path params.
         if ($seller_id !== null) {
             $resourcePath = str_replace(
-                '{'.'sellerId'.'}',
+                '{sellerId}',
                 ObjectSerializer::toPathValue($seller_id),
                 $resourcePath
             );
@@ -1108,7 +1108,7 @@ class ListingsApi
         // Path params.
         if ($sku !== null) {
             $resourcePath = str_replace(
-                '{'.'sku'.'}',
+                '{sku}',
                 ObjectSerializer::toPathValue($sku),
                 $resourcePath
             );

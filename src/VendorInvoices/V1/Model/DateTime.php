@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorInvoices\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorInvoices\V1\ObjectSerializer;
 
 /**
  * DateTime Class Doc Comment.
  *
  * @category Class
+ *
  * @description Defines a date and time according to ISO8601.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class DateTime implements ModelInterface, ArrayAccess
+class DateTime implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

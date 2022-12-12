@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * AvailableCarrierWillPickUpOption Class Doc Comment.
  *
  * @category Class
+ *
  * @description Indicates whether the carrier will pick up the package, and what fee is charged, if any.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AvailableCarrierWillPickUpOption implements ModelInterface, ArrayAccess
+class AvailableCarrierWillPickUpOption implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

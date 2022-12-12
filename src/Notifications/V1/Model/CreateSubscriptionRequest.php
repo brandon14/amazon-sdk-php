@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Notifications\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Notifications\V1\ObjectSerializer;
 
 /**
  * CreateSubscriptionRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request schema for the createSubscription operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateSubscriptionRequest implements ModelInterface, ArrayAccess
+class CreateSubscriptionRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

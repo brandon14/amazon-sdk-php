@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Notifications\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Notifications\V1\ObjectSerializer;
 
 /**
  * DestinationResource Class Doc Comment.
  *
  * @category Class
+ *
  * @description The destination resource types.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class DestinationResource implements ModelInterface, ArrayAccess
+class DestinationResource implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

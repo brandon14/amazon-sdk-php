@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * Currency Class Doc Comment.
  *
  * @category Class
+ *
  * @description The total value of all items in the container.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Currency implements ModelInterface, ArrayAccess
+class Currency implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
@@ -230,11 +230,11 @@ class Currency implements ModelInterface, ArrayAccess
         if ($this->container['unit'] === null) {
             $invalidProperties[] = "'unit' can't be null";
         }
-        if ((mb_strlen($this->container['unit']) > 3)) {
+        if (mb_strlen($this->container['unit']) > 3) {
             $invalidProperties[] = "invalid value for 'unit', the character length must be smaller than or equal to 3.";
         }
 
-        if ((mb_strlen($this->container['unit']) < 3)) {
+        if (mb_strlen($this->container['unit']) < 3) {
             $invalidProperties[] = "invalid value for 'unit', the character length must be bigger than or equal to 3.";
         }
 
@@ -295,10 +295,10 @@ class Currency implements ModelInterface, ArrayAccess
      */
     public function setUnit($unit)
     {
-        if ((mb_strlen($unit) > 3)) {
+        if (mb_strlen($unit) > 3) {
             throw new \InvalidArgumentException('invalid length for $unit when calling Currency., must be smaller than or equal to 3.');
         }
-        if ((mb_strlen($unit) < 3)) {
+        if (mb_strlen($unit) < 3) {
             throw new \InvalidArgumentException('invalid length for $unit when calling Currency., must be bigger than or equal to 3.');
         }
 

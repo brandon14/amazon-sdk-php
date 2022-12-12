@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * UpdateReservationRecord Class Doc Comment.
  *
  * @category Class
+ *
  * @description &#x60;UpdateReservationRecord&#x60; entity contains the &#x60;Reservation&#x60; if there is an error/warning while performing the requested operation on it, otherwise it will contain the new &#x60;reservationId&#x60;.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class UpdateReservationRecord implements ModelInterface, ArrayAccess
+class UpdateReservationRecord implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

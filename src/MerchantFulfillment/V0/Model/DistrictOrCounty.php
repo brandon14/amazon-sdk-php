@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * DistrictOrCounty Class Doc Comment.
  *
  * @category Class
+ *
  * @description The district or county.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class DistrictOrCounty implements ModelInterface, ArrayAccess
+class DistrictOrCounty implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

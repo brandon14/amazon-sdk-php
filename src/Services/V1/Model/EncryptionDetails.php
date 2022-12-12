@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * EncryptionDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description Encryption details for required client-side encryption and decryption of document contents.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class EncryptionDetails implements ModelInterface, ArrayAccess
+class EncryptionDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

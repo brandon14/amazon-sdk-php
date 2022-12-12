@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * ShipmentItem Class Doc Comment.
  *
  * @category Class
+ *
  * @description An item of a shipment, refund, guarantee claim, or chargeback.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ShipmentItem implements ModelInterface, ArrayAccess
+class ShipmentItem implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

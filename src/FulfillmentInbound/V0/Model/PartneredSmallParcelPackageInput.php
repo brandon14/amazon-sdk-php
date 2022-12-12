@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * PartneredSmallParcelPackageInput Class Doc Comment.
  *
  * @category Class
+ *
  * @description Dimension and weight information for the package.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PartneredSmallParcelPackageInput implements ModelInterface, ArrayAccess
+class PartneredSmallParcelPackageInput implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\ObjectSerializer;
 
 /**
  * ShipmentSchedule Class Doc Comment.
  *
  * @category Class
+ *
  * @description Details about the estimated delivery window.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ShipmentSchedule implements ModelInterface, ArrayAccess
+class ShipmentSchedule implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

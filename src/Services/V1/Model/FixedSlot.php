@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * FixedSlot Class Doc Comment.
  *
  * @category Class
+ *
  * @description In this slot format each slot only has the requested capacity types. This slot size is as specified by slot duration.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class FixedSlot implements ModelInterface, ArrayAccess
+class FixedSlot implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

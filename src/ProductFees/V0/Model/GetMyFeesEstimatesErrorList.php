@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductFees\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductFees\V0\ObjectSerializer;
 
 /**
  * GetMyFeesEstimatesErrorList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of error responses returned when a request is unsuccessful.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetMyFeesEstimatesErrorList implements ModelInterface, ArrayAccess
+class GetMyFeesEstimatesErrorList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

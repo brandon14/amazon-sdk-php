@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentInbound\V0\Model;
  * TransportStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description Indicates the status of the Amazon-partnered carrier shipment.
  *
  * @author   Swagger Codegen team

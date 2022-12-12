@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * UnfulfillablePreviewItemList Class Doc Comment.
  *
  * @category Class
+ *
  * @description An array of unfulfillable preview item information.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class UnfulfillablePreviewItemList implements ModelInterface, ArrayAccess
+class UnfulfillablePreviewItemList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

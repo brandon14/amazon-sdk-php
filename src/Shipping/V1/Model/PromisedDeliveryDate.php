@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * PromisedDeliveryDate Class Doc Comment.
  *
  * @category Class
+ *
  * @description The promised delivery date and time of a shipment.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PromisedDeliveryDate implements ModelInterface, ArrayAccess
+class PromisedDeliveryDate implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

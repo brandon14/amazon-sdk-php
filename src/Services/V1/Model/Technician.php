@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * Technician Class Doc Comment.
  *
  * @category Class
+ *
  * @description A technician who is assigned to perform the service job in part or in full.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Technician implements ModelInterface, ArrayAccess
+class Technician implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

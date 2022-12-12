@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Feeds\V20210630\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Feeds\V20210630\ObjectSerializer;
 
 /**
  * Feed Class Doc Comment.
  *
  * @category Class
+ *
  * @description Detailed information about the feed.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Feed implements ModelInterface, ArrayAccess
+class Feed implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -357,7 +357,7 @@ class VendorDFSandboxtransactionstatusApi
         // Path params.
         if ($transaction_id !== null) {
             $resourcePath = str_replace(
-                '{'.'transactionId'.'}',
+                '{transactionId}',
                 ObjectSerializer::toPathValue($transaction_id),
                 $resourcePath
             );

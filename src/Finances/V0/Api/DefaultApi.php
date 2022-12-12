@@ -1012,7 +1012,7 @@ class DefaultApi
         // Path params.
         if ($event_group_id !== null) {
             $resourcePath = str_replace(
-                '{'.'eventGroupId'.'}',
+                '{eventGroupId}',
                 ObjectSerializer::toPathValue($event_group_id),
                 $resourcePath
             );
@@ -1335,7 +1335,7 @@ class DefaultApi
         // Path params.
         if ($order_id !== null) {
             $resourcePath = str_replace(
-                '{'.'orderId'.'}',
+                '{orderId}',
                 ObjectSerializer::toPathValue($order_id),
                 $resourcePath
             );

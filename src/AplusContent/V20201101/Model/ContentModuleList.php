@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * ContentModuleList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of A+ Content modules.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ContentModuleList implements ModelInterface, ArrayAccess
+class ContentModuleList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

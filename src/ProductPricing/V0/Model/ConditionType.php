@@ -64,6 +64,7 @@ namespace TNT\Amazon\ProductPricing\V0\Model;
  * ConditionType Class Doc Comment.
  *
  * @category Class
+ *
  * @description Indicates the condition of the item. Possible values: New, Used, Collectible, Refurbished, Club.
  *
  * @author   Swagger Codegen team

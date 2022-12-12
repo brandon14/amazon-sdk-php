@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * SetAppointmentFulfillmentDataRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description Input for set appointment fulfillment data operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SetAppointmentFulfillmentDataRequest implements ModelInterface, ArrayAccess
+class SetAppointmentFulfillmentDataRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

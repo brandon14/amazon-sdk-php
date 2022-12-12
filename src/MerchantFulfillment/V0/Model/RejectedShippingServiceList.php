@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * RejectedShippingServiceList Class Doc Comment.
  *
  * @category Class
+ *
  * @description List of services that were for some reason unavailable for this request
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class RejectedShippingServiceList implements ModelInterface, ArrayAccess
+class RejectedShippingServiceList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * SAFETReimbursementItem Class Doc Comment.
  *
  * @category Class
+ *
  * @description An item from a SAFE-T claim reimbursement.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SAFETReimbursementItem implements ModelInterface, ArrayAccess
+class SAFETReimbursementItem implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

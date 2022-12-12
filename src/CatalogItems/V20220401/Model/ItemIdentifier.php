@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V20220401\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V20220401\ObjectSerializer;
 
 /**
  * ItemIdentifier Class Doc Comment.
  *
  * @category Class
+ *
  * @description Identifier associated with the item in the Amazon catalog, such as a UPC or EAN identifier.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemIdentifier implements ModelInterface, ArrayAccess
+class ItemIdentifier implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

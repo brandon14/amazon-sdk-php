@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * AddressLine3 Class Doc Comment.
  *
  * @category Class
+ *
  * @description Additional street address information.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AddressLine3 implements ModelInterface, ArrayAccess
+class AddressLine3 implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

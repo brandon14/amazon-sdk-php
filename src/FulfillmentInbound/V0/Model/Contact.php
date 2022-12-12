@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * Contact Class Doc Comment.
  *
  * @category Class
+ *
  * @description Contact information for the person in the seller&#39;s organization who is responsible for a Less Than Truckload/Full Truckload (LTL/FTL) shipment.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Contact implements ModelInterface, ArrayAccess
+class Contact implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
@@ -239,21 +239,21 @@ class Contact implements ModelInterface, ArrayAccess
         if ($this->container['name'] === null) {
             $invalidProperties[] = "'name' can't be null";
         }
-        if ((mb_strlen($this->container['name']) > 50)) {
+        if (mb_strlen($this->container['name']) > 50) {
             $invalidProperties[] = "invalid value for 'name', the character length must be smaller than or equal to 50.";
         }
 
         if ($this->container['phone'] === null) {
             $invalidProperties[] = "'phone' can't be null";
         }
-        if ((mb_strlen($this->container['phone']) > 20)) {
+        if (mb_strlen($this->container['phone']) > 20) {
             $invalidProperties[] = "invalid value for 'phone', the character length must be smaller than or equal to 20.";
         }
 
         if ($this->container['email'] === null) {
             $invalidProperties[] = "'email' can't be null";
         }
-        if ((mb_strlen($this->container['email']) > 50)) {
+        if (mb_strlen($this->container['email']) > 50) {
             $invalidProperties[] = "invalid value for 'email', the character length must be smaller than or equal to 50.";
         }
 
@@ -294,7 +294,7 @@ class Contact implements ModelInterface, ArrayAccess
      */
     public function setName($name)
     {
-        if ((mb_strlen($name) > 50)) {
+        if (mb_strlen($name) > 50) {
             throw new \InvalidArgumentException('invalid length for $name when calling Contact., must be smaller than or equal to 50.');
         }
 
@@ -322,7 +322,7 @@ class Contact implements ModelInterface, ArrayAccess
      */
     public function setPhone($phone)
     {
-        if ((mb_strlen($phone) > 20)) {
+        if (mb_strlen($phone) > 20) {
             throw new \InvalidArgumentException('invalid length for $phone when calling Contact., must be smaller than or equal to 20.');
         }
 
@@ -350,7 +350,7 @@ class Contact implements ModelInterface, ArrayAccess
      */
     public function setEmail($email)
     {
-        if ((mb_strlen($email) > 50)) {
+        if (mb_strlen($email) > 50) {
             throw new \InvalidArgumentException('invalid length for $email when calling Contact., must be smaller than or equal to 50.');
         }
 

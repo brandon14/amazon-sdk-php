@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ShipmentInvoicing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ShipmentInvoicing\V0\ObjectSerializer;
 
 /**
  * PaymentMethodDetailItemList Class Doc Comment.
  *
  * @category Class
+ *
  * @description The list of payment method details.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PaymentMethodDetailItemList implements ModelInterface, ArrayAccess
+class PaymentMethodDetailItemList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

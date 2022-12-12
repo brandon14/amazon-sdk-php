@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V20220401\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V20220401\ObjectSerializer;
 
 /**
  * ItemContributorRole Class Doc Comment.
  *
  * @category Class
+ *
  * @description Role of an individual contributor in the creation of an item, such as author or actor.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemContributorRole implements ModelInterface, ArrayAccess
+class ItemContributorRole implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

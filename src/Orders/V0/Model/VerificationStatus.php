@@ -64,6 +64,7 @@ namespace TNT\Amazon\Orders\V0\Model;
  * VerificationStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description The verification status of the order.
  *
  * @author   Swagger Codegen team

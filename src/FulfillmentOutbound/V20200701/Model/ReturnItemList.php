@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * ReturnItemList Class Doc Comment.
  *
  * @category Class
+ *
  * @description An array of items that Amazon accepted for return. Returns empty if no items were accepted for return.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ReturnItemList implements ModelInterface, ArrayAccess
+class ReturnItemList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

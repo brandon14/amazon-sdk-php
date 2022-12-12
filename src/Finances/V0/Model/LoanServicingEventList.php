@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * LoanServicingEventList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of loan servicing events.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class LoanServicingEventList implements ModelInterface, ArrayAccess
+class LoanServicingEventList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

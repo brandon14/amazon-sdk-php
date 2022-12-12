@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductTypeDefinitions\V20200901\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductTypeDefinitions\V20200901\ObjectSerializer;
 
 /**
  * PropertyGroup Class Doc Comment.
  *
  * @category Class
+ *
  * @description A property group represents a logical grouping of schema properties that can be used for display or informational purposes.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PropertyGroup implements ModelInterface, ArrayAccess
+class PropertyGroup implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

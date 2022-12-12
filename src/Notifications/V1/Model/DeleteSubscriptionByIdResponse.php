@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Notifications\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Notifications\V1\ObjectSerializer;
 
 /**
  * DeleteSubscriptionByIdResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the deleteSubscriptionById operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class DeleteSubscriptionByIdResponse implements ModelInterface, ArrayAccess
+class DeleteSubscriptionByIdResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

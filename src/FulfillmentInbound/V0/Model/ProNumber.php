@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * ProNumber Class Doc Comment.
  *
  * @category Class
+ *
  * @description The PRO number (\&quot;progressive number\&quot; or \&quot;progressive ID\&quot;) assigned to the shipment by the carrier.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ProNumber implements ModelInterface, ArrayAccess
+class ProNumber implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

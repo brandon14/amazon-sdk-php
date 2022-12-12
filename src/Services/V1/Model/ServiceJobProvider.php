@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * ServiceJobProvider Class Doc Comment.
  *
  * @category Class
+ *
  * @description Information about the service job provider.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ServiceJobProvider implements ModelInterface, ArrayAccess
+class ServiceJobProvider implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ListingsItems\V20210801\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ListingsItems\V20210801\ObjectSerializer;
 
 /**
  * ListingsItemSubmissionResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description Response containing the results of a submission to the Selling Partner API for Listings Items.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ListingsItemSubmissionResponse implements ModelInterface, ArrayAccess
+class ListingsItemSubmissionResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

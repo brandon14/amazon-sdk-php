@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorInvoices\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorInvoices\V1\ObjectSerializer;
 
 /**
  * AdditionalDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description Additional information provided by the selling party for tax-related or any other purpose.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AdditionalDetails implements ModelInterface, ArrayAccess
+class AdditionalDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

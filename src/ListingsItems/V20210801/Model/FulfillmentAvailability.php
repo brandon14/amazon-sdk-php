@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ListingsItems\V20210801\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ListingsItems\V20210801\ObjectSerializer;
 
 /**
  * FulfillmentAvailability Class Doc Comment.
  *
  * @category Class
+ *
  * @description Fulfillment availability details for the listings item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class FulfillmentAvailability implements ModelInterface, ArrayAccess
+class FulfillmentAvailability implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

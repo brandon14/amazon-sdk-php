@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * FeatureSku Class Doc Comment.
  *
  * @category Class
+ *
  * @description Information about an SKU, including the count available, identifiers, and a list of overlapping SKUs that share the same inventory pool.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class FeatureSku implements ModelInterface, ArrayAccess
+class FeatureSku implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
  * FulfillmentPolicy Class Doc Comment.
  *
  * @category Class
+ *
  * @description The FulfillmentPolicy value specified when you submitted the createFulfillmentOrder operation.
  *
  * @author   Swagger Codegen team

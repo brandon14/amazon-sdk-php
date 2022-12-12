@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Reports\V20200904\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Reports\V20200904\ObjectSerializer;
 
 /**
  * GetReportDocumentResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description Response schema.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetReportDocumentResponse implements ModelInterface, ArrayAccess
+class GetReportDocumentResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

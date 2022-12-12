@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * Error Class Doc Comment.
  *
  * @category Class
+ *
  * @description Error response returned when the request is unsuccessful.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Error implements ModelInterface, ArrayAccess
+class Error implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
@@ -233,14 +233,14 @@ class Error implements ModelInterface, ArrayAccess
         if ($this->container['code'] === null) {
             $invalidProperties[] = "'code' can't be null";
         }
-        if ((mb_strlen($this->container['code']) < 1)) {
+        if (mb_strlen($this->container['code']) < 1) {
             $invalidProperties[] = "invalid value for 'code', the character length must be bigger than or equal to 1.";
         }
 
         if ($this->container['message'] === null) {
             $invalidProperties[] = "'message' can't be null";
         }
-        if ((mb_strlen($this->container['message']) < 1)) {
+        if (mb_strlen($this->container['message']) < 1) {
             $invalidProperties[] = "invalid value for 'message', the character length must be bigger than or equal to 1.";
         }
 
@@ -281,7 +281,7 @@ class Error implements ModelInterface, ArrayAccess
      */
     public function setCode($code)
     {
-        if ((mb_strlen($code) < 1)) {
+        if (mb_strlen($code) < 1) {
             throw new \InvalidArgumentException('invalid length for $code when calling Error., must be bigger than or equal to 1.');
         }
 
@@ -309,7 +309,7 @@ class Error implements ModelInterface, ArrayAccess
      */
     public function setMessage($message)
     {
-        if ((mb_strlen($message) < 1)) {
+        if (mb_strlen($message) < 1) {
             throw new \InvalidArgumentException('invalid length for $message when calling Error., must be bigger than or equal to 1.');
         }
 

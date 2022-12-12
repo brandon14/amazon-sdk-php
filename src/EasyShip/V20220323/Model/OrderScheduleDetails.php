@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * OrderScheduleDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description This object allows users to specify an order to be scheduled. Only the amazonOrderId is required.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class OrderScheduleDetails implements ModelInterface, ArrayAccess
+class OrderScheduleDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

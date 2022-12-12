@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Notifications\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Notifications\V1\ObjectSerializer;
 
 /**
  * MarketplaceIds Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of marketplace identifiers to subscribe to (e.g. ATVPDKIKX0DER). To receive notifications in every marketplace, do not provide this list.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class MarketplaceIds implements ModelInterface, ArrayAccess
+class MarketplaceIds implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

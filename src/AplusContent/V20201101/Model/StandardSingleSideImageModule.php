@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * StandardSingleSideImageModule Class Doc Comment.
  *
  * @category Class
+ *
  * @description A standard headline and body text with an image on the side.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StandardSingleSideImageModule implements ModelInterface, ArrayAccess
+class StandardSingleSideImageModule implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

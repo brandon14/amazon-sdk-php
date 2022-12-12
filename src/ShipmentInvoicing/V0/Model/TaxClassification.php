@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ShipmentInvoicing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ShipmentInvoicing\V0\ObjectSerializer;
 
 /**
  * TaxClassification Class Doc Comment.
  *
  * @category Class
+ *
  * @description The tax classification for the entity.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TaxClassification implements ModelInterface, ArrayAccess
+class TaxClassification implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

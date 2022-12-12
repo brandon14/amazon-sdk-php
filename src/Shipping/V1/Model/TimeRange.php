@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * TimeRange Class Doc Comment.
  *
  * @category Class
+ *
  * @description The time range.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TimeRange implements ModelInterface, ArrayAccess
+class TimeRange implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

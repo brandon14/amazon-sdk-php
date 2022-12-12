@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * TaxWithholdingEventList Class Doc Comment.
  *
  * @category Class
+ *
  * @description List of TaxWithholding events.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TaxWithholdingEventList implements ModelInterface, ArrayAccess
+class TaxWithholdingEventList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

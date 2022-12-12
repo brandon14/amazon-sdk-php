@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * FBALiquidationEventList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of FBA inventory liquidation payment events.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class FBALiquidationEventList implements ModelInterface, ArrayAccess
+class FBALiquidationEventList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

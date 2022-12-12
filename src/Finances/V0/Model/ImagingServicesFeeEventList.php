@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * ImagingServicesFeeEventList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of fee events related to Amazon Imaging services.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ImagingServicesFeeEventList implements ModelInterface, ArrayAccess
+class ImagingServicesFeeEventList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

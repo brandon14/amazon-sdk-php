@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentInbound\V0\Model;
  * LabelPrepPreference Class Doc Comment.
  *
  * @category Class
+ *
  * @description The preference for label preparation for an inbound shipment.
  *
  * @author   Swagger Codegen team

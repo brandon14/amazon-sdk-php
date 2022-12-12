@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentTransactions\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentTransactions\V1\ObjectSerializer;
 
 /**
  * GetTransactionResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the getTransactionStatus operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetTransactionResponse implements ModelInterface, ArrayAccess
+class GetTransactionResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

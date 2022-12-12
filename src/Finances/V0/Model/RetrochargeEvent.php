@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * RetrochargeEvent Class Doc Comment.
  *
  * @category Class
+ *
  * @description A retrocharge or retrocharge reversal.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class RetrochargeEvent implements ModelInterface, ArrayAccess
+class RetrochargeEvent implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

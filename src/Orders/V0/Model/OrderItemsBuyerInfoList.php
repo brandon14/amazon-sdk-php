@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * OrderItemsBuyerInfoList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A single order item&#39;s buyer information list with the order ID.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class OrderItemsBuyerInfoList implements ModelInterface, ArrayAccess
+class OrderItemsBuyerInfoList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

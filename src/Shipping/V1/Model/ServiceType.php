@@ -64,6 +64,7 @@ namespace TNT\Amazon\Shipping\V1\Model;
  * ServiceType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The type of shipping service that will be used for the service offering.
  *
  * @author   Swagger Codegen team

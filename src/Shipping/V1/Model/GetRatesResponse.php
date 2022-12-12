@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * GetRatesResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the getRates operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetRatesResponse implements ModelInterface, ArrayAccess
+class GetRatesResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

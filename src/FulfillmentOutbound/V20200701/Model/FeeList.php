@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * FeeList Class Doc Comment.
  *
  * @category Class
+ *
  * @description An array of fee type and cost pairs.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class FeeList implements ModelInterface, ArrayAccess
+class FeeList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

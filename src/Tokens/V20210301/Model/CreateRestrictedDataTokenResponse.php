@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Tokens\V20210301\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Tokens\V20210301\ObjectSerializer;
 
 /**
  * CreateRestrictedDataTokenResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the createRestrictedDataToken operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateRestrictedDataTokenResponse implements ModelInterface, ArrayAccess
+class CreateRestrictedDataTokenResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

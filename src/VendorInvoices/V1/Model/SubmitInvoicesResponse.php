@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorInvoices\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorInvoices\V1\ObjectSerializer;
 
 /**
  * SubmitInvoicesResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the submitInvoices operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SubmitInvoicesResponse implements ModelInterface, ArrayAccess
+class SubmitInvoicesResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

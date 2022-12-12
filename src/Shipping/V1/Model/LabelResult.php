@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * LabelResult Class Doc Comment.
  *
  * @category Class
+ *
  * @description Label details including label stream, format, size.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class LabelResult implements ModelInterface, ArrayAccess
+class LabelResult implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

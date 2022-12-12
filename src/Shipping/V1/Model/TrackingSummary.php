@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * TrackingSummary Class Doc Comment.
  *
  * @category Class
+ *
  * @description The tracking summary.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TrackingSummary implements ModelInterface, ArrayAccess
+class TrackingSummary implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

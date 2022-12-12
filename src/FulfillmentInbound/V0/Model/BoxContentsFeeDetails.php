@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * BoxContentsFeeDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description The manual processing fee per unit and total fee for a shipment.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
+class BoxContentsFeeDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * ReturnItem Class Doc Comment.
  *
  * @category Class
+ *
  * @description An item that Amazon accepted for return.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ReturnItem implements ModelInterface, ArrayAccess
+class ReturnItem implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

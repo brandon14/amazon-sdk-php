@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * CreateScheduledPackageRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request schema for the &#x60;createScheduledPackage&#x60; operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateScheduledPackageRequest implements ModelInterface, ArrayAccess
+class CreateScheduledPackageRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

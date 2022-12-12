@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V20220401\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V20220401\ObjectSerializer;
 
 /**
  * ItemVariationTheme Class Doc Comment.
  *
  * @category Class
+ *
  * @description Variation theme indicating the combination of Amazon item catalog attributes that define the variation family.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemVariationTheme implements ModelInterface, ArrayAccess
+class ItemVariationTheme implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

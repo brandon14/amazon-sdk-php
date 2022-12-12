@@ -690,7 +690,7 @@ class NotificationsApi
         // Path params.
         if ($notification_type !== null) {
             $resourcePath = str_replace(
-                '{'.'notificationType'.'}',
+                '{notificationType}',
                 ObjectSerializer::toPathValue($notification_type),
                 $resourcePath
             );
@@ -1015,7 +1015,7 @@ class NotificationsApi
         // Path params.
         if ($destination_id !== null) {
             $resourcePath = str_replace(
-                '{'.'destinationId'.'}',
+                '{destinationId}',
                 ObjectSerializer::toPathValue($destination_id),
                 $resourcePath
             );
@@ -1346,7 +1346,7 @@ class NotificationsApi
         // Path params.
         if ($subscription_id !== null) {
             $resourcePath = str_replace(
-                '{'.'subscriptionId'.'}',
+                '{subscriptionId}',
                 ObjectSerializer::toPathValue($subscription_id),
                 $resourcePath
             );
@@ -1354,7 +1354,7 @@ class NotificationsApi
         // Path params.
         if ($notification_type !== null) {
             $resourcePath = str_replace(
-                '{'.'notificationType'.'}',
+                '{notificationType}',
                 ObjectSerializer::toPathValue($notification_type),
                 $resourcePath
             );
@@ -1676,7 +1676,7 @@ class NotificationsApi
         // Path params.
         if ($destination_id !== null) {
             $resourcePath = str_replace(
-                '{'.'destinationId'.'}',
+                '{destinationId}',
                 ObjectSerializer::toPathValue($destination_id),
                 $resourcePath
             );
@@ -2288,7 +2288,7 @@ class NotificationsApi
         // Path params.
         if ($notification_type !== null) {
             $resourcePath = str_replace(
-                '{'.'notificationType'.'}',
+                '{notificationType}',
                 ObjectSerializer::toPathValue($notification_type),
                 $resourcePath
             );
@@ -2619,7 +2619,7 @@ class NotificationsApi
         // Path params.
         if ($subscription_id !== null) {
             $resourcePath = str_replace(
-                '{'.'subscriptionId'.'}',
+                '{subscriptionId}',
                 ObjectSerializer::toPathValue($subscription_id),
                 $resourcePath
             );
@@ -2627,7 +2627,7 @@ class NotificationsApi
         // Path params.
         if ($notification_type !== null) {
             $resourcePath = str_replace(
-                '{'.'notificationType'.'}',
+                '{notificationType}',
                 ObjectSerializer::toPathValue($notification_type),
                 $resourcePath
             );

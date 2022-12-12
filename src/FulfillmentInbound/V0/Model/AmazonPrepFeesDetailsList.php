@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * AmazonPrepFeesDetailsList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of preparation instructions and fees for Amazon to prep goods for shipment.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AmazonPrepFeesDetailsList implements ModelInterface, ArrayAccess
+class AmazonPrepFeesDetailsList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

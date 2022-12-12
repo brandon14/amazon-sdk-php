@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * GetOffersHttpStatusLine Class Doc Comment.
  *
  * @category Class
+ *
  * @description The HTTP status line associated with the response.  For more information, consult [RFC 2616](https://www.w3.org/Protocols/rfc2616/rfc2616-sec6.html).
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetOffersHttpStatusLine implements ModelInterface, ArrayAccess
+class GetOffersHttpStatusLine implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

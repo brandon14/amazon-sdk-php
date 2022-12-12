@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * ImageComponent Class Doc Comment.
  *
  * @category Class
+ *
  * @description A reference to an image, hosted in the A+ Content media library.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ImageComponent implements ModelInterface, ArrayAccess
+class ImageComponent implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
@@ -233,7 +233,7 @@ class ImageComponent implements ModelInterface, ArrayAccess
         if ($this->container['upload_destination_id'] === null) {
             $invalidProperties[] = "'upload_destination_id' can't be null";
         }
-        if ((mb_strlen($this->container['upload_destination_id']) < 1)) {
+        if (mb_strlen($this->container['upload_destination_id']) < 1) {
             $invalidProperties[] = "invalid value for 'upload_destination_id', the character length must be bigger than or equal to 1.";
         }
 
@@ -243,11 +243,11 @@ class ImageComponent implements ModelInterface, ArrayAccess
         if ($this->container['alt_text'] === null) {
             $invalidProperties[] = "'alt_text' can't be null";
         }
-        if ((mb_strlen($this->container['alt_text']) > 100)) {
+        if (mb_strlen($this->container['alt_text']) > 100) {
             $invalidProperties[] = "invalid value for 'alt_text', the character length must be smaller than or equal to 100.";
         }
 
-        if ((mb_strlen($this->container['alt_text']) < 1)) {
+        if (mb_strlen($this->container['alt_text']) < 1) {
             $invalidProperties[] = "invalid value for 'alt_text', the character length must be bigger than or equal to 1.";
         }
 
@@ -284,7 +284,7 @@ class ImageComponent implements ModelInterface, ArrayAccess
      */
     public function setUploadDestinationId($upload_destination_id)
     {
-        if ((mb_strlen($upload_destination_id) < 1)) {
+        if (mb_strlen($upload_destination_id) < 1) {
             throw new \InvalidArgumentException('invalid length for $upload_destination_id when calling ImageComponent., must be bigger than or equal to 1.');
         }
 
@@ -336,10 +336,10 @@ class ImageComponent implements ModelInterface, ArrayAccess
      */
     public function setAltText($alt_text)
     {
-        if ((mb_strlen($alt_text) > 100)) {
+        if (mb_strlen($alt_text) > 100) {
             throw new \InvalidArgumentException('invalid length for $alt_text when calling ImageComponent., must be smaller than or equal to 100.');
         }
-        if ((mb_strlen($alt_text) < 1)) {
+        if (mb_strlen($alt_text) < 1) {
             throw new \InvalidArgumentException('invalid length for $alt_text when calling ImageComponent., must be bigger than or equal to 1.');
         }
 

@@ -64,6 +64,7 @@ namespace TNT\Amazon\ProductFees\V0\Model;
  * OptionalFulfillmentProgram Class Doc Comment.
  *
  * @category Class
+ *
  * @description An optional enrollment program to return the estimated fees when the offer is fulfilled by Amazon (IsAmazonFulfilled is set to true).
  *
  * @author   Swagger Codegen team

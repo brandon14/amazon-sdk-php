@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V20220401\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V20220401\ObjectSerializer;
 
 /**
  * ItemRelationship Class Doc Comment.
  *
  * @category Class
+ *
  * @description Relationship details for an Amazon catalog item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemRelationship implements ModelInterface, ArrayAccess
+class ItemRelationship implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

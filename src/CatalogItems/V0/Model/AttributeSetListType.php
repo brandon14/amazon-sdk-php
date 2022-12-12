@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V0\ObjectSerializer;
 
 /**
  * AttributeSetListType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The attributes of the item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AttributeSetListType implements ModelInterface, ArrayAccess
+class AttributeSetListType implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

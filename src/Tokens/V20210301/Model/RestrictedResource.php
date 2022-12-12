@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Tokens\V20210301\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Tokens\V20210301\ObjectSerializer;
 
 /**
  * RestrictedResource Class Doc Comment.
  *
  * @category Class
+ *
  * @description Model of a restricted resource.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class RestrictedResource implements ModelInterface, ArrayAccess
+class RestrictedResource implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

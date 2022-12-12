@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * RegulatedOrderVerificationStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description The verification status of the order along with associated approval or rejection metadata.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class RegulatedOrderVerificationStatus implements ModelInterface, ArrayAccess
+class RegulatedOrderVerificationStatus implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -64,6 +64,7 @@ namespace TNT\Amazon\ProductPricing\V0\Model;
  * ItemCondition Class Doc Comment.
  *
  * @category Class
+ *
  * @description Filters the offer listings to be considered based on item condition. Possible values: New, Used, Collectible, Refurbished, Club.
  *
  * @author   Swagger Codegen team

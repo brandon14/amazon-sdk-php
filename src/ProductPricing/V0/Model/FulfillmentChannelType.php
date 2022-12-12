@@ -64,6 +64,7 @@ namespace TNT\Amazon\ProductPricing\V0\Model;
  * FulfillmentChannelType Class Doc Comment.
  *
  * @category Class
+ *
  * @description Indicates whether the item is fulfilled by Amazon or by the seller (merchant).
  *
  * @author   Swagger Codegen team

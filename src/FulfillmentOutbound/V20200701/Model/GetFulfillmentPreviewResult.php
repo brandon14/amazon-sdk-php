@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * GetFulfillmentPreviewResult Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of fulfillment order previews, including estimated shipping weights, estimated shipping fees, and estimated ship dates and arrival dates.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetFulfillmentPreviewResult implements ModelInterface, ArrayAccess
+class GetFulfillmentPreviewResult implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

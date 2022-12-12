@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentInventory\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentInventory\V1\ObjectSerializer;
 
 /**
  * ItemDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description Updated inventory details for an item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemDetails implements ModelInterface, ArrayAccess
+class ItemDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

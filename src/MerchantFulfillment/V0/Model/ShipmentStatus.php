@@ -64,6 +64,7 @@ namespace TNT\Amazon\MerchantFulfillment\V0\Model;
  * ShipmentStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description The shipment status.
  *
  * @author   Swagger Codegen team

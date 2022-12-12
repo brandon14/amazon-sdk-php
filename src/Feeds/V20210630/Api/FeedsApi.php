@@ -316,7 +316,7 @@ class FeedsApi
         // Path params.
         if ($feed_id !== null) {
             $resourcePath = str_replace(
-                '{'.'feedId'.'}',
+                '{feedId}',
                 ObjectSerializer::toPathValue($feed_id),
                 $resourcePath
             );
@@ -1246,7 +1246,7 @@ class FeedsApi
         // Path params.
         if ($feed_id !== null) {
             $resourcePath = str_replace(
-                '{'.'feedId'.'}',
+                '{feedId}',
                 ObjectSerializer::toPathValue($feed_id),
                 $resourcePath
             );
@@ -1560,7 +1560,7 @@ class FeedsApi
         // Path params.
         if ($feed_document_id !== null) {
             $resourcePath = str_replace(
-                '{'.'feedDocumentId'.'}',
+                '{feedDocumentId}',
                 ObjectSerializer::toPathValue($feed_document_id),
                 $resourcePath
             );

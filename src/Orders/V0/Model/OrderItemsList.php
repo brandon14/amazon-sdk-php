@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * OrderItemsList Class Doc Comment.
  *
  * @category Class
+ *
  * @description The order items list along with the order ID.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class OrderItemsList implements ModelInterface, ArrayAccess
+class OrderItemsList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

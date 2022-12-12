@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FbaInventory\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FbaInventory\V1\ObjectSerializer;
 
 /**
  * GetInventorySummariesResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The Response schema.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetInventorySummariesResponse implements ModelInterface, ArrayAccess
+class GetInventorySummariesResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

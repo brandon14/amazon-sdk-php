@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentInbound\V0\Model;
  * LabelPrepType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The type of label preparation that is required for the inbound shipment.
  *
  * @author   Swagger Codegen team

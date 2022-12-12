@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * Dimensions Class Doc Comment.
  *
  * @category Class
+ *
  * @description The dimension values and unit of measurement.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Dimensions implements ModelInterface, ArrayAccess
+class Dimensions implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

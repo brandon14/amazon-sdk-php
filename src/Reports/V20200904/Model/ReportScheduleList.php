@@ -60,7 +60,6 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Reports\V20200904\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Reports\V20200904\ObjectSerializer;
 
 /**
@@ -72,7 +71,7 @@ use TNT\Amazon\Reports\V20200904\ObjectSerializer;
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ReportScheduleList implements ModelInterface, ArrayAccess
+class ReportScheduleList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

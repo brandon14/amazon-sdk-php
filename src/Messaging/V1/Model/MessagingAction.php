@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Messaging\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Messaging\V1\ObjectSerializer;
 
 /**
  * MessagingAction Class Doc Comment.
  *
  * @category Class
+ *
  * @description A simple object containing the name of the template.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class MessagingAction implements ModelInterface, ArrayAccess
+class MessagingAction implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

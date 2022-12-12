@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ListingsItems\V20210801\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ListingsItems\V20210801\ObjectSerializer;
 
 /**
  * ItemSummaryByMarketplace Class Doc Comment.
  *
  * @category Class
+ *
  * @description Summary details of a listings item for an Amazon marketplace.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemSummaryByMarketplace implements ModelInterface, ArrayAccess
+class ItemSummaryByMarketplace implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

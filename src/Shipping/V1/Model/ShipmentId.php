@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * ShipmentId Class Doc Comment.
  *
  * @category Class
+ *
  * @description The unique shipment identifier.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ShipmentId implements ModelInterface, ArrayAccess
+class ShipmentId implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

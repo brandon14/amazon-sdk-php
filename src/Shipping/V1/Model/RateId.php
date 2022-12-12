@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * RateId Class Doc Comment.
  *
  * @category Class
+ *
  * @description An identifier for the rating.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class RateId implements ModelInterface, ArrayAccess
+class RateId implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

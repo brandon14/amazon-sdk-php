@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * ItemOffersRequestList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of &#x60;getListingOffers&#x60; batched requests to run.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemOffersRequestList implements ModelInterface, ArrayAccess
+class ItemOffersRequestList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

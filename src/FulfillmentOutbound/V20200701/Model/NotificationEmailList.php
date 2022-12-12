@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * NotificationEmailList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of email addresses that the seller provides that are used by Amazon to send ship-complete notifications to recipients on behalf of the seller.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class NotificationEmailList implements ModelInterface, ArrayAccess
+class NotificationEmailList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

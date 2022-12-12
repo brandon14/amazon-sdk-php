@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * Warning Class Doc Comment.
  *
  * @category Class
+ *
  * @description Warning returned when the request is successful, but there are important callouts based on which API clients should take defined actions.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Warning implements ModelInterface, ArrayAccess
+class Warning implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

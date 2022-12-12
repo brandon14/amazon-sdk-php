@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\ObjectSerializer;
 
 /**
  * Address Class Doc Comment.
  *
  * @category Class
+ *
  * @description Address of the party.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Address implements ModelInterface, ArrayAccess
+class Address implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

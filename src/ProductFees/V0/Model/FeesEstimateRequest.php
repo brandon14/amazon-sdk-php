@@ -60,7 +60,6 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductFees\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductFees\V0\ObjectSerializer;
 
 /**
@@ -72,7 +71,7 @@ use TNT\Amazon\ProductFees\V0\ObjectSerializer;
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class FeesEstimateRequest implements ModelInterface, ArrayAccess
+class FeesEstimateRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

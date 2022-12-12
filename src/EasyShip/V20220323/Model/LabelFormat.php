@@ -64,6 +64,7 @@ namespace TNT\Amazon\EasyShip\V20220323\Model;
  * LabelFormat Class Doc Comment.
  *
  * @category Class
+ *
  * @description The file format in which the shipping label will be created.
  *
  * @author   Swagger Codegen team

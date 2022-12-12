@@ -64,6 +64,7 @@ namespace TNT\Amazon\Orders\V0\Model;
  * EasyShipShipmentStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description The status of the Amazon Easy Ship order. This property is included only for Amazon Easy Ship orders.
  *
  * @author   Swagger Codegen team

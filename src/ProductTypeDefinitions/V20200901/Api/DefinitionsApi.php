@@ -418,7 +418,7 @@ class DefinitionsApi
         // Path params.
         if ($product_type !== null) {
             $resourcePath = str_replace(
-                '{'.'productType'.'}',
+                '{productType}',
                 ObjectSerializer::toPathValue($product_type),
                 $resourcePath
             );

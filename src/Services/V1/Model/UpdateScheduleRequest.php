@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * UpdateScheduleRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description Request schema for the &#x60;updateSchedule&#x60; operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class UpdateScheduleRequest implements ModelInterface, ArrayAccess
+class UpdateScheduleRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * ServiceFeeEvent Class Doc Comment.
  *
  * @category Class
+ *
  * @description A service fee on the seller&#39;s account.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ServiceFeeEvent implements ModelInterface, ArrayAccess
+class ServiceFeeEvent implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

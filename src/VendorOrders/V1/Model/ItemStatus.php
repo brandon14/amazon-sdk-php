@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorOrders\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorOrders\V1\ObjectSerializer;
 
 /**
  * ItemStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description Detailed description of items order status.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemStatus implements ModelInterface, ArrayAccess
+class ItemStatus implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

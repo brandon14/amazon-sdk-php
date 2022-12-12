@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * RetrieveShippingLabelRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request schema for the retrieveShippingLabel operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class RetrieveShippingLabelRequest implements ModelInterface, ArrayAccess
+class RetrieveShippingLabelRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

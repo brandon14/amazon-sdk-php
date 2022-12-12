@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * StandardHeaderImageTextModule Class Doc Comment.
  *
  * @category Class
+ *
  * @description Standard headline text, an image, and body text.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StandardHeaderImageTextModule implements ModelInterface, ArrayAccess
+class StandardHeaderImageTextModule implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * CreateInboundShipmentPlanRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request schema for the createInboundShipmentPlan operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateInboundShipmentPlanRequest implements ModelInterface, ArrayAccess
+class CreateInboundShipmentPlanRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

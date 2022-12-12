@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentInbound\V0\Model;
  * PrepOwner Class Doc Comment.
  *
  * @category Class
+ *
  * @description Indicates who will prepare the item.
  *
  * @author   Swagger Codegen team

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * InvalidASINList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of invalid ASIN values and the reasons they are invalid.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class InvalidASINList implements ModelInterface, ArrayAccess
+class InvalidASINList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

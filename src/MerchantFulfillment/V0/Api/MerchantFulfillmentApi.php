@@ -352,7 +352,7 @@ class MerchantFulfillmentApi
         // Path params.
         if ($shipment_id !== null) {
             $resourcePath = str_replace(
-                '{'.'shipmentId'.'}',
+                '{shipmentId}',
                 ObjectSerializer::toPathValue($shipment_id),
                 $resourcePath
             );
@@ -661,7 +661,7 @@ class MerchantFulfillmentApi
         // Path params.
         if ($shipment_id !== null) {
             $resourcePath = str_replace(
-                '{'.'shipmentId'.'}',
+                '{shipmentId}',
                 ObjectSerializer::toPathValue($shipment_id),
                 $resourcePath
             );
@@ -2470,7 +2470,7 @@ class MerchantFulfillmentApi
         // Path params.
         if ($shipment_id !== null) {
             $resourcePath = str_replace(
-                '{'.'shipmentId'.'}',
+                '{shipmentId}',
                 ObjectSerializer::toPathValue($shipment_id),
                 $resourcePath
             );

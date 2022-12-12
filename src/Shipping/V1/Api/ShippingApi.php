@@ -349,7 +349,7 @@ class ShippingApi
         // Path params.
         if ($shipment_id !== null) {
             $resourcePath = str_replace(
-                '{'.'shipmentId'.'}',
+                '{shipmentId}',
                 ObjectSerializer::toPathValue($shipment_id),
                 $resourcePath
             );
@@ -1537,7 +1537,7 @@ class ShippingApi
         // Path params.
         if ($shipment_id !== null) {
             $resourcePath = str_replace(
-                '{'.'shipmentId'.'}',
+                '{shipmentId}',
                 ObjectSerializer::toPathValue($shipment_id),
                 $resourcePath
             );
@@ -1843,7 +1843,7 @@ class ShippingApi
         // Path params.
         if ($tracking_id !== null) {
             $resourcePath = str_replace(
-                '{'.'trackingId'.'}',
+                '{trackingId}',
                 ObjectSerializer::toPathValue($tracking_id),
                 $resourcePath
             );
@@ -2158,7 +2158,7 @@ class ShippingApi
         // Path params.
         if ($shipment_id !== null) {
             $resourcePath = str_replace(
-                '{'.'shipmentId'.'}',
+                '{shipmentId}',
                 ObjectSerializer::toPathValue($shipment_id),
                 $resourcePath
             );
@@ -2785,7 +2785,7 @@ class ShippingApi
         // Path params.
         if ($shipment_id !== null) {
             $resourcePath = str_replace(
-                '{'.'shipmentId'.'}',
+                '{shipmentId}',
                 ObjectSerializer::toPathValue($shipment_id),
                 $resourcePath
             );
@@ -2793,7 +2793,7 @@ class ShippingApi
         // Path params.
         if ($tracking_id !== null) {
             $resourcePath = str_replace(
-                '{'.'trackingId'.'}',
+                '{trackingId}',
                 ObjectSerializer::toPathValue($tracking_id),
                 $resourcePath
             );

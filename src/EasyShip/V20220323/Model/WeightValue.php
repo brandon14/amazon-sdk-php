@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * WeightValue Class Doc Comment.
  *
  * @category Class
+ *
  * @description The weight of the package.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class WeightValue implements ModelInterface, ArrayAccess
+class WeightValue implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

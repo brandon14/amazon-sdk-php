@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * ScopeOfWork Class Doc Comment.
  *
  * @category Class
+ *
  * @description The scope of work for the order.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ScopeOfWork implements ModelInterface, ArrayAccess
+class ScopeOfWork implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\ObjectSerializer;
 
 /**
  * Transaction Class Doc Comment.
  *
  * @category Class
+ *
  * @description The transaction details including the status. If the transaction was successful, also includes the requested test order data.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Transaction implements ModelInterface, ArrayAccess
+class Transaction implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

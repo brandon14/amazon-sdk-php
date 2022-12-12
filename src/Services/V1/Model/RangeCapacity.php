@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * RangeCapacity Class Doc Comment.
  *
  * @category Class
+ *
  * @description Range capacity entity where each entry has a capacity type and corresponding slots.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class RangeCapacity implements ModelInterface, ArrayAccess
+class RangeCapacity implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

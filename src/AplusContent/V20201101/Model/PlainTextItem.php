@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * PlainTextItem Class Doc Comment.
  *
  * @category Class
+ *
  * @description Plain positional text, used in collections of brief labels and descriptors.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PlainTextItem implements ModelInterface, ArrayAccess
+class PlainTextItem implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
@@ -227,22 +227,22 @@ class PlainTextItem implements ModelInterface, ArrayAccess
         if ($this->container['position'] === null) {
             $invalidProperties[] = "'position' can't be null";
         }
-        if (($this->container['position'] > 100)) {
+        if ($this->container['position'] > 100) {
             $invalidProperties[] = "invalid value for 'position', must be smaller than or equal to 100.";
         }
 
-        if (($this->container['position'] < 1)) {
+        if ($this->container['position'] < 1) {
             $invalidProperties[] = "invalid value for 'position', must be bigger than or equal to 1.";
         }
 
         if ($this->container['value'] === null) {
             $invalidProperties[] = "'value' can't be null";
         }
-        if ((mb_strlen($this->container['value']) > 250)) {
+        if (mb_strlen($this->container['value']) > 250) {
             $invalidProperties[] = "invalid value for 'value', the character length must be smaller than or equal to 250.";
         }
 
-        if ((mb_strlen($this->container['value']) < 1)) {
+        if (mb_strlen($this->container['value']) < 1) {
             $invalidProperties[] = "invalid value for 'value', the character length must be bigger than or equal to 1.";
         }
 
@@ -279,10 +279,10 @@ class PlainTextItem implements ModelInterface, ArrayAccess
      */
     public function setPosition($position)
     {
-        if (($position > 100)) {
+        if ($position > 100) {
             throw new \InvalidArgumentException('invalid value for $position when calling PlainTextItem., must be smaller than or equal to 100.');
         }
-        if (($position < 1)) {
+        if ($position < 1) {
             throw new \InvalidArgumentException('invalid value for $position when calling PlainTextItem., must be bigger than or equal to 1.');
         }
 
@@ -310,10 +310,10 @@ class PlainTextItem implements ModelInterface, ArrayAccess
      */
     public function setValue($value)
     {
-        if ((mb_strlen($value) > 250)) {
+        if (mb_strlen($value) > 250) {
             throw new \InvalidArgumentException('invalid length for $value when calling PlainTextItem., must be smaller than or equal to 250.');
         }
-        if ((mb_strlen($value) < 1)) {
+        if (mb_strlen($value) < 1) {
             throw new \InvalidArgumentException('invalid length for $value when calling PlainTextItem., must be bigger than or equal to 1.');
         }
 

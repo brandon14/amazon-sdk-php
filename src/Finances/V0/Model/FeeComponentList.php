@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * FeeComponentList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of fee component information.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class FeeComponentList implements ModelInterface, ArrayAccess
+class FeeComponentList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

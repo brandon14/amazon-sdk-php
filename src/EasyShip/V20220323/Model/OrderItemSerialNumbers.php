@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * OrderItemSerialNumbers Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of serial numbers for the items associated with the &#x60;OrderItemId&#x60; value.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class OrderItemSerialNumbers implements ModelInterface, ArrayAccess
+class OrderItemSerialNumbers implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

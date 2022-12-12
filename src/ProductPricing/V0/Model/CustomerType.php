@@ -64,6 +64,7 @@ namespace TNT\Amazon\ProductPricing\V0\Model;
  * CustomerType Class Doc Comment.
  *
  * @category Class
+ *
  * @description Indicates whether to request Consumer or Business offers. Default is Consumer.
  *
  * @author   Swagger Codegen team

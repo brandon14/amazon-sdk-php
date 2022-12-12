@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * RemovalShipmentEvent Class Doc Comment.
  *
  * @category Class
+ *
  * @description A removal shipment event for a removal order.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class RemovalShipmentEvent implements ModelInterface, ArrayAccess
+class RemovalShipmentEvent implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

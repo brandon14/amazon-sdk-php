@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FbaInventory\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FbaInventory\V1\ObjectSerializer;
 
 /**
  * Pagination Class Doc Comment.
  *
  * @category Class
+ *
  * @description The process of returning the results to a request in batches of a defined size called pages. This is done to exercise some control over result size and overall throughput. It&#39;s a form of traffic management.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Pagination implements ModelInterface, ArrayAccess
+class Pagination implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

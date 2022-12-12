@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * CancelReservationResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description Response schema for the &#x60;cancelReservation&#x60; operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CancelReservationResponse implements ModelInterface, ArrayAccess
+class CancelReservationResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

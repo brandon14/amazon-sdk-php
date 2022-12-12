@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductTypeDefinitions\V20200901\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductTypeDefinitions\V20200901\ObjectSerializer;
 
 /**
  * ProductTypeVersion Class Doc Comment.
  *
  * @category Class
+ *
  * @description The version details for an Amazon product type.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ProductTypeVersion implements ModelInterface, ArrayAccess
+class ProductTypeVersion implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

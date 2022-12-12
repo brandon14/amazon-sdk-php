@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * Account Class Doc Comment.
  *
  * @category Class
+ *
  * @description The account related data.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Account implements ModelInterface, ArrayAccess
+class Account implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

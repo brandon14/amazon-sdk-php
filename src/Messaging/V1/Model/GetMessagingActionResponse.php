@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Messaging\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Messaging\V1\ObjectSerializer;
 
 /**
  * GetMessagingActionResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description Describes a messaging action that can be taken for an order. Provides a JSON Hypertext Application Language (HAL) link to the JSON schema document that describes the expected input.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetMessagingActionResponse implements ModelInterface, ArrayAccess
+class GetMessagingActionResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

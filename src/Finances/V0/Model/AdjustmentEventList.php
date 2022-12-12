@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * AdjustmentEventList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of adjustment event information for the seller&#39;s account.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AdjustmentEventList implements ModelInterface, ArrayAccess
+class AdjustmentEventList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * ServiceTypeList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of service types that can be used to send the shipment.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ServiceTypeList implements ModelInterface, ArrayAccess
+class ServiceTypeList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

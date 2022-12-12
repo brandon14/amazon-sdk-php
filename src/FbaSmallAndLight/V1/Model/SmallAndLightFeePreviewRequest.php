@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FbaSmallAndLight\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FbaSmallAndLight\V1\ObjectSerializer;
 
 /**
  * SmallAndLightFeePreviewRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description Request schema for submitting items for which to retrieve fee estimates.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SmallAndLightFeePreviewRequest implements ModelInterface, ArrayAccess
+class SmallAndLightFeePreviewRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

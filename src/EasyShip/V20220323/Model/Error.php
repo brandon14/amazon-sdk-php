@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * Error Class Doc Comment.
  *
  * @category Class
+ *
  * @description Error response returned when the request is unsuccessful.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Error implements ModelInterface, ArrayAccess
+class Error implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

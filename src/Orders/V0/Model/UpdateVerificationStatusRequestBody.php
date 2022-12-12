@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * UpdateVerificationStatusRequestBody Class Doc Comment.
  *
  * @category Class
+ *
  * @description The updated values of the VerificationStatus field.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class UpdateVerificationStatusRequestBody implements ModelInterface, ArrayAccess
+class UpdateVerificationStatusRequestBody implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

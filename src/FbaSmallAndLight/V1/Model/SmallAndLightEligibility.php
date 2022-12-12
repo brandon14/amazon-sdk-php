@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FbaSmallAndLight\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FbaSmallAndLight\V1\ObjectSerializer;
 
 /**
  * SmallAndLightEligibility Class Doc Comment.
  *
  * @category Class
+ *
  * @description The Small and Light eligibility status of the item indicated by the specified seller SKU.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SmallAndLightEligibility implements ModelInterface, ArrayAccess
+class SmallAndLightEligibility implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

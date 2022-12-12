@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\ObjectSerializer;
 
 /**
  * TransactionStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description The payload for the getOrderScenarios operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TransactionStatus implements ModelInterface, ArrayAccess
+class TransactionStatus implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

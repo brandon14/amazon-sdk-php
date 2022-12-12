@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * PartneredEstimate Class Doc Comment.
  *
  * @category Class
+ *
  * @description The estimated shipping cost for a shipment using an Amazon-partnered carrier.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PartneredEstimate implements ModelInterface, ArrayAccess
+class PartneredEstimate implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

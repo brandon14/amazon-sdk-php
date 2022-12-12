@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Feeds\V20200904\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Feeds\V20200904\ObjectSerializer;
 
 /**
  * CancelFeedResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description Response schema.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CancelFeedResponse implements ModelInterface, ArrayAccess
+class CancelFeedResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

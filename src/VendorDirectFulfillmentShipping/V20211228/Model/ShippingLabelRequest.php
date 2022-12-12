@@ -60,7 +60,6 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\ObjectSerializer;
 
 /**
@@ -72,7 +71,7 @@ use TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\ObjectSerializer;
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ShippingLabelRequest implements ModelInterface, ArrayAccess
+class ShippingLabelRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
@@ -282,7 +281,7 @@ class ShippingLabelRequest implements ModelInterface, ArrayAccess
      */
     public function setPurchaseOrderNumber($purchase_order_number)
     {
-        if ((! preg_match('/^[a-zA-Z0-9]+$/', $purchase_order_number))) {
+        if (! preg_match('/^[a-zA-Z0-9]+$/', $purchase_order_number)) {
             throw new \InvalidArgumentException("invalid value for $purchase_order_number when calling ShippingLabelRequest., must conform to the pattern /^[a-zA-Z0-9]+$/.");
         }
 

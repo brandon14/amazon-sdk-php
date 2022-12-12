@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * AppointmentSlot Class Doc Comment.
  *
  * @category Class
+ *
  * @description A time window along with associated capacity in which the service can be performed.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AppointmentSlot implements ModelInterface, ArrayAccess
+class AppointmentSlot implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

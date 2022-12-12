@@ -64,6 +64,7 @@ namespace TNT\Amazon\ShipmentInvoicing\V0\Model;
  * ShipmentInvoiceStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description The shipment invoice status.
  *
  * @author   Swagger Codegen team

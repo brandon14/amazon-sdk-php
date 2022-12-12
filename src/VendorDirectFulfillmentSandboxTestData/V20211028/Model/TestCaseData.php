@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\ObjectSerializer;
 
 /**
  * TestCaseData Class Doc Comment.
  *
  * @category Class
+ *
  * @description The set of test case data returned in response to the test data request.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TestCaseData implements ModelInterface, ArrayAccess
+class TestCaseData implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

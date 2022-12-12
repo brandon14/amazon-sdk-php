@@ -64,6 +64,7 @@ namespace TNT\Amazon\MerchantFulfillment\V0\Model;
  * UnitOfLength Class Doc Comment.
  *
  * @category Class
+ *
  * @description The unit of length.
  *
  * @author   Swagger Codegen team

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * CreateScheduledPackagesRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request body for the POST /easyShip/2022-03-23/packages/bulk API.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateScheduledPackagesRequest implements ModelInterface, ArrayAccess
+class CreateScheduledPackagesRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

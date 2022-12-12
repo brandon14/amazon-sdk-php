@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * SellerReviewEnrollmentPaymentEventList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of information about fee events for the Early Reviewer Program.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SellerReviewEnrollmentPaymentEventList implements ModelInterface, ArrayAccess
+class SellerReviewEnrollmentPaymentEventList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

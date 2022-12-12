@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * PrepInstructionList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of preparation instructions to help with item sourcing decisions.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PrepInstructionList implements ModelInterface, ArrayAccess
+class PrepInstructionList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

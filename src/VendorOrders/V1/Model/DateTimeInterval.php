@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorOrders\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorOrders\V1\ObjectSerializer;
 
 /**
  * DateTimeInterval Class Doc Comment.
  *
  * @category Class
+ *
  * @description Defines a date time interval according to ISO8601. Interval is separated by double hyphen (--).
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class DateTimeInterval implements ModelInterface, ArrayAccess
+class DateTimeInterval implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * InboundShipmentHeader Class Doc Comment.
  *
  * @category Class
+ *
  * @description Inbound shipment information used to create and update inbound shipments.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class InboundShipmentHeader implements ModelInterface, ArrayAccess
+class InboundShipmentHeader implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

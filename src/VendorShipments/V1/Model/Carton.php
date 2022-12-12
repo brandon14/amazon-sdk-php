@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorShipments\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorShipments\V1\ObjectSerializer;
 
 /**
  * Carton Class Doc Comment.
  *
  * @category Class
+ *
  * @description Details of the carton/package being shipped.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Carton implements ModelInterface, ArrayAccess
+class Carton implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

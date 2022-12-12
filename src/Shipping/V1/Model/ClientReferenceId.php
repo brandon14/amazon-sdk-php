@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * ClientReferenceId Class Doc Comment.
  *
  * @category Class
+ *
  * @description Client reference id.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ClientReferenceId implements ModelInterface, ArrayAccess
+class ClientReferenceId implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

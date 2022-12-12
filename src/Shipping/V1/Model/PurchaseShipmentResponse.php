@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * PurchaseShipmentResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the purchaseShipment operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PurchaseShipmentResponse implements ModelInterface, ArrayAccess
+class PurchaseShipmentResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

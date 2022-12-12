@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Uploads\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Uploads\V20201101\ObjectSerializer;
 
 /**
  * UploadDestination Class Doc Comment.
  *
  * @category Class
+ *
  * @description Information about an upload destination.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class UploadDestination implements ModelInterface, ArrayAccess
+class UploadDestination implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * LabelFormatOption Class Doc Comment.
  *
  * @category Class
+ *
  * @description The label format details and whether to include a packing slip.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class LabelFormatOption implements ModelInterface, ArrayAccess
+class LabelFormatOption implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

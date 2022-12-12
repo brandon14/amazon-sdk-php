@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Sellers\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Sellers\V1\ObjectSerializer;
 
 /**
  * Marketplace Class Doc Comment.
  *
  * @category Class
+ *
  * @description Detailed information about an Amazon market where a seller can list items for sale and customers can view and purchase items.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Marketplace implements ModelInterface, ArrayAccess
+class Marketplace implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
@@ -352,7 +352,7 @@ class Marketplace implements ModelInterface, ArrayAccess
      */
     public function setCountryCode($country_code)
     {
-        if ((! preg_match('/^([A-Z]{2})$/', $country_code))) {
+        if (! preg_match('/^([A-Z]{2})$/', $country_code)) {
             throw new \InvalidArgumentException("invalid value for $country_code when calling Marketplace., must conform to the pattern /^([A-Z]{2})$/.");
         }
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * ItemLevelFieldsList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of item level fields.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemLevelFieldsList implements ModelInterface, ArrayAccess
+class ItemLevelFieldsList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * RangeSlot Class Doc Comment.
  *
  * @category Class
+ *
  * @description Capacity slots represented in a format similar to availability rules.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class RangeSlot implements ModelInterface, ArrayAccess
+class RangeSlot implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * StandardTextBlock Class Doc Comment.
  *
  * @category Class
+ *
  * @description The A+ Content standard text box block, comprised of a paragraph with a headline.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StandardTextBlock implements ModelInterface, ArrayAccess
+class StandardTextBlock implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

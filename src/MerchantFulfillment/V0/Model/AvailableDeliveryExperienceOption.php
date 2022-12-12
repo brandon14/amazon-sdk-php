@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * AvailableDeliveryExperienceOption Class Doc Comment.
  *
  * @category Class
+ *
  * @description The available delivery confirmation options, and the fee charged, if any.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AvailableDeliveryExperienceOption implements ModelInterface, ArrayAccess
+class AvailableDeliveryExperienceOption implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

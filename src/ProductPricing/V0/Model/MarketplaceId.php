@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * MarketplaceId Class Doc Comment.
  *
  * @category Class
+ *
  * @description A marketplace identifier. Specifies the marketplace for which prices are returned.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class MarketplaceId implements ModelInterface, ArrayAccess
+class MarketplaceId implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

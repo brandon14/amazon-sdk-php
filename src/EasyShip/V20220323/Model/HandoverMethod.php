@@ -64,6 +64,7 @@ namespace TNT\Amazon\EasyShip\V20220323\Model;
  * HandoverMethod Class Doc Comment.
  *
  * @category Class
+ *
  * @description Identifies the method by which a seller will hand a package over to Amazon Logistics.
  *
  * @author   Swagger Codegen team

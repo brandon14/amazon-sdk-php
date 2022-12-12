@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Messaging\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Messaging\V1\ObjectSerializer;
 
 /**
  * GetAttributesResponseBuyer Class Doc Comment.
  *
  * @category Class
+ *
  * @description The list of attributes related to the buyer.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetAttributesResponseBuyer implements ModelInterface, ArrayAccess
+class GetAttributesResponseBuyer implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

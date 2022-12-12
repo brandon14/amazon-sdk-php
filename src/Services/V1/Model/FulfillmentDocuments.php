@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * FulfillmentDocuments Class Doc Comment.
  *
  * @category Class
+ *
  * @description List of documents captured during service appointment fulfillment.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class FulfillmentDocuments implements ModelInterface, ArrayAccess
+class FulfillmentDocuments implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

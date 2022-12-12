@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * GetFeatureInventoryResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The breakdown of eligibility inventory by feature.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetFeatureInventoryResponse implements ModelInterface, ArrayAccess
+class GetFeatureInventoryResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

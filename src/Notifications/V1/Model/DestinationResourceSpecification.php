@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Notifications\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Notifications\V1\ObjectSerializer;
 
 /**
  * DestinationResourceSpecification Class Doc Comment.
  *
  * @category Class
+ *
  * @description The information required to create a destination resource. Applications should use one resource type (sqs or eventBridge) per destination.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class DestinationResourceSpecification implements ModelInterface, ArrayAccess
+class DestinationResourceSpecification implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

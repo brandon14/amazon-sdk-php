@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * CreateScheduledPackagesResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the bulk scheduling API. It returns by the bulk scheduling API containing an array of the scheduled packtages, an optional list of orders we couldn&#39;t schedule with the reason, and a pre-signed URL for a ZIP file containing the associated shipping labels plus the documents enabled for your marketplace.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateScheduledPackagesResponse implements ModelInterface, ArrayAccess
+class CreateScheduledPackagesResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

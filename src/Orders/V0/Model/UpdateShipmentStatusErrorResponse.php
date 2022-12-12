@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * UpdateShipmentStatusErrorResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The error response schema for the UpdateShipmentStatus operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class UpdateShipmentStatusErrorResponse implements ModelInterface, ArrayAccess
+class UpdateShipmentStatusErrorResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * ContainerReferenceId Class Doc Comment.
  *
  * @category Class
+ *
  * @description An identifier for the container. This must be unique within all the containers in the same shipment.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ContainerReferenceId implements ModelInterface, ArrayAccess
+class ContainerReferenceId implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

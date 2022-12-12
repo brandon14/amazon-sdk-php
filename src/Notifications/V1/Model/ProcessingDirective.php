@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Notifications\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Notifications\V1\ObjectSerializer;
 
 /**
  * ProcessingDirective Class Doc Comment.
  *
  * @category Class
+ *
  * @description Additional information passed to the subscription to control the processing of notifications. For example, you can use an eventFilter to customize your subscription to send notifications for only the specified marketplaceId&#39;s, or select the aggregation time period at which to send notifications (e.g. limit to one notification every five minutes for high frequency notifications). The specific features available vary depending on the notificationType.  This feature is limited to specific notificationTypes and is currently only supported by the ANY_OFFER_CHANGED notificationType.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ProcessingDirective implements ModelInterface, ArrayAccess
+class ProcessingDirective implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

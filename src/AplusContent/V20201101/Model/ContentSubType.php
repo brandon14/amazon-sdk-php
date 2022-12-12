@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * ContentSubType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The A+ Content document subtype. This represents a special-purpose type of an A+ Content document. Not every A+ Content document type will have a subtype, and subtypes may change at any time.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ContentSubType implements ModelInterface, ArrayAccess
+class ContentSubType implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

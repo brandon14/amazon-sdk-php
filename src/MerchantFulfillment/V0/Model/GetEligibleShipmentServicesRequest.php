@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * GetEligibleShipmentServicesRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description Request schema.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetEligibleShipmentServicesRequest implements ModelInterface, ArrayAccess
+class GetEligibleShipmentServicesRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

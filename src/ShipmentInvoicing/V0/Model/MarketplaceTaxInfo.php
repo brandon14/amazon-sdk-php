@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ShipmentInvoicing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ShipmentInvoicing\V0\ObjectSerializer;
 
 /**
  * MarketplaceTaxInfo Class Doc Comment.
  *
  * @category Class
+ *
  * @description Tax information about the marketplace.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class MarketplaceTaxInfo implements ModelInterface, ArrayAccess
+class MarketplaceTaxInfo implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

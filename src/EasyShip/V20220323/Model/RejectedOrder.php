@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * RejectedOrder Class Doc Comment.
  *
  * @category Class
+ *
  * @description A order which we couldn&#39;t schedule on your behalf. It contains its id, and information on the error.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class RejectedOrder implements ModelInterface, ArrayAccess
+class RejectedOrder implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

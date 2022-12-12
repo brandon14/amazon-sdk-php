@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * Asin Class Doc Comment.
  *
  * @category Class
+ *
  * @description The Amazon Standard Identification Number (ASIN) of the item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Asin implements ModelInterface, ArrayAccess
+class Asin implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

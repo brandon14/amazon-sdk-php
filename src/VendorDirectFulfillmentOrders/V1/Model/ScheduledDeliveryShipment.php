@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentOrders\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentOrders\V1\ObjectSerializer;
 
 /**
  * ScheduledDeliveryShipment Class Doc Comment.
  *
  * @category Class
+ *
  * @description Dates for the scheduled delivery shipments.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ScheduledDeliveryShipment implements ModelInterface, ArrayAccess
+class ScheduledDeliveryShipment implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

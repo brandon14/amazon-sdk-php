@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * GetBillOfLadingResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the getBillOfLading operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetBillOfLadingResponse implements ModelInterface, ArrayAccess
+class GetBillOfLadingResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

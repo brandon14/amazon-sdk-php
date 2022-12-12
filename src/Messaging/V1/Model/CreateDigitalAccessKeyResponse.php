@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Messaging\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Messaging\V1\ObjectSerializer;
 
 /**
  * CreateDigitalAccessKeyResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the createDigitalAccessKey operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateDigitalAccessKeyResponse implements ModelInterface, ArrayAccess
+class CreateDigitalAccessKeyResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

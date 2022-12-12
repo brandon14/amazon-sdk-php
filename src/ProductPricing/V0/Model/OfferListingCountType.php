@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * OfferListingCountType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The number of offer listings with the specified condition.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class OfferListingCountType implements ModelInterface, ArrayAccess
+class OfferListingCountType implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

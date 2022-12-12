@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * ASINInboundGuidance Class Doc Comment.
  *
  * @category Class
+ *
  * @description Reasons why a given ASIN is not recommended for shipment to Amazon&#39;s fulfillment network.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ASINInboundGuidance implements ModelInterface, ArrayAccess
+class ASINInboundGuidance implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

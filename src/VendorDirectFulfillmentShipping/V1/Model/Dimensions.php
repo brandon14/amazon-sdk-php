@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentShipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentShipping\V1\ObjectSerializer;
 
 /**
  * Dimensions Class Doc Comment.
  *
  * @category Class
+ *
  * @description Physical dimensional measurements of a container.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Dimensions implements ModelInterface, ArrayAccess
+class Dimensions implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

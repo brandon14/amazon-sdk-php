@@ -64,6 +64,7 @@ namespace TNT\Amazon\MerchantFulfillment\V0\Model;
  * FileType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The file type for a label.
  *
  * @author   Swagger Codegen team

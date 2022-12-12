@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorShipments\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorShipments\V1\ObjectSerializer;
 
 /**
  * Route Class Doc Comment.
  *
  * @category Class
+ *
  * @description This is used only for direct import shipment confirmations.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Route implements ModelInterface, ArrayAccess
+class Route implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

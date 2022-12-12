@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * MessageSet Class Doc Comment.
  *
  * @category Class
+ *
  * @description A set of messages to the user, such as warnings or comments.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class MessageSet implements ModelInterface, ArrayAccess
+class MessageSet implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

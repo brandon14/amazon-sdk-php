@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * SellerDealPaymentEvent Class Doc Comment.
  *
  * @category Class
+ *
  * @description An event linked to the payment of a fee related to the specified deal.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SellerDealPaymentEvent implements ModelInterface, ArrayAccess
+class SellerDealPaymentEvent implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

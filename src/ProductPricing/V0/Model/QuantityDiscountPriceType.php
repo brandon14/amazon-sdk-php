@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * QuantityDiscountPriceType Class Doc Comment.
  *
  * @category Class
+ *
  * @description Contains pricing information that includes special pricing when buying in bulk.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class QuantityDiscountPriceType implements ModelInterface, ArrayAccess
+class QuantityDiscountPriceType implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

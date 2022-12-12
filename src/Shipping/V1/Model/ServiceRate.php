@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * ServiceRate Class Doc Comment.
  *
  * @category Class
+ *
  * @description The specific rate for a shipping service, or null if no service available.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ServiceRate implements ModelInterface, ArrayAccess
+class ServiceRate implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

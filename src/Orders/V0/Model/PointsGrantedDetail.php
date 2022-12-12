@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * PointsGrantedDetail Class Doc Comment.
  *
  * @category Class
+ *
  * @description The number of Amazon Points offered with the purchase of an item, and their monetary value.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PointsGrantedDetail implements ModelInterface, ArrayAccess
+class PointsGrantedDetail implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

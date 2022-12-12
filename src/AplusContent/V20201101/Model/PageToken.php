@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * PageToken Class Doc Comment.
  *
  * @category Class
+ *
  * @description A page token that is returned when the results of the call exceed the page size. To get another page of results, call the operation again, passing in this value with the pageToken parameter.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PageToken implements ModelInterface, ArrayAccess
+class PageToken implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

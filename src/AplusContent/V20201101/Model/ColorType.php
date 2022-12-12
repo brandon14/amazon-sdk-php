@@ -64,6 +64,7 @@ namespace TNT\Amazon\AplusContent\V20201101\Model;
  * ColorType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The relative color scheme of content.
  *
  * @author   Swagger Codegen team

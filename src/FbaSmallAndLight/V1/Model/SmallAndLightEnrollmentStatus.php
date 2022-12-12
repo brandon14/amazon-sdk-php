@@ -64,6 +64,7 @@ namespace TNT\Amazon\FbaSmallAndLight\V1\Model;
  * SmallAndLightEnrollmentStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description The Small and Light enrollment status of the item.
  *
  * @author   Swagger Codegen team

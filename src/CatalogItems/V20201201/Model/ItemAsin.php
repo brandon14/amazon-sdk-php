@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V20201201\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V20201201\ObjectSerializer;
 
 /**
  * ItemAsin Class Doc Comment.
  *
  * @category Class
+ *
  * @description Amazon Standard Identification Number (ASIN) is the unique identifier for an item in the Amazon catalog.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemAsin implements ModelInterface, ArrayAccess
+class ItemAsin implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

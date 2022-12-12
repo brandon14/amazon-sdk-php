@@ -64,6 +64,7 @@ namespace TNT\Amazon\MerchantFulfillment\V0\Model;
  * DeliveryExperienceOption Class Doc Comment.
  *
  * @category Class
+ *
  * @description The delivery confirmation level.
  *
  * @author   Swagger Codegen team

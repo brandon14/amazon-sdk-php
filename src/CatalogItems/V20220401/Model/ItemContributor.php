@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V20220401\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V20220401\ObjectSerializer;
 
 /**
  * ItemContributor Class Doc Comment.
  *
  * @category Class
+ *
  * @description Individual contributor to the creation of an item, such as an author or actor.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemContributor implements ModelInterface, ArrayAccess
+class ItemContributor implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

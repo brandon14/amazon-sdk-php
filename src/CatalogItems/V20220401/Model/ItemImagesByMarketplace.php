@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V20220401\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V20220401\ObjectSerializer;
 
 /**
  * ItemImagesByMarketplace Class Doc Comment.
  *
  * @category Class
+ *
  * @description Images for an item in the Amazon catalog for the indicated Amazon marketplace.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemImagesByMarketplace implements ModelInterface, ArrayAccess
+class ItemImagesByMarketplace implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

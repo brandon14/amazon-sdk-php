@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\ObjectSerializer;
 
 /**
  * PartyIdentification Class Doc Comment.
  *
  * @category Class
+ *
  * @description The identification object for the party information. For example, warehouse code or vendor code. Please refer to specific party for more details.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PartyIdentification implements ModelInterface, ArrayAccess
+class PartyIdentification implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

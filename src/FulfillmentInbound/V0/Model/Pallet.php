@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * Pallet Class Doc Comment.
  *
  * @category Class
+ *
  * @description Pallet information.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Pallet implements ModelInterface, ArrayAccess
+class Pallet implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

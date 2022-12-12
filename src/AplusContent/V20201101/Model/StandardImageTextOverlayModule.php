@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * StandardImageTextOverlayModule Class Doc Comment.
  *
  * @category Class
+ *
  * @description A standard background image with a floating text box.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StandardImageTextOverlayModule implements ModelInterface, ArrayAccess
+class StandardImageTextOverlayModule implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Solicitations\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Solicitations\V1\ObjectSerializer;
 
 /**
  * CreateProductReviewAndSellerFeedbackSolicitationResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the createProductReviewAndSellerFeedbackSolicitation operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateProductReviewAndSellerFeedbackSolicitationResponse implements ModelInterface, ArrayAccess
+class CreateProductReviewAndSellerFeedbackSolicitationResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

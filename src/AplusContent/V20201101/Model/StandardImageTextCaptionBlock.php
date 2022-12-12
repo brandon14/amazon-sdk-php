@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * StandardImageTextCaptionBlock Class Doc Comment.
  *
  * @category Class
+ *
  * @description The A+ Content standard image and text block, with a related caption. The caption may not display on all devices.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StandardImageTextCaptionBlock implements ModelInterface, ArrayAccess
+class StandardImageTextCaptionBlock implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

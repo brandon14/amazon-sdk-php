@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * AmazonOrderId Class Doc Comment.
  *
  * @category Class
+ *
  * @description An Amazon-defined order identifier. Identifies the order that the seller wants to deliver using Amazon Easy Ship.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AmazonOrderId implements ModelInterface, ArrayAccess
+class AmazonOrderId implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

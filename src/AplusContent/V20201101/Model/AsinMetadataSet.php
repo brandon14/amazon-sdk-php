@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * AsinMetadataSet Class Doc Comment.
  *
  * @category Class
+ *
  * @description The set of ASIN metadata.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AsinMetadataSet implements ModelInterface, ArrayAccess
+class AsinMetadataSet implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

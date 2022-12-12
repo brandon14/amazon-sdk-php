@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V20220401\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V20220401\ObjectSerializer;
 
 /**
  * ItemDimensions Class Doc Comment.
  *
  * @category Class
+ *
  * @description Array of dimensions associated with the item in the Amazon catalog by Amazon marketplace.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemDimensions implements ModelInterface, ArrayAccess
+class ItemDimensions implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

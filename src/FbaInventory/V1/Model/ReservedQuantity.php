@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FbaInventory\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FbaInventory\V1\ObjectSerializer;
 
 /**
  * ReservedQuantity Class Doc Comment.
  *
  * @category Class
+ *
  * @description The quantity of reserved inventory.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ReservedQuantity implements ModelInterface, ArrayAccess
+class ReservedQuantity implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

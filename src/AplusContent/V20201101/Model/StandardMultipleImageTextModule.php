@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * StandardMultipleImageTextModule Class Doc Comment.
  *
  * @category Class
+ *
  * @description Standard images with text, presented one at a time. The user clicks on thumbnails to view each block.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StandardMultipleImageTextModule implements ModelInterface, ArrayAccess
+class StandardMultipleImageTextModule implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

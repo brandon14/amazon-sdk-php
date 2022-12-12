@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * DirectPayment Class Doc Comment.
  *
  * @category Class
+ *
  * @description A payment made directly to a seller.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class DirectPayment implements ModelInterface, ArrayAccess
+class DirectPayment implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -64,6 +64,7 @@ namespace TNT\Amazon\AplusContent\V20201101\Model;
  * ContentStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description The submission status of the content document.
  *
  * @author   Swagger Codegen team

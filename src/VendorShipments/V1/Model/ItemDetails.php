@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorShipments\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorShipments\V1\ObjectSerializer;
 
 /**
  * ItemDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description Item details for be provided for every item in shipment at either the item or carton or pallet level, whichever is appropriate.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemDetails implements ModelInterface, ArrayAccess
+class ItemDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

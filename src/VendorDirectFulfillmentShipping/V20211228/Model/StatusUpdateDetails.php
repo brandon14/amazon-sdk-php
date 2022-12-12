@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\ObjectSerializer;
 
 /**
  * StatusUpdateDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description Details for the shipment status update given by the vendor for the specific package.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StatusUpdateDetails implements ModelInterface, ArrayAccess
+class StatusUpdateDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

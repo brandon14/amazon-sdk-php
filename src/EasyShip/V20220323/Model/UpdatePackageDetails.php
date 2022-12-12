@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * UpdatePackageDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description Request to update the time slot of a package.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class UpdatePackageDetails implements ModelInterface, ArrayAccess
+class UpdatePackageDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

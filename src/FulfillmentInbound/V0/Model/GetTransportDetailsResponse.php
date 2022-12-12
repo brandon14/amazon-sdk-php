@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * GetTransportDetailsResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the getTransportDetails operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetTransportDetailsResponse implements ModelInterface, ArrayAccess
+class GetTransportDetailsResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

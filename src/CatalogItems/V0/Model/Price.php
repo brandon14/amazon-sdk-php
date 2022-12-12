@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V0\ObjectSerializer;
 
 /**
  * Price Class Doc Comment.
  *
  * @category Class
+ *
  * @description The price attribute of the item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Price implements ModelInterface, ArrayAccess
+class Price implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

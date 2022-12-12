@@ -64,6 +64,7 @@ namespace TNT\Amazon\MerchantFulfillment\V0\Model;
  * InputTargetType Class Doc Comment.
  *
  * @category Class
+ *
  * @description Indicates whether the additional seller input is at the item or shipment level.
  *
  * @author   Swagger Codegen team

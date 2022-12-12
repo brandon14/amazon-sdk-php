@@ -64,6 +64,7 @@ namespace TNT\Amazon\AplusContent\V20201101\Model;
  * DecoratorType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The type of rich text decorator.
  *
  * @author   Swagger Codegen team

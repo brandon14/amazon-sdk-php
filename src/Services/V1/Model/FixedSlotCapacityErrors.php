@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * FixedSlotCapacityErrors Class Doc Comment.
  *
  * @category Class
+ *
  * @description The error response schema for the &#x60;getFixedSlotCapacity&#x60; operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class FixedSlotCapacityErrors implements ModelInterface, ArrayAccess
+class FixedSlotCapacityErrors implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

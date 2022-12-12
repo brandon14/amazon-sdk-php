@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ListingsItems\V20210801\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ListingsItems\V20210801\ObjectSerializer;
 
 /**
  * ItemOffers Class Doc Comment.
  *
  * @category Class
+ *
  * @description Offer details for the listings item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemOffers implements ModelInterface, ArrayAccess
+class ItemOffers implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

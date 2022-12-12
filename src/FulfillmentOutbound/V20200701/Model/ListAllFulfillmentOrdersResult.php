@@ -60,7 +60,6 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
@@ -72,7 +71,7 @@ use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ListAllFulfillmentOrdersResult implements ModelInterface, ArrayAccess
+class ListAllFulfillmentOrdersResult implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

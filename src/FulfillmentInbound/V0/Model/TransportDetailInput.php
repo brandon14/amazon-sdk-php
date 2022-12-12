@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * TransportDetailInput Class Doc Comment.
  *
  * @category Class
+ *
  * @description Information required to create an Amazon-partnered carrier shipping estimate, or to alert the Amazon fulfillment center to the arrival of an inbound shipment by a non-Amazon-partnered carrier.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TransportDetailInput implements ModelInterface, ArrayAccess
+class TransportDetailInput implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

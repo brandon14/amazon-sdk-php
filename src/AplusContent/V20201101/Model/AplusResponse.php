@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * AplusResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The base response data for all A+ Content operations when a request is successful or partially successful. Individual operations may extend this with additional data.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AplusResponse implements ModelInterface, ArrayAccess
+class AplusResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

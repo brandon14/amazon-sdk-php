@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * ReturnAuthorization Class Doc Comment.
  *
  * @category Class
+ *
  * @description Return authorization information for items accepted for return.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ReturnAuthorization implements ModelInterface, ArrayAccess
+class ReturnAuthorization implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

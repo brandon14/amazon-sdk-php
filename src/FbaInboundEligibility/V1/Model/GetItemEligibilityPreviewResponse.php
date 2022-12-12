@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FbaInboundEligibility\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FbaInboundEligibility\V1\ObjectSerializer;
 
 /**
  * GetItemEligibilityPreviewResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the getItemEligibilityPreview operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetItemEligibilityPreviewResponse implements ModelInterface, ArrayAccess
+class GetItemEligibilityPreviewResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

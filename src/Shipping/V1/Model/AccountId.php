@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * AccountId Class Doc Comment.
  *
  * @category Class
+ *
  * @description This is the Amazon Shipping account id generated during the Amazon Shipping onboarding process.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AccountId implements ModelInterface, ArrayAccess
+class AccountId implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

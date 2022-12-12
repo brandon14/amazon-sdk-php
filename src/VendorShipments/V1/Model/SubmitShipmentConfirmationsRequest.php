@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorShipments\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorShipments\V1\ObjectSerializer;
 
 /**
  * SubmitShipmentConfirmationsRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request schema for the SubmitShipmentConfirmations operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SubmitShipmentConfirmationsRequest implements ModelInterface, ArrayAccess
+class SubmitShipmentConfirmationsRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

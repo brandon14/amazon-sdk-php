@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * EventCode Class Doc Comment.
  *
  * @category Class
+ *
  * @description The event code of a shipment, such as Departed, Received, and ReadyForReceive.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class EventCode implements ModelInterface, ArrayAccess
+class EventCode implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * StateOrProvinceCode Class Doc Comment.
  *
  * @category Class
+ *
  * @description The state or province code. **Note.** Required in the Canada, US, and UK marketplaces. Also required for shipments originating from China.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StateOrProvinceCode implements ModelInterface, ArrayAccess
+class StateOrProvinceCode implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

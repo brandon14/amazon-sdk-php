@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Sellers\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Sellers\V1\ObjectSerializer;
 
 /**
  * MarketplaceParticipationList Class Doc Comment.
  *
  * @category Class
+ *
  * @description List of marketplace participations.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class MarketplaceParticipationList implements ModelInterface, ArrayAccess
+class MarketplaceParticipationList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

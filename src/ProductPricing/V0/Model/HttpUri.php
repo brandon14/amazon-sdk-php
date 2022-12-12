@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * HttpUri Class Doc Comment.
  *
  * @category Class
+ *
  * @description The URI associated with the individual APIs being called as part of the batch request.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class HttpUri implements ModelInterface, ArrayAccess
+class HttpUri implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

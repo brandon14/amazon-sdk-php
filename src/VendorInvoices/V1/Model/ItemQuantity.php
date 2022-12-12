@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorInvoices\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorInvoices\V1\ObjectSerializer;
 
 /**
  * ItemQuantity Class Doc Comment.
  *
  * @category Class
+ *
  * @description Details of quantity.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemQuantity implements ModelInterface, ArrayAccess
+class ItemQuantity implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

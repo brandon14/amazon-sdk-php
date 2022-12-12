@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorInvoices\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorInvoices\V1\ObjectSerializer;
 
 /**
  * ChargeDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description Monetary and tax details of the charge.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ChargeDetails implements ModelInterface, ArrayAccess
+class ChargeDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

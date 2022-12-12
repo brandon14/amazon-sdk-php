@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * OrderAddress Class Doc Comment.
  *
  * @category Class
+ *
  * @description The shipping address for the order.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class OrderAddress implements ModelInterface, ArrayAccess
+class OrderAddress implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

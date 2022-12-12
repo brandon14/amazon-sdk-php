@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ListingsRestrictions\V20210801\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ListingsRestrictions\V20210801\ObjectSerializer;
 
 /**
  * Reason Class Doc Comment.
  *
  * @category Class
+ *
  * @description A reason for the restriction, including path forward links that may allow Selling Partners to remove the restriction, if available.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Reason implements ModelInterface, ArrayAccess
+class Reason implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

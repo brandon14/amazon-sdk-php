@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * CreateFulfillmentOrderRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request body schema for the createFulfillmentOrder operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
+class CreateFulfillmentOrderRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
@@ -305,14 +305,14 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
         if ($this->container['seller_fulfillment_order_id'] === null) {
             $invalidProperties[] = "'seller_fulfillment_order_id' can't be null";
         }
-        if ((mb_strlen($this->container['seller_fulfillment_order_id']) > 40)) {
+        if (mb_strlen($this->container['seller_fulfillment_order_id']) > 40) {
             $invalidProperties[] = "invalid value for 'seller_fulfillment_order_id', the character length must be smaller than or equal to 40.";
         }
 
         if ($this->container['displayable_order_id'] === null) {
             $invalidProperties[] = "'displayable_order_id' can't be null";
         }
-        if ((mb_strlen($this->container['displayable_order_id']) > 40)) {
+        if (mb_strlen($this->container['displayable_order_id']) > 40) {
             $invalidProperties[] = "invalid value for 'displayable_order_id', the character length must be smaller than or equal to 40.";
         }
 
@@ -322,7 +322,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
         if ($this->container['displayable_order_comment'] === null) {
             $invalidProperties[] = "'displayable_order_comment' can't be null";
         }
-        if ((mb_strlen($this->container['displayable_order_comment']) > 1000)) {
+        if (mb_strlen($this->container['displayable_order_comment']) > 1000) {
             $invalidProperties[] = "invalid value for 'displayable_order_comment', the character length must be smaller than or equal to 1000.";
         }
 
@@ -393,7 +393,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
      */
     public function setSellerFulfillmentOrderId($seller_fulfillment_order_id)
     {
-        if ((mb_strlen($seller_fulfillment_order_id) > 40)) {
+        if (mb_strlen($seller_fulfillment_order_id) > 40) {
             throw new \InvalidArgumentException('invalid length for $seller_fulfillment_order_id when calling CreateFulfillmentOrderRequest., must be smaller than or equal to 40.');
         }
 
@@ -421,7 +421,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
      */
     public function setDisplayableOrderId($displayable_order_id)
     {
-        if ((mb_strlen($displayable_order_id) > 40)) {
+        if (mb_strlen($displayable_order_id) > 40) {
             throw new \InvalidArgumentException('invalid length for $displayable_order_id when calling CreateFulfillmentOrderRequest., must be smaller than or equal to 40.');
         }
 
@@ -473,7 +473,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
      */
     public function setDisplayableOrderComment($displayable_order_comment)
     {
-        if ((mb_strlen($displayable_order_comment) > 1000)) {
+        if (mb_strlen($displayable_order_comment) > 1000) {
             throw new \InvalidArgumentException('invalid length for $displayable_order_comment when calling CreateFulfillmentOrderRequest., must be smaller than or equal to 1000.');
         }
 

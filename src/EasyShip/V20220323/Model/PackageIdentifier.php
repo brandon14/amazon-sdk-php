@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\EasyShip\V20220323\Model;
 
-use ArrayAccess;
 use TNT\Amazon\EasyShip\V20220323\ObjectSerializer;
 
 /**
  * PackageIdentifier Class Doc Comment.
  *
  * @category Class
+ *
  * @description Optional seller-created identifier that is printed on the shipping label to help the seller identify the package.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PackageIdentifier implements ModelInterface, ArrayAccess
+class PackageIdentifier implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

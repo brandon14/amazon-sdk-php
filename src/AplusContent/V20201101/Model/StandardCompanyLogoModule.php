@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * StandardCompanyLogoModule Class Doc Comment.
  *
  * @category Class
+ *
  * @description The standard company logo image.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StandardCompanyLogoModule implements ModelInterface, ArrayAccess
+class StandardCompanyLogoModule implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

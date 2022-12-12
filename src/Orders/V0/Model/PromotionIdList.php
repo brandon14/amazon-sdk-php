@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * PromotionIdList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of promotion identifiers provided by the seller when the promotions were created.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PromotionIdList implements ModelInterface, ArrayAccess
+class PromotionIdList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

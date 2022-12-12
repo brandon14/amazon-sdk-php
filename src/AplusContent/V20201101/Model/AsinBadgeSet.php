@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * AsinBadgeSet Class Doc Comment.
  *
  * @category Class
+ *
  * @description The set of ASIN badges.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AsinBadgeSet implements ModelInterface, ArrayAccess
+class AsinBadgeSet implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

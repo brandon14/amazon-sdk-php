@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ShipmentInvoicing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ShipmentInvoicing\V0\ObjectSerializer;
 
 /**
  * ShipmentItem Class Doc Comment.
  *
  * @category Class
+ *
  * @description The shipment item information required by a seller to issue a shipment invoice.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ShipmentItem implements ModelInterface, ArrayAccess
+class ShipmentItem implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

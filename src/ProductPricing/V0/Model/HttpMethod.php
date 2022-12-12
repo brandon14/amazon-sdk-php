@@ -64,6 +64,7 @@ namespace TNT\Amazon\ProductPricing\V0\Model;
  * HttpMethod Class Doc Comment.
  *
  * @category Class
+ *
  * @description The HTTP method associated with the individual APIs being called as part of the batch request.
  *
  * @author   Swagger Codegen team

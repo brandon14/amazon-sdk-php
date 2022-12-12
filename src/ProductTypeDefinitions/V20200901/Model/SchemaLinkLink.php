@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductTypeDefinitions\V20200901\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductTypeDefinitions\V20200901\ObjectSerializer;
 
 /**
  * SchemaLinkLink Class Doc Comment.
  *
  * @category Class
+ *
  * @description Link to retrieve the schema.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SchemaLinkLink implements ModelInterface, ArrayAccess
+class SchemaLinkLink implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

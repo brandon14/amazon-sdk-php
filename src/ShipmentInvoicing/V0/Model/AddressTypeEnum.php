@@ -64,6 +64,7 @@ namespace TNT\Amazon\ShipmentInvoicing\V0\Model;
  * AddressTypeEnum Class Doc Comment.
  *
  * @category Class
+ *
  * @description The shipping address type.
  *
  * @author   Swagger Codegen team

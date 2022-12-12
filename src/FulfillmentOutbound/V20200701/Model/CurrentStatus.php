@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
  * CurrentStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description The current delivery status of the package.
  *
  * @author   Swagger Codegen team

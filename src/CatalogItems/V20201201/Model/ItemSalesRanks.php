@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V20201201\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V20201201\ObjectSerializer;
 
 /**
  * ItemSalesRanks Class Doc Comment.
  *
  * @category Class
+ *
  * @description Sales ranks of an Amazon catalog item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemSalesRanks implements ModelInterface, ArrayAccess
+class ItemSalesRanks implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

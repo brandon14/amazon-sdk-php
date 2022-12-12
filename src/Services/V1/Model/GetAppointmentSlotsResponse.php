@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * GetAppointmentSlotsResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response of fetching appointment slots based on service context.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetAppointmentSlotsResponse implements ModelInterface, ArrayAccess
+class GetAppointmentSlotsResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * HttpResponseHeaders Class Doc Comment.
  *
  * @category Class
+ *
  * @description A mapping of additional HTTP headers to send/receive for the individual batch request.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class HttpResponseHeaders implements ModelInterface, ArrayAccess
+class HttpResponseHeaders implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * DetailedShippingTimeType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The time range in which an item will likely be shipped once an order has been placed.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class DetailedShippingTimeType implements ModelInterface, ArrayAccess
+class DetailedShippingTimeType implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

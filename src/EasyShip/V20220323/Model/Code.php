@@ -64,6 +64,7 @@ namespace TNT\Amazon\EasyShip\V20220323\Model;
  * Code Class Doc Comment.
  *
  * @category Class
+ *
  * @description An error code that identifies the type of error that occurred. The error codes listed below are specific to the Easy Ship section.
  *
  * @author   Swagger Codegen team

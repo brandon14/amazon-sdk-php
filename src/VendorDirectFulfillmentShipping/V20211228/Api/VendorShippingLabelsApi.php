@@ -378,7 +378,7 @@ class VendorShippingLabelsApi
         // Path params.
         if ($purchase_order_number !== null) {
             $resourcePath = str_replace(
-                '{'.'purchaseOrderNumber'.'}',
+                '{purchaseOrderNumber}',
                 ObjectSerializer::toPathValue($purchase_order_number),
                 $resourcePath
             );
@@ -698,7 +698,7 @@ class VendorShippingLabelsApi
         // Path params.
         if ($purchase_order_number !== null) {
             $resourcePath = str_replace(
-                '{'.'purchaseOrderNumber'.'}',
+                '{purchaseOrderNumber}',
                 ObjectSerializer::toPathValue($purchase_order_number),
                 $resourcePath
             );

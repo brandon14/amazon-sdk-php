@@ -60,7 +60,6 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
@@ -72,7 +71,7 @@ use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class BigDecimalType implements ModelInterface, ArrayAccess
+class BigDecimalType implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
  * InvalidItemReasonCode Class Doc Comment.
  *
  * @category Class
+ *
  * @description A code for why the item is invalid for return.
  *
  * @author   Swagger Codegen team

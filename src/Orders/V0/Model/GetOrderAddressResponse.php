@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Orders\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Orders\V0\ObjectSerializer;
 
 /**
  * GetOrderAddressResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the getOrderAddress operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetOrderAddressResponse implements ModelInterface, ArrayAccess
+class GetOrderAddressResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

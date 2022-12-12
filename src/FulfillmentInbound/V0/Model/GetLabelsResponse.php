@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * GetLabelsResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the getLabels operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetLabelsResponse implements ModelInterface, ArrayAccess
+class GetLabelsResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * AdditionalInputsList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of additional inputs.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AdditionalInputsList implements ModelInterface, ArrayAccess
+class AdditionalInputsList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

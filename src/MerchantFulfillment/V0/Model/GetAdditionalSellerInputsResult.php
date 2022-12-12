@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * GetAdditionalSellerInputsResult Class Doc Comment.
  *
  * @category Class
+ *
  * @description The payload for the getAdditionalSellerInputs operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetAdditionalSellerInputsResult implements ModelInterface, ArrayAccess
+class GetAdditionalSellerInputsResult implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

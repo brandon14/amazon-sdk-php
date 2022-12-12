@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Notifications\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Notifications\V1\ObjectSerializer;
 
 /**
  * AggregationFilter Class Doc Comment.
  *
  * @category Class
+ *
  * @description Use this filter to select the aggregation time period at which to send notifications (e.g. limit to one notification every five minutes for high frequency notifications).
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AggregationFilter implements ModelInterface, ArrayAccess
+class AggregationFilter implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

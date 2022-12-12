@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * StandardImageSidebarModule Class Doc Comment.
  *
  * @category Class
+ *
  * @description Two images, two paragraphs, and two bulleted lists. One image is smaller and displayed in the sidebar.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StandardImageSidebarModule implements ModelInterface, ArrayAccess
+class StandardImageSidebarModule implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

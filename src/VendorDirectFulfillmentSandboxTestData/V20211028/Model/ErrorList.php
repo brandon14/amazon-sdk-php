@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentSandboxTestData\V20211028\ObjectSerializer;
 
 /**
  * ErrorList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of error responses returned when a request is unsuccessful.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ErrorList implements ModelInterface, ArrayAccess
+class ErrorList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

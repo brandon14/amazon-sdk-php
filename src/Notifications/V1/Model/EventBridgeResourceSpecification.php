@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Notifications\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Notifications\V1\ObjectSerializer;
 
 /**
  * EventBridgeResourceSpecification Class Doc Comment.
  *
  * @category Class
+ *
  * @description The information required to create an Amazon EventBridge destination.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class EventBridgeResourceSpecification implements ModelInterface, ArrayAccess
+class EventBridgeResourceSpecification implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

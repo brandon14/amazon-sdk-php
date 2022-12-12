@@ -60,7 +60,6 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Solicitations\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Solicitations\V1\ObjectSerializer;
 
 /**
@@ -72,7 +71,7 @@ use TNT\Amazon\Solicitations\V1\ObjectSerializer;
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetSolicitationActionsForOrderResponseLinks implements ModelInterface, ArrayAccess
+class GetSolicitationActionsForOrderResponseLinks implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

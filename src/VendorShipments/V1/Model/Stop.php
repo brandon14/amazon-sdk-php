@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorShipments\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorShipments\V1\ObjectSerializer;
 
 /**
  * Stop Class Doc Comment.
  *
  * @category Class
+ *
  * @description Contractual or operational port or point relevant to the movement of the cargo.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Stop implements ModelInterface, ArrayAccess
+class Stop implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

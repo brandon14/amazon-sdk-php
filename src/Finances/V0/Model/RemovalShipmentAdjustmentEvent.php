@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * RemovalShipmentAdjustmentEvent Class Doc Comment.
  *
  * @category Class
+ *
  * @description A financial adjustment event for FBA liquidated inventory. A positive value indicates money owed to Amazon by the buyer (for example, when the charge was incorrectly calculated as less than it should be). A negative value indicates a full or partial refund owed to the buyer (for example, when the buyer receives damaged items or fewer items than ordered).
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class RemovalShipmentAdjustmentEvent implements ModelInterface, ArrayAccess
+class RemovalShipmentAdjustmentEvent implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

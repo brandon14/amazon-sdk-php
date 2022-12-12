@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * ContentReferenceKeySet Class Doc Comment.
  *
  * @category Class
+ *
  * @description A set of content reference keys.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ContentReferenceKeySet implements ModelInterface, ArrayAccess
+class ContentReferenceKeySet implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

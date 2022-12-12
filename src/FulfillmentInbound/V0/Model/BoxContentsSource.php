@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentInbound\V0\Model;
  * BoxContentsSource Class Doc Comment.
  *
  * @category Class
+ *
  * @description Where the seller provided box contents information for a shipment.
  *
  * @author   Swagger Codegen team

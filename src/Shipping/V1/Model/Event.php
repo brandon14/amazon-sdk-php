@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * Event Class Doc Comment.
  *
  * @category Class
+ *
  * @description An event of a shipment
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Event implements ModelInterface, ArrayAccess
+class Event implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

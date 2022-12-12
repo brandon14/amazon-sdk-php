@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FbaSmallAndLight\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FbaSmallAndLight\V1\ObjectSerializer;
 
 /**
  * SellerSKU Class Doc Comment.
  *
  * @category Class
+ *
  * @description Identifies an item in the given marketplace. SellerSKU is qualified by the seller&#39;s SellerId, which is included with every operation that you submit.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SellerSKU implements ModelInterface, ArrayAccess
+class SellerSKU implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

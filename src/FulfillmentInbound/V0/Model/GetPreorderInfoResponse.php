@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * GetPreorderInfoResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the getPreorderInfo operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetPreorderInfoResponse implements ModelInterface, ArrayAccess
+class GetPreorderInfoResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

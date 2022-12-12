@@ -64,6 +64,7 @@ namespace TNT\Amazon\AplusContent\V20201101\Model;
  * ContentBadge Class Doc Comment.
  *
  * @category Class
+ *
  * @description A flag that provides additional information about an A+ Content document.
  *
  * @author   Swagger Codegen team

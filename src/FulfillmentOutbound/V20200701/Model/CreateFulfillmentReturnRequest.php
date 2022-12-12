@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * CreateFulfillmentReturnRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The createFulfillmentReturn operation creates a fulfillment return for items that were fulfilled using the createFulfillmentOrder operation. For calls to createFulfillmentReturn, you must include ReturnReasonCode values returned by a previous call to the listReturnReasonCodes operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateFulfillmentReturnRequest implements ModelInterface, ArrayAccess
+class CreateFulfillmentReturnRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

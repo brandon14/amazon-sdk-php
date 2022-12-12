@@ -64,6 +64,7 @@ namespace TNT\Amazon\MerchantFulfillment\V0\Model;
  * HazmatType Class Doc Comment.
  *
  * @category Class
+ *
  * @description Hazardous materials options for a package. Consult the terms and conditions for each carrier for more information on hazardous materials.
  *
  * @author   Swagger Codegen team

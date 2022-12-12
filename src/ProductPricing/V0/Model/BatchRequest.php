@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * BatchRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description Common properties of batch requests against individual APIs.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class BatchRequest implements ModelInterface, ArrayAccess
+class BatchRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

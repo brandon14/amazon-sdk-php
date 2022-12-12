@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Messaging\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Messaging\V1\ObjectSerializer;
 
 /**
  * CreateAmazonMotorsRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request schema for the createAmazonMotors operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateAmazonMotorsRequest implements ModelInterface, ArrayAccess
+class CreateAmazonMotorsRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

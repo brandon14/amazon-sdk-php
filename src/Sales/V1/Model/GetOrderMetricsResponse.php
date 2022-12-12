@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Sales\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Sales\V1\ObjectSerializer;
 
 /**
  * GetOrderMetricsResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the getOrderMetrics operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetOrderMetricsResponse implements ModelInterface, ArrayAccess
+class GetOrderMetricsResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

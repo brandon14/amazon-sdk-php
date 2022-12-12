@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Finances\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Finances\V0\ObjectSerializer;
 
 /**
  * ShipmentSettleEventList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of information about shipment settle financial events.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ShipmentSettleEventList implements ModelInterface, ArrayAccess
+class ShipmentSettleEventList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

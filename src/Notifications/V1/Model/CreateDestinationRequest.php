@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Notifications\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Notifications\V1\ObjectSerializer;
 
 /**
  * CreateDestinationRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request schema for the createDestination operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreateDestinationRequest implements ModelInterface, ArrayAccess
+class CreateDestinationRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

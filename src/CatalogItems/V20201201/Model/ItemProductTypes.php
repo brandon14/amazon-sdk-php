@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V20201201\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V20201201\ObjectSerializer;
 
 /**
  * ItemProductTypes Class Doc Comment.
  *
  * @category Class
+ *
  * @description Product types associated with the Amazon catalog item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemProductTypes implements ModelInterface, ArrayAccess
+class ItemProductTypes implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

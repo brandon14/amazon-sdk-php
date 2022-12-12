@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * LabelStream Class Doc Comment.
  *
  * @category Class
+ *
  * @description Contains binary image data encoded as a base-64 string.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class LabelStream implements ModelInterface, ArrayAccess
+class LabelStream implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FbaInventory\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FbaInventory\V1\ObjectSerializer;
 
 /**
  * InventoryDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description Summarized inventory details. This object will not appear if the details parameter in the request is false.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class InventoryDetails implements ModelInterface, ArrayAccess
+class InventoryDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

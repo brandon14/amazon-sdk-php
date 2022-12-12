@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Sales\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Sales\V1\ObjectSerializer;
 
 /**
  * OrderMetricsList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A set of order metrics, each scoped to a particular time interval.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class OrderMetricsList implements ModelInterface, ArrayAccess
+class OrderMetricsList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorOrders\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorOrders\V1\ObjectSerializer;
 
 /**
  * OrderedQuantityDetails Class Doc Comment.
  *
  * @category Class
+ *
  * @description Details of item quantity ordered
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class OrderedQuantityDetails implements ModelInterface, ArrayAccess
+class OrderedQuantityDetails implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

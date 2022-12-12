@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Shipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Shipping\V1\ObjectSerializer;
 
 /**
  * ContainerItem Class Doc Comment.
  *
  * @category Class
+ *
  * @description Item in the container.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ContainerItem implements ModelInterface, ArrayAccess
+class ContainerItem implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
@@ -248,7 +248,7 @@ class ContainerItem implements ModelInterface, ArrayAccess
         if ($this->container['title'] === null) {
             $invalidProperties[] = "'title' can't be null";
         }
-        if ((mb_strlen($this->container['title']) > 30)) {
+        if (mb_strlen($this->container['title']) > 30) {
             $invalidProperties[] = "invalid value for 'title', the character length must be smaller than or equal to 30.";
         }
 
@@ -357,7 +357,7 @@ class ContainerItem implements ModelInterface, ArrayAccess
      */
     public function setTitle($title)
     {
-        if ((mb_strlen($title) > 30)) {
+        if (mb_strlen($title) > 30) {
             throw new \InvalidArgumentException('invalid length for $title when calling ContainerItem., must be smaller than or equal to 30.');
         }
 

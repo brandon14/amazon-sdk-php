@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Notifications\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Notifications\V1\ObjectSerializer;
 
 /**
  * GetDestinationResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the getDestination operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetDestinationResponse implements ModelInterface, ArrayAccess
+class GetDestinationResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

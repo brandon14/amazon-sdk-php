@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FbaInboundEligibility\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FbaInboundEligibility\V1\ObjectSerializer;
 
 /**
  * ItemEligibilityPreview Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response object which contains the ASIN, marketplaceId if required, eligibility program, the eligibility status (boolean), and a list of ineligibility reason codes.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemEligibilityPreview implements ModelInterface, ArrayAccess
+class ItemEligibilityPreview implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

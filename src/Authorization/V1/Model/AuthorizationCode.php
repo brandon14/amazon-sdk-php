@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Authorization\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Authorization\V1\ObjectSerializer;
 
 /**
  * AuthorizationCode Class Doc Comment.
  *
  * @category Class
+ *
  * @description A Login with Amazon (LWA) authorization code.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class AuthorizationCode implements ModelInterface, ArrayAccess
+class AuthorizationCode implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

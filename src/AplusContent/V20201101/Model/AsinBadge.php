@@ -64,6 +64,7 @@ namespace TNT\Amazon\AplusContent\V20201101\Model;
  * AsinBadge Class Doc Comment.
  *
  * @category Class
+ *
  * @description A flag that provides additional information about an ASIN. This is contextual and may change depending on the request that generated it.
  *
  * @author   Swagger Codegen team

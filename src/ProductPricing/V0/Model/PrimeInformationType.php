@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * PrimeInformationType Class Doc Comment.
  *
  * @category Class
+ *
  * @description Amazon Prime information.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PrimeInformationType implements ModelInterface, ArrayAccess
+class PrimeInformationType implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

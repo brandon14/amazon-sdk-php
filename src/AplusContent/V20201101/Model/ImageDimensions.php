@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * ImageDimensions Class Doc Comment.
  *
  * @category Class
+ *
  * @description The dimensions extending from the top left corner of the cropped image, or the top left corner of the original image if there is no cropping. Only &#x60;pixels&#x60; is allowed as the units value for ImageDimensions.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ImageDimensions implements ModelInterface, ArrayAccess
+class ImageDimensions implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

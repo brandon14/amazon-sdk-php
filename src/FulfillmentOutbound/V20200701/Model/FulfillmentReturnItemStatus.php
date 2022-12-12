@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
  * FulfillmentReturnItemStatus Class Doc Comment.
  *
  * @category Class
+ *
  * @description Indicates if the return item has been processed by a fulfillment center.
  *
  * @author   Swagger Codegen team

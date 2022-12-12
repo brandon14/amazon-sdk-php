@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * StandardFourImageTextQuadrantModule Class Doc Comment.
  *
  * @category Class
+ *
  * @description Four standard images with text, presented on a grid of four quadrants.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StandardFourImageTextQuadrantModule implements ModelInterface, ArrayAccess
+class StandardFourImageTextQuadrantModule implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

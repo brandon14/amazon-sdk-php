@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ShipmentInvoicing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ShipmentInvoicing\V0\ObjectSerializer;
 
 /**
  * Blob Class Doc Comment.
  *
  * @category Class
+ *
  * @description Shipment invoice document content.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Blob implements ModelInterface, ArrayAccess
+class Blob implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

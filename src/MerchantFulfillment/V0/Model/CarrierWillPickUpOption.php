@@ -64,6 +64,7 @@ namespace TNT\Amazon\MerchantFulfillment\V0\Model;
  * CarrierWillPickUpOption Class Doc Comment.
  *
  * @category Class
+ *
  * @description Carrier will pick up option.
  *
  * @author   Swagger Codegen team

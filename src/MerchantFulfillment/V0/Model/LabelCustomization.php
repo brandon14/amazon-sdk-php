@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * LabelCustomization Class Doc Comment.
  *
  * @category Class
+ *
  * @description Custom text for shipping labels.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class LabelCustomization implements ModelInterface, ArrayAccess
+class LabelCustomization implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
  * FulfillmentAction Class Doc Comment.
  *
  * @category Class
+ *
  * @description Specifies whether the fulfillment order should ship now or have an order hold put on it.
  *
  * @author   Swagger Codegen team

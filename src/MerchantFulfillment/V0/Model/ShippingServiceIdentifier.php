@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\MerchantFulfillment\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\MerchantFulfillment\V0\ObjectSerializer;
 
 /**
  * ShippingServiceIdentifier Class Doc Comment.
  *
  * @category Class
+ *
  * @description An Amazon-defined shipping service identifier.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ShippingServiceIdentifier implements ModelInterface, ArrayAccess
+class ShippingServiceIdentifier implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

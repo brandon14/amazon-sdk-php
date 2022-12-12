@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentOrders\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentOrders\V1\ObjectSerializer;
 
 /**
  * TaxLineItem Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of tax line items.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TaxLineItem implements ModelInterface, ArrayAccess
+class TaxLineItem implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

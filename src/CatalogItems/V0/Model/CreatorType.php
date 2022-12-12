@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V0\ObjectSerializer;
 
 /**
  * CreatorType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The creator type attribute of an item.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class CreatorType implements ModelInterface, ArrayAccess
+class CreatorType implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

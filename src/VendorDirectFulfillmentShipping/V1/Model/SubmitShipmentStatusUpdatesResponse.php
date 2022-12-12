@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentShipping\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentShipping\V1\ObjectSerializer;
 
 /**
  * SubmitShipmentStatusUpdatesResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the submitShipmentStatusUpdates operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SubmitShipmentStatusUpdatesResponse implements ModelInterface, ArrayAccess
+class SubmitShipmentStatusUpdatesResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

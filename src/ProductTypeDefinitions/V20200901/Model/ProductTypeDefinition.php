@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductTypeDefinitions\V20200901\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductTypeDefinitions\V20200901\ObjectSerializer;
 
 /**
  * ProductTypeDefinition Class Doc Comment.
  *
  * @category Class
+ *
  * @description A product type definition represents the attributes and data requirements for a product type in the Amazon catalog. Product type definitions are used interchangeably between the Selling Partner API for Listings Items, Selling Partner API for Catalog Items, and JSON-based listings feeds in the Selling Partner API for Feeds.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ProductTypeDefinition implements ModelInterface, ArrayAccess
+class ProductTypeDefinition implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -341,7 +341,7 @@ class OrdersV0Api
         // Path params.
         if ($order_id !== null) {
             $resourcePath = str_replace(
-                '{'.'orderId'.'}',
+                '{orderId}',
                 ObjectSerializer::toPathValue($order_id),
                 $resourcePath
             );
@@ -639,7 +639,7 @@ class OrdersV0Api
         // Path params.
         if ($order_id !== null) {
             $resourcePath = str_replace(
-                '{'.'orderId'.'}',
+                '{orderId}',
                 ObjectSerializer::toPathValue($order_id),
                 $resourcePath
             );
@@ -937,7 +937,7 @@ class OrdersV0Api
         // Path params.
         if ($order_id !== null) {
             $resourcePath = str_replace(
-                '{'.'orderId'.'}',
+                '{orderId}',
                 ObjectSerializer::toPathValue($order_id),
                 $resourcePath
             );
@@ -1245,7 +1245,7 @@ class OrdersV0Api
         // Path params.
         if ($order_id !== null) {
             $resourcePath = str_replace(
-                '{'.'orderId'.'}',
+                '{orderId}',
                 ObjectSerializer::toPathValue($order_id),
                 $resourcePath
             );
@@ -1553,7 +1553,7 @@ class OrdersV0Api
         // Path params.
         if ($order_id !== null) {
             $resourcePath = str_replace(
-                '{'.'orderId'.'}',
+                '{orderId}',
                 ObjectSerializer::toPathValue($order_id),
                 $resourcePath
             );
@@ -1851,7 +1851,7 @@ class OrdersV0Api
         // Path params.
         if ($order_id !== null) {
             $resourcePath = str_replace(
-                '{'.'orderId'.'}',
+                '{orderId}',
                 ObjectSerializer::toPathValue($order_id),
                 $resourcePath
             );
@@ -2601,7 +2601,7 @@ class OrdersV0Api
         // Path params.
         if ($order_id !== null) {
             $resourcePath = str_replace(
-                '{'.'orderId'.'}',
+                '{orderId}',
                 ObjectSerializer::toPathValue($order_id),
                 $resourcePath
             );

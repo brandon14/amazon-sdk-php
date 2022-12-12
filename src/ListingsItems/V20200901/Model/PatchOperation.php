@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ListingsItems\V20200901\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ListingsItems\V20200901\ObjectSerializer;
 
 /**
  * PatchOperation Class Doc Comment.
  *
  * @category Class
+ *
  * @description Individual JSON Patch operation for an HTTP PATCH request.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PatchOperation implements ModelInterface, ArrayAccess
+class PatchOperation implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

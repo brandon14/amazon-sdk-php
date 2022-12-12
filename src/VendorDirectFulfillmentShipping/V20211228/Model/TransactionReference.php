@@ -60,7 +60,6 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\ObjectSerializer;
 
 /**
@@ -72,7 +71,7 @@ use TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\ObjectSerializer;
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TransactionReference implements ModelInterface, ArrayAccess
+class TransactionReference implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

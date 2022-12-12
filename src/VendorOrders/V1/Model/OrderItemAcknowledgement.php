@@ -60,7 +60,6 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorOrders\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorOrders\V1\ObjectSerializer;
 
 /**
@@ -72,7 +71,7 @@ use TNT\Amazon\VendorOrders\V1\ObjectSerializer;
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class OrderItemAcknowledgement implements ModelInterface, ArrayAccess
+class OrderItemAcknowledgement implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

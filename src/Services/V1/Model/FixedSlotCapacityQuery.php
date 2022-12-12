@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * FixedSlotCapacityQuery Class Doc Comment.
  *
  * @category Class
+ *
  * @description Request schema for the &#x60;getFixedSlotCapacity&#x60; operation. This schema is used to define the time range, capacity types and slot duration which are being queried.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class FixedSlotCapacityQuery implements ModelInterface, ArrayAccess
+class FixedSlotCapacityQuery implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

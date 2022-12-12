@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * StandardTextPairBlock Class Doc Comment.
  *
  * @category Class
+ *
  * @description The A+ Content standard label and description block, comprised of a pair of text components.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class StandardTextPairBlock implements ModelInterface, ArrayAccess
+class StandardTextPairBlock implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

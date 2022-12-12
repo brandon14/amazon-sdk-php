@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\AplusContent\V20201101\Model;
 
-use ArrayAccess;
 use TNT\Amazon\AplusContent\V20201101\ObjectSerializer;
 
 /**
  * PublishRecordList Class Doc Comment.
  *
  * @category Class
+ *
  * @description A list of A+ Content publishing records.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PublishRecordList implements ModelInterface, ArrayAccess
+class PublishRecordList implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

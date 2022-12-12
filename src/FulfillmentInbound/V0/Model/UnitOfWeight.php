@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentInbound\V0\Model;
  * UnitOfWeight Class Doc Comment.
  *
  * @category Class
+ *
  * @description Indicates the unit of weight.
  *
  * @author   Swagger Codegen team

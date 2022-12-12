@@ -357,7 +357,7 @@ class ReportsApi
         // Path params.
         if ($report_id !== null) {
             $resourcePath = str_replace(
-                '{'.'reportId'.'}',
+                '{reportId}',
                 ObjectSerializer::toPathValue($report_id),
                 $resourcePath
             );
@@ -671,7 +671,7 @@ class ReportsApi
         // Path params.
         if ($report_schedule_id !== null) {
             $resourcePath = str_replace(
-                '{'.'reportScheduleId'.'}',
+                '{reportScheduleId}',
                 ObjectSerializer::toPathValue($report_schedule_id),
                 $resourcePath
             );
@@ -1601,7 +1601,7 @@ class ReportsApi
         // Path params.
         if ($report_id !== null) {
             $resourcePath = str_replace(
-                '{'.'reportId'.'}',
+                '{reportId}',
                 ObjectSerializer::toPathValue($report_id),
                 $resourcePath
             );
@@ -1915,7 +1915,7 @@ class ReportsApi
         // Path params.
         if ($report_document_id !== null) {
             $resourcePath = str_replace(
-                '{'.'reportDocumentId'.'}',
+                '{reportDocumentId}',
                 ObjectSerializer::toPathValue($report_document_id),
                 $resourcePath
             );
@@ -2229,7 +2229,7 @@ class ReportsApi
         // Path params.
         if ($report_schedule_id !== null) {
             $resourcePath = str_replace(
-                '{'.'reportScheduleId'.'}',
+                '{reportScheduleId}',
                 ObjectSerializer::toPathValue($report_schedule_id),
                 $resourcePath
             );

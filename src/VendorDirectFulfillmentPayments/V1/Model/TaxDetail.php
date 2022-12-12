@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentPayments\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentPayments\V1\ObjectSerializer;
 
 /**
  * TaxDetail Class Doc Comment.
  *
  * @category Class
+ *
  * @description Details of tax amount applied.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class TaxDetail implements ModelInterface, ArrayAccess
+class TaxDetail implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Authorization\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Authorization\V1\ObjectSerializer;
 
 /**
  * GetAuthorizationCodeResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the GetAuthorizationCode operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetAuthorizationCodeResponse implements ModelInterface, ArrayAccess
+class GetAuthorizationCodeResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

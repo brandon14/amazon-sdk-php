@@ -64,6 +64,7 @@ namespace TNT\Amazon\AplusContent\V20201101\Model;
  * ContentType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The A+ Content document type.
  *
  * @author   Swagger Codegen team

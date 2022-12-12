@@ -738,7 +738,7 @@ class ProductPricingApi
         // Path params.
         if ($asin !== null) {
             $resourcePath = str_replace(
-                '{'.'Asin'.'}',
+                '{Asin}',
                 ObjectSerializer::toPathValue($asin),
                 $resourcePath
             );
@@ -1380,7 +1380,7 @@ class ProductPricingApi
         // Path params.
         if ($seller_sku !== null) {
             $resourcePath = str_replace(
-                '{'.'SellerSKU'.'}',
+                '{SellerSKU}',
                 ObjectSerializer::toPathValue($seller_sku),
                 $resourcePath
             );

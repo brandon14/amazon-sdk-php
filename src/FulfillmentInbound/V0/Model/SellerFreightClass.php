@@ -64,6 +64,7 @@ namespace TNT\Amazon\FulfillmentInbound\V0\Model;
  * SellerFreightClass Class Doc Comment.
  *
  * @category Class
+ *
  * @description The freight class of the shipment. For information about determining the freight class, contact the carrier.
  *
  * @author   Swagger Codegen team

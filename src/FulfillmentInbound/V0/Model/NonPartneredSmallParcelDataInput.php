@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * NonPartneredSmallParcelDataInput Class Doc Comment.
  *
  * @category Class
+ *
  * @description Information that you provide to Amazon about a Small Parcel shipment shipped by a carrier that has not partnered with Amazon.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class NonPartneredSmallParcelDataInput implements ModelInterface, ArrayAccess
+class NonPartneredSmallParcelDataInput implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

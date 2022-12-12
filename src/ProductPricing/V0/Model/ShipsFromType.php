@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\ProductPricing\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
 
 /**
  * ShipsFromType Class Doc Comment.
  *
  * @category Class
+ *
  * @description The state and country from where the item is shipped.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ShipsFromType implements ModelInterface, ArrayAccess
+class ShipsFromType implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

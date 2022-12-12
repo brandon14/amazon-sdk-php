@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentInbound\V0\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentInbound\V0\ObjectSerializer;
 
 /**
  * PutTransportDetailsRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request schema for a putTransportDetails operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class PutTransportDetailsRequest implements ModelInterface, ArrayAccess
+class PutTransportDetailsRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

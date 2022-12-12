@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * GetServiceJobByServiceJobIdResponse Class Doc Comment.
  *
  * @category Class
+ *
  * @description The response schema for the &#x60;getServiceJobByServiceJobId&#x60; operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class GetServiceJobByServiceJobIdResponse implements ModelInterface, ArrayAccess
+class GetServiceJobByServiceJobIdResponse implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

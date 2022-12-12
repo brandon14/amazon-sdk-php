@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\Services\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\Services\V1\ObjectSerializer;
 
 /**
  * Poa Class Doc Comment.
  *
  * @category Class
+ *
  * @description Proof of Appointment (POA) details.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Poa implements ModelInterface, ArrayAccess
+class Poa implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

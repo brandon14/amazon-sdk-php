@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\FulfillmentOutbound\V20200701\Model;
 
-use ArrayAccess;
 use TNT\Amazon\FulfillmentOutbound\V20200701\ObjectSerializer;
 
 /**
  * Features Class Doc Comment.
  *
  * @category Class
+ *
  * @description An array of features.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Features implements ModelInterface, ArrayAccess
+class Features implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

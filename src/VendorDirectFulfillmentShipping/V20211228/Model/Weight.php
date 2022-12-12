@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\ObjectSerializer;
 
 /**
  * Weight Class Doc Comment.
  *
  * @category Class
+ *
  * @description The weight.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class Weight implements ModelInterface, ArrayAccess
+class Weight implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

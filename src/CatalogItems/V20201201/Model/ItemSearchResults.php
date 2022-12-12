@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\CatalogItems\V20201201\Model;
 
-use ArrayAccess;
 use TNT\Amazon\CatalogItems\V20201201\ObjectSerializer;
 
 /**
  * ItemSearchResults Class Doc Comment.
  *
  * @category Class
+ *
  * @description Items in the Amazon catalog and search related metadata.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class ItemSearchResults implements ModelInterface, ArrayAccess
+class ItemSearchResults implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 

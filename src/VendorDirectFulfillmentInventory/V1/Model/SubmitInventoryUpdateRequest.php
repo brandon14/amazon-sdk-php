@@ -60,20 +60,20 @@ declare(strict_types=1);
 
 namespace TNT\Amazon\VendorDirectFulfillmentInventory\V1\Model;
 
-use ArrayAccess;
 use TNT\Amazon\VendorDirectFulfillmentInventory\V1\ObjectSerializer;
 
 /**
  * SubmitInventoryUpdateRequest Class Doc Comment.
  *
  * @category Class
+ *
  * @description The request body for the submitInventoryUpdate operation.
  *
  * @author   Swagger Codegen team
  *
  * @see     https://github.com/swagger-api/swagger-codegen
  */
-class SubmitInventoryUpdateRequest implements ModelInterface, ArrayAccess
+class SubmitInventoryUpdateRequest implements ModelInterface, \ArrayAccess
 {
     public const DISCRIMINATOR = null;
 
