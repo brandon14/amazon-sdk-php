@@ -56,6 +56,10 @@ available as found in the Amazon SP-API models repo [here](https://github.com/am
 To view the OpenAPI files these packages were generated from, please browse the `selling-partner-api-models/models`
 directories.
 
+**NOTE:** I do believe the EasyShip/V20220323 SDK might not be fully functional. Amazon has a model named `String` which
+is a reserved keyword in PHP >= 7, so any calls that may interact with that model may not function correctly. I am
+trying to work on a good fix for it.
+
 ## Installation
 
 You can install the entire bundle of Amazon libraries via:

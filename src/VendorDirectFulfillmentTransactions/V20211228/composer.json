@@ -1,7 +1,7 @@
 {
     "name": "brandon14/amazon-vendor-direct-fulfillment-transactions-v20211228",
     "description": "",
-    "keywords": ["swagger", "swagger-codegen, "openapi", "php", "sdk", "rest", "api", "amazon"],
+    "keywords": ["swagger", "swagger-codegen", "openapi", "php", "sdk", "rest", "api", "amazon"],
     "homepage": "https://github.com/brandon14/amazon-vendor-direct-fulfillment-transactions-v20211228",
     "license": "MIT",
     "authors": [

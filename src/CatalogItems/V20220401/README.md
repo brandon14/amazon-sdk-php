@@ -100,6 +100,8 @@ Class | Method | HTTP request | Description
  - [ItemAttributes](docs/Model/ItemAttributes.md)
  - [ItemBrowseClassification](docs/Model/ItemBrowseClassification.md)
  - [ItemClassificationSalesRank](docs/Model/ItemClassificationSalesRank.md)
+ - [ItemContributor](docs/Model/ItemContributor.md)
+ - [ItemContributorRole](docs/Model/ItemContributorRole.md)
  - [ItemDimensions](docs/Model/ItemDimensions.md)
  - [ItemDimensionsByMarketplace](docs/Model/ItemDimensionsByMarketplace.md)
  - [ItemDisplayGroupSalesRank](docs/Model/ItemDisplayGroupSalesRank.md)

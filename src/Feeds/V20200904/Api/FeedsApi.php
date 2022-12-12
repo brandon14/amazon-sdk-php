@@ -175,7 +175,7 @@ class FeedsApi
             $responseBody = $response->getBody();
 
             if ($returnType === '\SplFileObject') {
-                $content = $responseBody; // stream goes to serializer
+                $content = $responseBody; // Stream goes to serializer.
             } else {
                 $content = $responseBody->getContents();
 
@@ -308,7 +308,7 @@ class FeedsApi
                     $responseBody = $response->getBody();
 
                     if ($returnType === '\SplFileObject') {
-                        $content = $responseBody; // stream goes to serializer
+                        $content = $responseBody; // Stream goes to serializer.
                     } else {
                         $content = $responseBody->getContents();
                         if ($returnType !== 'string') {
@@ -489,7 +489,7 @@ class FeedsApi
             $responseBody = $response->getBody();
 
             if ($returnType === '\SplFileObject') {
-                $content = $responseBody; // stream goes to serializer
+                $content = $responseBody; // Stream goes to serializer.
             } else {
                 $content = $responseBody->getContents();
 
@@ -622,7 +622,7 @@ class FeedsApi
                     $responseBody = $response->getBody();
 
                     if ($returnType === '\SplFileObject') {
-                        $content = $responseBody; // stream goes to serializer
+                        $content = $responseBody; // Stream goes to serializer.
                     } else {
                         $content = $responseBody->getContents();
                         if ($returnType !== 'string') {
@@ -797,7 +797,7 @@ class FeedsApi
             $responseBody = $response->getBody();
 
             if ($returnType === '\SplFileObject') {
-                $content = $responseBody; // stream goes to serializer
+                $content = $responseBody; // Stream goes to serializer.
             } else {
                 $content = $responseBody->getContents();
 
@@ -930,7 +930,7 @@ class FeedsApi
                     $responseBody = $response->getBody();
 
                     if ($returnType === '\SplFileObject') {
-                        $content = $responseBody; // stream goes to serializer
+                        $content = $responseBody; // Stream goes to serializer.
                     } else {
                         $content = $responseBody->getContents();
                         if ($returnType !== 'string') {
@@ -1105,7 +1105,7 @@ class FeedsApi
             $responseBody = $response->getBody();
 
             if ($returnType === '\SplFileObject') {
-                $content = $responseBody; // stream goes to serializer
+                $content = $responseBody; // Stream goes to serializer.
             } else {
                 $content = $responseBody->getContents();
 
@@ -1238,7 +1238,7 @@ class FeedsApi
                     $responseBody = $response->getBody();
 
                     if ($returnType === '\SplFileObject') {
-                        $content = $responseBody; // stream goes to serializer
+                        $content = $responseBody; // Stream goes to serializer.
                     } else {
                         $content = $responseBody->getContents();
                         if ($returnType !== 'string') {
@@ -1419,7 +1419,7 @@ class FeedsApi
             $responseBody = $response->getBody();
 
             if ($returnType === '\SplFileObject') {
-                $content = $responseBody; // stream goes to serializer
+                $content = $responseBody; // Stream goes to serializer.
             } else {
                 $content = $responseBody->getContents();
 
@@ -1552,7 +1552,7 @@ class FeedsApi
                     $responseBody = $response->getBody();
 
                     if ($returnType === '\SplFileObject') {
-                        $content = $responseBody; // stream goes to serializer
+                        $content = $responseBody; // Stream goes to serializer.
                     } else {
                         $content = $responseBody->getContents();
                         if ($returnType !== 'string') {
@@ -1745,7 +1745,7 @@ class FeedsApi
             $responseBody = $response->getBody();
 
             if ($returnType === '\SplFileObject') {
-                $content = $responseBody; // stream goes to serializer
+                $content = $responseBody; // Stream goes to serializer.
             } else {
                 $content = $responseBody->getContents();
 
@@ -1890,7 +1890,7 @@ class FeedsApi
                     $responseBody = $response->getBody();
 
                     if ($returnType === '\SplFileObject') {
-                        $content = $responseBody; // stream goes to serializer
+                        $content = $responseBody; // Stream goes to serializer.
                     } else {
                         $content = $responseBody->getContents();
                         if ($returnType !== 'string') {

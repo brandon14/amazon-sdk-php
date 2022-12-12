@@ -319,7 +319,7 @@ class FeedDocument implements ModelInterface, ArrayAccess
     /**
      * Sets url.
      *
-     * @param string $url A presigned URL for the feed document. This URL expires after 5 minutes.
+     * @param string $url A presigned URL for the feed document. If `compressionAlgorithm` is not returned, you can download the feed directly from this URL. This URL expires after 5 minutes.
      *
      * @return $this
      */
@@ -367,7 +367,7 @@ class FeedDocument implements ModelInterface, ArrayAccess
     /**
      * Sets compression_algorithm.
      *
-     * @param string $compression_algorithm if present, the feed document contents are compressed using the indicated algorithm
+     * @param string $compression_algorithm If the feed document contents have been compressed, the compression algorithm used is returned in this property and you must decompress the feed when you download. Otherwise, you can download the feed directly. Refer to [Step 6. Download and decrypt the feed processing report](doc:feeds-api-v2020-09-04-use-case-guide#step-6-download-and-decrypt-the-feed-processing-report) in the use case guide, where sample code is provided.
      *
      * @return $this
      */

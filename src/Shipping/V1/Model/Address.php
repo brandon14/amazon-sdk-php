@@ -281,22 +281,22 @@ class Address implements ModelInterface, ArrayAccess
         if ($this->container['name'] === null) {
             $invalidProperties[] = "'name' can't be null";
         }
-        if (mb_strlen($this->container['name']) > 50) {
+        if ((mb_strlen($this->container['name']) > 50)) {
             $invalidProperties[] = "invalid value for 'name', the character length must be smaller than or equal to 50.";
         }
 
-        if (mb_strlen($this->container['name']) < 1) {
+        if ((mb_strlen($this->container['name']) < 1)) {
             $invalidProperties[] = "invalid value for 'name', the character length must be bigger than or equal to 1.";
         }
 
         if ($this->container['address_line1'] === null) {
             $invalidProperties[] = "'address_line1' can't be null";
         }
-        if (mb_strlen($this->container['address_line1']) > 60) {
+        if ((mb_strlen($this->container['address_line1']) > 60)) {
             $invalidProperties[] = "invalid value for 'address_line1', the character length must be smaller than or equal to 60.";
         }
 
-        if (mb_strlen($this->container['address_line1']) < 1) {
+        if ((mb_strlen($this->container['address_line1']) < 1)) {
             $invalidProperties[] = "invalid value for 'address_line1', the character length must be bigger than or equal to 1.";
         }
 
@@ -373,10 +373,10 @@ class Address implements ModelInterface, ArrayAccess
      */
     public function setName($name)
     {
-        if (mb_strlen($name) > 50) {
+        if ((mb_strlen($name) > 50)) {
             throw new \InvalidArgumentException('invalid length for $name when calling Address., must be smaller than or equal to 50.');
         }
-        if (mb_strlen($name) < 1) {
+        if ((mb_strlen($name) < 1)) {
             throw new \InvalidArgumentException('invalid length for $name when calling Address., must be bigger than or equal to 1.');
         }
 
@@ -404,10 +404,10 @@ class Address implements ModelInterface, ArrayAccess
      */
     public function setAddressLine1($address_line1)
     {
-        if (mb_strlen($address_line1) > 60) {
+        if ((mb_strlen($address_line1) > 60)) {
             throw new \InvalidArgumentException('invalid length for $address_line1 when calling Address., must be smaller than or equal to 60.');
         }
-        if (mb_strlen($address_line1) < 1) {
+        if ((mb_strlen($address_line1) < 1)) {
             throw new \InvalidArgumentException('invalid length for $address_line1 when calling Address., must be bigger than or equal to 1.');
         }
 

@@ -67,7 +67,7 @@ use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
  * GetOffersResponse Class Doc Comment.
  *
  * @category Class
- * @description The response schema for the getListingOffers and getItemOffers operations.
+ * @description The response schema for the &#x60;getListingOffers&#x60; and &#x60;getItemOffers&#x60; operations.
  *
  * @author   Swagger Codegen team
  *
@@ -251,7 +251,7 @@ class GetOffersResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \TNT\Amazon\ProductPricing\V0\Model\GetOffersResult $payload the payload for the getListingOffers and getItemOffers operations
+     * @param \TNT\Amazon\ProductPricing\V0\Model\GetOffersResult $payload the payload for the `getListingOffers` and `getItemOffers` operations
      *
      * @return $this
      */

@@ -221,7 +221,7 @@ class SqsResource implements ModelInterface, ArrayAccess
         if ($this->container['arn'] === null) {
             $invalidProperties[] = "'arn' can't be null";
         }
-        if (mb_strlen($this->container['arn']) > 1000) {
+        if ((mb_strlen($this->container['arn']) > 1000)) {
             $invalidProperties[] = "invalid value for 'arn', the character length must be smaller than or equal to 1000.";
         }
 
@@ -262,10 +262,10 @@ class SqsResource implements ModelInterface, ArrayAccess
      */
     public function setArn($arn)
     {
-        if (mb_strlen($arn) > 1000) {
+        if ((mb_strlen($arn) > 1000)) {
             throw new \InvalidArgumentException('invalid length for $arn when calling SqsResource., must be smaller than or equal to 1000.');
         }
-        if (! preg_match('/^arn:aws:sqs:\\S+:\\S+:\\S+/', $arn)) {
+        if ((! preg_match('/^arn:aws:sqs:\\S+:\\S+:\\S+/', $arn))) {
             throw new \InvalidArgumentException("invalid value for $arn when calling SqsResource., must conform to the pattern /^arn:aws:sqs:\\S+:\\S+:\\S+/.");
         }
 

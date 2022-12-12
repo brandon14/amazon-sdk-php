@@ -81,6 +81,15 @@ class PrepInstruction
     public const BLACK_SHRINK_WRAPPING = 'BlackShrinkWrapping';
     public const LABELING = 'Labeling';
     public const HANG_GARMENT = 'HangGarment';
+    public const SET_CREATION = 'SetCreation';
+    public const BOXING = 'Boxing';
+    public const REMOVE_FROM_HANGER = 'RemoveFromHanger';
+    public const DEBUNDLE = 'Debundle';
+    public const SUFFOCATION_STICKERING = 'SuffocationStickering';
+    public const CAP_SEALING = 'CapSealing';
+    public const SET_STICKERING = 'SetStickering';
+    public const BLANK_STICKERING = 'BlankStickering';
+    public const NO_PREP = 'NoPrep';
 
     /**
      * Gets allowable values of the enum.
@@ -96,6 +105,15 @@ class PrepInstruction
             self::BLACK_SHRINK_WRAPPING,
             self::LABELING,
             self::HANG_GARMENT,
+            self::SET_CREATION,
+            self::BOXING,
+            self::REMOVE_FROM_HANGER,
+            self::DEBUNDLE,
+            self::SUFFOCATION_STICKERING,
+            self::CAP_SEALING,
+            self::SET_STICKERING,
+            self::BLANK_STICKERING,
+            self::NO_PREP,
         ];
     }
 }

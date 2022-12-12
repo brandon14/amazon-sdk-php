@@ -262,14 +262,14 @@ class Address implements ModelInterface, ArrayAccess
         if ($this->container['name'] === null) {
             $invalidProperties[] = "'name' can't be null";
         }
-        if (mb_strlen($this->container['name']) > 50) {
+        if ((mb_strlen($this->container['name']) > 50)) {
             $invalidProperties[] = "invalid value for 'name', the character length must be smaller than or equal to 50.";
         }
 
         if ($this->container['address_line1'] === null) {
             $invalidProperties[] = "'address_line1' can't be null";
         }
-        if (mb_strlen($this->container['address_line1']) > 180) {
+        if ((mb_strlen($this->container['address_line1']) > 180)) {
             $invalidProperties[] = "invalid value for 'address_line1', the character length must be smaller than or equal to 180.";
         }
 
@@ -284,7 +284,7 @@ class Address implements ModelInterface, ArrayAccess
         if ($this->container['city'] === null) {
             $invalidProperties[] = "'city' can't be null";
         }
-        if (mb_strlen($this->container['city']) > 30) {
+        if ((mb_strlen($this->container['city']) > 30)) {
             $invalidProperties[] = "invalid value for 'city', the character length must be smaller than or equal to 30.";
         }
 
@@ -297,7 +297,7 @@ class Address implements ModelInterface, ArrayAccess
         if ($this->container['postal_code'] === null) {
             $invalidProperties[] = "'postal_code' can't be null";
         }
-        if (mb_strlen($this->container['postal_code']) > 30) {
+        if ((mb_strlen($this->container['postal_code']) > 30)) {
             $invalidProperties[] = "invalid value for 'postal_code', the character length must be smaller than or equal to 30.";
         }
 
@@ -334,7 +334,7 @@ class Address implements ModelInterface, ArrayAccess
      */
     public function setName($name)
     {
-        if (mb_strlen($name) > 50) {
+        if ((mb_strlen($name) > 50)) {
             throw new \InvalidArgumentException('invalid length for $name when calling Address., must be smaller than or equal to 50.');
         }
 
@@ -362,7 +362,7 @@ class Address implements ModelInterface, ArrayAccess
      */
     public function setAddressLine1($address_line1)
     {
-        if (mb_strlen($address_line1) > 180) {
+        if ((mb_strlen($address_line1) > 180)) {
             throw new \InvalidArgumentException('invalid length for $address_line1 when calling Address., must be smaller than or equal to 180.');
         }
 
@@ -446,7 +446,7 @@ class Address implements ModelInterface, ArrayAccess
      */
     public function setCity($city)
     {
-        if (mb_strlen($city) > 30) {
+        if ((mb_strlen($city) > 30)) {
             throw new \InvalidArgumentException('invalid length for $city when calling Address., must be smaller than or equal to 30.');
         }
 
@@ -522,7 +522,7 @@ class Address implements ModelInterface, ArrayAccess
      */
     public function setPostalCode($postal_code)
     {
-        if (mb_strlen($postal_code) > 30) {
+        if ((mb_strlen($postal_code) > 30)) {
             throw new \InvalidArgumentException('invalid length for $postal_code when calling Address., must be smaller than or equal to 30.');
         }
 

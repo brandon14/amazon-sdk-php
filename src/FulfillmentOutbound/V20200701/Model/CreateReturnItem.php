@@ -245,7 +245,7 @@ class CreateReturnItem implements ModelInterface, ArrayAccess
         if ($this->container['seller_return_item_id'] === null) {
             $invalidProperties[] = "'seller_return_item_id' can't be null";
         }
-        if (mb_strlen($this->container['seller_return_item_id']) > 80) {
+        if ((mb_strlen($this->container['seller_return_item_id']) > 80)) {
             $invalidProperties[] = "invalid value for 'seller_return_item_id', the character length must be smaller than or equal to 80.";
         }
 
@@ -295,7 +295,7 @@ class CreateReturnItem implements ModelInterface, ArrayAccess
      */
     public function setSellerReturnItemId($seller_return_item_id)
     {
-        if (mb_strlen($seller_return_item_id) > 80) {
+        if ((mb_strlen($seller_return_item_id) > 80)) {
             throw new \InvalidArgumentException('invalid length for $seller_return_item_id when calling CreateReturnItem., must be smaller than or equal to 80.');
         }
 

@@ -470,7 +470,7 @@ class Container implements ModelInterface, ArrayAccess
     /**
      * Sets ship_method.
      *
-     * @param string $ship_method the shipment method
+     * @param string $ship_method The shipment method. This property is required when calling the submitShipmentConfirmations operation, and optional otherwise.
      *
      * @return $this
      */

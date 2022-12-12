@@ -91,6 +91,7 @@ class PackedItem implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'item_sequence_number' => 'int',
         'buyer_product_identifier' => 'string',
+        'piece_number' => 'int',
         'vendor_product_identifier' => 'string',
         'packed_quantity' => '\TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Model\ItemQuantity',
     ];
@@ -103,6 +104,7 @@ class PackedItem implements ModelInterface, ArrayAccess
     protected static $swaggerFormats = [
         'item_sequence_number' => null,
         'buyer_product_identifier' => null,
+        'piece_number' => null,
         'vendor_product_identifier' => null,
         'packed_quantity' => null,
     ];
@@ -136,6 +138,7 @@ class PackedItem implements ModelInterface, ArrayAccess
     protected static $attributeMap = [
         'item_sequence_number' => 'itemSequenceNumber',
         'buyer_product_identifier' => 'buyerProductIdentifier',
+        'piece_number' => 'pieceNumber',
         'vendor_product_identifier' => 'vendorProductIdentifier',
         'packed_quantity' => 'packedQuantity',
     ];
@@ -148,6 +151,7 @@ class PackedItem implements ModelInterface, ArrayAccess
     protected static $setters = [
         'item_sequence_number' => 'setItemSequenceNumber',
         'buyer_product_identifier' => 'setBuyerProductIdentifier',
+        'piece_number' => 'setPieceNumber',
         'vendor_product_identifier' => 'setVendorProductIdentifier',
         'packed_quantity' => 'setPackedQuantity',
     ];
@@ -160,6 +164,7 @@ class PackedItem implements ModelInterface, ArrayAccess
     protected static $getters = [
         'item_sequence_number' => 'getItemSequenceNumber',
         'buyer_product_identifier' => 'getBuyerProductIdentifier',
+        'piece_number' => 'getPieceNumber',
         'vendor_product_identifier' => 'getVendorProductIdentifier',
         'packed_quantity' => 'getPackedQuantity',
     ];
@@ -222,6 +227,7 @@ class PackedItem implements ModelInterface, ArrayAccess
     {
         $this->container['item_sequence_number'] = isset($data['item_sequence_number']) ? $data['item_sequence_number'] : null;
         $this->container['buyer_product_identifier'] = isset($data['buyer_product_identifier']) ? $data['buyer_product_identifier'] : null;
+        $this->container['piece_number'] = isset($data['piece_number']) ? $data['piece_number'] : null;
         $this->container['vendor_product_identifier'] = isset($data['vendor_product_identifier']) ? $data['vendor_product_identifier'] : null;
         $this->container['packed_quantity'] = isset($data['packed_quantity']) ? $data['packed_quantity'] : null;
     }
@@ -300,6 +306,30 @@ class PackedItem implements ModelInterface, ArrayAccess
     public function setBuyerProductIdentifier($buyer_product_identifier)
     {
         $this->container['buyer_product_identifier'] = $buyer_product_identifier;
+
+        return $this;
+    }
+
+    /**
+     * Gets piece_number.
+     *
+     * @return int
+     */
+    public function getPieceNumber()
+    {
+        return $this->container['piece_number'];
+    }
+
+    /**
+     * Sets piece_number.
+     *
+     * @param int $piece_number The piece number of the item in this container. This is required when the item is split across different containers.
+     *
+     * @return $this
+     */
+    public function setPieceNumber($piece_number)
+    {
+        $this->container['piece_number'] = $piece_number;
 
         return $this;
     }

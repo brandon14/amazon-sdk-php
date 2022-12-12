@@ -91,18 +91,25 @@ class ItemSummaryByMarketplace implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'marketplace_id' => 'string',
+        'adult_product' => 'bool',
+        'autographed' => 'bool',
         'brand' => 'string',
         'browse_classification' => '\TNT\Amazon\CatalogItems\V20220401\Model\ItemBrowseClassification',
         'color' => 'string',
+        'contributors' => '\TNT\Amazon\CatalogItems\V20220401\Model\ItemContributor[]',
         'item_classification' => 'string',
         'item_name' => 'string',
         'manufacturer' => 'string',
+        'memorabilia' => 'bool',
         'model_number' => 'string',
         'package_quantity' => 'int',
         'part_number' => 'string',
+        'release_date' => '\DateTime',
         'size' => 'string',
         'style' => 'string',
+        'trade_in_eligible' => 'bool',
         'website_display_group' => 'string',
+        'website_display_group_name' => 'string',
     ];
 
     /**
@@ -112,18 +119,25 @@ class ItemSummaryByMarketplace implements ModelInterface, ArrayAccess
      */
     protected static $swaggerFormats = [
         'marketplace_id' => null,
+        'adult_product' => null,
+        'autographed' => null,
         'brand' => null,
         'browse_classification' => null,
         'color' => null,
+        'contributors' => null,
         'item_classification' => null,
         'item_name' => null,
         'manufacturer' => null,
+        'memorabilia' => null,
         'model_number' => null,
         'package_quantity' => null,
         'part_number' => null,
+        'release_date' => 'date',
         'size' => null,
         'style' => null,
+        'trade_in_eligible' => null,
         'website_display_group' => null,
+        'website_display_group_name' => null,
     ];
 
     /**
@@ -154,18 +168,25 @@ class ItemSummaryByMarketplace implements ModelInterface, ArrayAccess
      */
     protected static $attributeMap = [
         'marketplace_id' => 'marketplaceId',
+        'adult_product' => 'adultProduct',
+        'autographed' => 'autographed',
         'brand' => 'brand',
         'browse_classification' => 'browseClassification',
         'color' => 'color',
+        'contributors' => 'contributors',
         'item_classification' => 'itemClassification',
         'item_name' => 'itemName',
         'manufacturer' => 'manufacturer',
+        'memorabilia' => 'memorabilia',
         'model_number' => 'modelNumber',
         'package_quantity' => 'packageQuantity',
         'part_number' => 'partNumber',
+        'release_date' => 'releaseDate',
         'size' => 'size',
         'style' => 'style',
+        'trade_in_eligible' => 'tradeInEligible',
         'website_display_group' => 'websiteDisplayGroup',
+        'website_display_group_name' => 'websiteDisplayGroupName',
     ];
 
     /**
@@ -175,18 +196,25 @@ class ItemSummaryByMarketplace implements ModelInterface, ArrayAccess
      */
     protected static $setters = [
         'marketplace_id' => 'setMarketplaceId',
+        'adult_product' => 'setAdultProduct',
+        'autographed' => 'setAutographed',
         'brand' => 'setBrand',
         'browse_classification' => 'setBrowseClassification',
         'color' => 'setColor',
+        'contributors' => 'setContributors',
         'item_classification' => 'setItemClassification',
         'item_name' => 'setItemName',
         'manufacturer' => 'setManufacturer',
+        'memorabilia' => 'setMemorabilia',
         'model_number' => 'setModelNumber',
         'package_quantity' => 'setPackageQuantity',
         'part_number' => 'setPartNumber',
+        'release_date' => 'setReleaseDate',
         'size' => 'setSize',
         'style' => 'setStyle',
+        'trade_in_eligible' => 'setTradeInEligible',
         'website_display_group' => 'setWebsiteDisplayGroup',
+        'website_display_group_name' => 'setWebsiteDisplayGroupName',
     ];
 
     /**
@@ -196,18 +224,25 @@ class ItemSummaryByMarketplace implements ModelInterface, ArrayAccess
      */
     protected static $getters = [
         'marketplace_id' => 'getMarketplaceId',
+        'adult_product' => 'getAdultProduct',
+        'autographed' => 'getAutographed',
         'brand' => 'getBrand',
         'browse_classification' => 'getBrowseClassification',
         'color' => 'getColor',
+        'contributors' => 'getContributors',
         'item_classification' => 'getItemClassification',
         'item_name' => 'getItemName',
         'manufacturer' => 'getManufacturer',
+        'memorabilia' => 'getMemorabilia',
         'model_number' => 'getModelNumber',
         'package_quantity' => 'getPackageQuantity',
         'part_number' => 'getPartNumber',
+        'release_date' => 'getReleaseDate',
         'size' => 'getSize',
         'style' => 'getStyle',
+        'trade_in_eligible' => 'getTradeInEligible',
         'website_display_group' => 'getWebsiteDisplayGroup',
+        'website_display_group_name' => 'getWebsiteDisplayGroupName',
     ];
 
     /**
@@ -287,18 +322,25 @@ class ItemSummaryByMarketplace implements ModelInterface, ArrayAccess
     public function __construct(array $data = null)
     {
         $this->container['marketplace_id'] = isset($data['marketplace_id']) ? $data['marketplace_id'] : null;
+        $this->container['adult_product'] = isset($data['adult_product']) ? $data['adult_product'] : null;
+        $this->container['autographed'] = isset($data['autographed']) ? $data['autographed'] : null;
         $this->container['brand'] = isset($data['brand']) ? $data['brand'] : null;
         $this->container['browse_classification'] = isset($data['browse_classification']) ? $data['browse_classification'] : null;
         $this->container['color'] = isset($data['color']) ? $data['color'] : null;
+        $this->container['contributors'] = isset($data['contributors']) ? $data['contributors'] : null;
         $this->container['item_classification'] = isset($data['item_classification']) ? $data['item_classification'] : null;
         $this->container['item_name'] = isset($data['item_name']) ? $data['item_name'] : null;
         $this->container['manufacturer'] = isset($data['manufacturer']) ? $data['manufacturer'] : null;
+        $this->container['memorabilia'] = isset($data['memorabilia']) ? $data['memorabilia'] : null;
         $this->container['model_number'] = isset($data['model_number']) ? $data['model_number'] : null;
         $this->container['package_quantity'] = isset($data['package_quantity']) ? $data['package_quantity'] : null;
         $this->container['part_number'] = isset($data['part_number']) ? $data['part_number'] : null;
+        $this->container['release_date'] = isset($data['release_date']) ? $data['release_date'] : null;
         $this->container['size'] = isset($data['size']) ? $data['size'] : null;
         $this->container['style'] = isset($data['style']) ? $data['style'] : null;
+        $this->container['trade_in_eligible'] = isset($data['trade_in_eligible']) ? $data['trade_in_eligible'] : null;
         $this->container['website_display_group'] = isset($data['website_display_group']) ? $data['website_display_group'] : null;
+        $this->container['website_display_group_name'] = isset($data['website_display_group_name']) ? $data['website_display_group_name'] : null;
     }
 
     /**
@@ -357,6 +399,54 @@ class ItemSummaryByMarketplace implements ModelInterface, ArrayAccess
     public function setMarketplaceId($marketplace_id)
     {
         $this->container['marketplace_id'] = $marketplace_id;
+
+        return $this;
+    }
+
+    /**
+     * Gets adult_product.
+     *
+     * @return bool
+     */
+    public function getAdultProduct()
+    {
+        return $this->container['adult_product'];
+    }
+
+    /**
+     * Sets adult_product.
+     *
+     * @param bool $adult_product identifies an Amazon catalog item is intended for an adult audience or is sexual in nature
+     *
+     * @return $this
+     */
+    public function setAdultProduct($adult_product)
+    {
+        $this->container['adult_product'] = $adult_product;
+
+        return $this;
+    }
+
+    /**
+     * Gets autographed.
+     *
+     * @return bool
+     */
+    public function getAutographed()
+    {
+        return $this->container['autographed'];
+    }
+
+    /**
+     * Sets autographed.
+     *
+     * @param bool $autographed identifies an Amazon catalog item is autographed by a player or celebrity
+     *
+     * @return $this
+     */
+    public function setAutographed($autographed)
+    {
+        $this->container['autographed'] = $autographed;
 
         return $this;
     }
@@ -429,6 +519,30 @@ class ItemSummaryByMarketplace implements ModelInterface, ArrayAccess
     public function setColor($color)
     {
         $this->container['color'] = $color;
+
+        return $this;
+    }
+
+    /**
+     * Gets contributors.
+     *
+     * @return \TNT\Amazon\CatalogItems\V20220401\Model\ItemContributor[]
+     */
+    public function getContributors()
+    {
+        return $this->container['contributors'];
+    }
+
+    /**
+     * Sets contributors.
+     *
+     * @param \TNT\Amazon\CatalogItems\V20220401\Model\ItemContributor[] $contributors individual contributors to the creation of an item, such as the authors or actors
+     *
+     * @return $this
+     */
+    public function setContributors($contributors)
+    {
+        $this->container['contributors'] = $contributors;
 
         return $this;
     }
@@ -510,6 +624,30 @@ class ItemSummaryByMarketplace implements ModelInterface, ArrayAccess
     }
 
     /**
+     * Gets memorabilia.
+     *
+     * @return bool
+     */
+    public function getMemorabilia()
+    {
+        return $this->container['memorabilia'];
+    }
+
+    /**
+     * Sets memorabilia.
+     *
+     * @param bool $memorabilia identifies an Amazon catalog item is memorabilia valued for its connection with historical events, culture, or entertainment
+     *
+     * @return $this
+     */
+    public function setMemorabilia($memorabilia)
+    {
+        $this->container['memorabilia'] = $memorabilia;
+
+        return $this;
+    }
+
+    /**
      * Gets model_number.
      *
      * @return string
@@ -582,6 +720,30 @@ class ItemSummaryByMarketplace implements ModelInterface, ArrayAccess
     }
 
     /**
+     * Gets release_date.
+     *
+     * @return \DateTime
+     */
+    public function getReleaseDate()
+    {
+        return $this->container['release_date'];
+    }
+
+    /**
+     * Sets release_date.
+     *
+     * @param \DateTime $release_date first date on which an Amazon catalog item is shippable to customers
+     *
+     * @return $this
+     */
+    public function setReleaseDate($release_date)
+    {
+        $this->container['release_date'] = $release_date;
+
+        return $this;
+    }
+
+    /**
      * Gets size.
      *
      * @return string
@@ -630,6 +792,30 @@ class ItemSummaryByMarketplace implements ModelInterface, ArrayAccess
     }
 
     /**
+     * Gets trade_in_eligible.
+     *
+     * @return bool
+     */
+    public function getTradeInEligible()
+    {
+        return $this->container['trade_in_eligible'];
+    }
+
+    /**
+     * Sets trade_in_eligible.
+     *
+     * @param bool $trade_in_eligible identifies an Amazon catalog item is eligible for trade-in
+     *
+     * @return $this
+     */
+    public function setTradeInEligible($trade_in_eligible)
+    {
+        $this->container['trade_in_eligible'] = $trade_in_eligible;
+
+        return $this;
+    }
+
+    /**
      * Gets website_display_group.
      *
      * @return string
@@ -642,13 +828,37 @@ class ItemSummaryByMarketplace implements ModelInterface, ArrayAccess
     /**
      * Sets website_display_group.
      *
-     * @param string $website_display_group name of the website display group associated with an Amazon catalog item
+     * @param string $website_display_group identifier of the website display group associated with an Amazon catalog item
      *
      * @return $this
      */
     public function setWebsiteDisplayGroup($website_display_group)
     {
         $this->container['website_display_group'] = $website_display_group;
+
+        return $this;
+    }
+
+    /**
+     * Gets website_display_group_name.
+     *
+     * @return string
+     */
+    public function getWebsiteDisplayGroupName()
+    {
+        return $this->container['website_display_group_name'];
+    }
+
+    /**
+     * Sets website_display_group_name.
+     *
+     * @param string $website_display_group_name display name of the website display group associated with an Amazon catalog item
+     *
+     * @return $this
+     */
+    public function setWebsiteDisplayGroupName($website_display_group_name)
+    {
+        $this->container['website_display_group_name'] = $website_display_group_name;
 
         return $this;
     }

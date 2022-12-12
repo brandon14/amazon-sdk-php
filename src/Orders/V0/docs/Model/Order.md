@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 **payment_method_details** | [**\TNT\Amazon\Orders\V0\Model\PaymentMethodDetailItemList**](PaymentMethodDetailItemList.md) | A list of payment methods for the order. | [optional] 
 **marketplace_id** | **string** | The identifier for the marketplace where the order was placed. | [optional] 
 **shipment_service_level_category** | **string** | The shipment service level category of the order.  Possible values: Expedited, FreeEconomy, NextDay, SameDay, SecondDay, Scheduled, Standard. | [optional] 
-**easy_ship_shipment_status** | [**\TNT\Amazon\Orders\V0\Model\EasyShipShipmentStatus**](EasyShipShipmentStatus.md) | The status of the Amazon Easy-Ship order. This property is included only for Amazon Easy-Ship orders. | [optional] 
+**easy_ship_shipment_status** | [**\TNT\Amazon\Orders\V0\Model\EasyShipShipmentStatus**](EasyShipShipmentStatus.md) | The status of the Amazon Easy Ship order. This property is included only for Amazon Easy Ship orders. | [optional] 
 **cba_displayable_shipping_label** | **string** | Custom ship label for Checkout by Amazon (CBA). | [optional] 
 **order_type** | **string** | The type of the order. | [optional] 
 **earliest_ship_date** | **string** | The start of the time period within which you have committed to ship the order. In ISO 8601 date time format. Returned only for seller-fulfilled orders.  __Note__: EarliestShipDate might not be returned for orders placed before February 1, 2013. | [optional] 

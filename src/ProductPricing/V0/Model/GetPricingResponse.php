@@ -67,7 +67,7 @@ use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
  * GetPricingResponse Class Doc Comment.
  *
  * @category Class
- * @description The response schema for the getPricing and getCompetitivePricing operations.
+ * @description The response schema for the &#x60;getPricing&#x60; and &#x60;getCompetitivePricing&#x60; operations.
  *
  * @author   Swagger Codegen team
  *
