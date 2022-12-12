@@ -248,7 +248,7 @@ class ContainerItem implements ModelInterface, ArrayAccess
         if ($this->container['title'] === null) {
             $invalidProperties[] = "'title' can't be null";
         }
-        if (mb_strlen($this->container['title']) > 30) {
+        if ((mb_strlen($this->container['title']) > 30)) {
             $invalidProperties[] = "invalid value for 'title', the character length must be smaller than or equal to 30.";
         }
 
@@ -357,7 +357,7 @@ class ContainerItem implements ModelInterface, ArrayAccess
      */
     public function setTitle($title)
     {
-        if (mb_strlen($title) > 30) {
+        if ((mb_strlen($title) > 30)) {
             throw new \InvalidArgumentException('invalid length for $title when calling ContainerItem., must be smaller than or equal to 30.');
         }
 

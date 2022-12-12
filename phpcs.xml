@@ -19,6 +19,8 @@
   <exclude-pattern>doctum_cache/</exclude-pattern>
   <!-- Exclude docs folder -->
   <exclude-pattern>docs/</exclude-pattern>
+  <!-- Exclude weird String model from Amazon API since it's essentially a broken file :-( -->
+  <exclude-pattern>src/*/String\.php</exclude-pattern>
 
   <!-- Run against the PHPCompatibility ruleset -->
   <rule ref="PHPCompatibility">
@@ -32,8 +34,6 @@
   <rule ref="PSR12" >
     <exclude name="PSR12.Operators.OperatorSpacing.NoSpaceBefore"></exclude>
     <exclude name="PSR12.Operators.OperatorSpacing.NoSpaceAfter"></exclude>
-    <exclude name="PSR12.Files.FileHeader.IncorrectOrder"></exclude>
     <exclude name="PSR1.Methods.CamelCapsMethodName.NotCamelCaps"></exclude>
   </rule>
-
 </ruleset>

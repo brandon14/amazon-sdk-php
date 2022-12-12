@@ -270,11 +270,11 @@ class ServiceUploadDocument implements ModelInterface, ArrayAccess
         if ($this->container['content_length'] === null) {
             $invalidProperties[] = "'content_length' can't be null";
         }
-        if ($this->container['content_length'] > 5242880) {
+        if (($this->container['content_length'] > 5242880)) {
             $invalidProperties[] = "invalid value for 'content_length', must be smaller than or equal to 5242880.";
         }
 
-        if ($this->container['content_length'] < 1) {
+        if (($this->container['content_length'] < 1)) {
             $invalidProperties[] = "invalid value for 'content_length', must be bigger than or equal to 1.";
         }
 
@@ -343,10 +343,10 @@ class ServiceUploadDocument implements ModelInterface, ArrayAccess
      */
     public function setContentLength($content_length)
     {
-        if ($content_length > 5242880) {
+        if (($content_length > 5242880)) {
             throw new \InvalidArgumentException('invalid value for $content_length when calling ServiceUploadDocument., must be smaller than or equal to 5242880.');
         }
-        if ($content_length < 1) {
+        if (($content_length < 1)) {
             throw new \InvalidArgumentException('invalid value for $content_length when calling ServiceUploadDocument., must be bigger than or equal to 1.');
         }
 

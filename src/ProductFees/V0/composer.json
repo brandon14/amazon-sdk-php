@@ -1,7 +1,7 @@
 {
     "name": "brandon14/amazon-product-fees-v0",
     "description": "",
-    "keywords": ["swagger", "swagger-codegen, "openapi", "php", "sdk", "rest", "api", "amazon"],
+    "keywords": ["swagger", "swagger-codegen", "openapi", "php", "sdk", "rest", "api", "amazon"],
     "homepage": "https://github.com/brandon14/amazon-product-fees-v0",
     "license": "MIT",
     "authors": [

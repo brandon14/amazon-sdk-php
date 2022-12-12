@@ -45,6 +45,7 @@ $finder = PhpCsFixer\Finder::create()
     ->notPath('vendor')
     ->name('*.php')
     ->name('.php-cs*.php')
+    ->notName('*String.php')
     ->in(__DIR__)
     ->ignoreDotFiles(false)
     ->ignoreVCS(true);

@@ -320,7 +320,7 @@ class ShippingLabel implements ModelInterface, ArrayAccess
      */
     public function setPurchaseOrderNumber($purchase_order_number)
     {
-        if (! preg_match('/^[a-zA-Z0-9]+$/', $purchase_order_number)) {
+        if ((! preg_match('/^[a-zA-Z0-9]+$/', $purchase_order_number))) {
             throw new \InvalidArgumentException("invalid value for $purchase_order_number when calling ShippingLabel., must conform to the pattern /^[a-zA-Z0-9]+$/.");
         }
 

@@ -125,7 +125,7 @@ class Configuration
      *
      * @var string
      */
-    protected $userAgent = 'Swagger-Codegen/1.0.0/php';
+    protected $userAgent = 'brandon14/amazon-sdk-php/0.2.0/php';
 
     /**
      * Debug switch (default set to false).

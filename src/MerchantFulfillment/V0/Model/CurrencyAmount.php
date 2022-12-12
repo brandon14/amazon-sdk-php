@@ -227,7 +227,7 @@ class CurrencyAmount implements ModelInterface, ArrayAccess
         if ($this->container['currency_code'] === null) {
             $invalidProperties[] = "'currency_code' can't be null";
         }
-        if (mb_strlen($this->container['currency_code']) > 3) {
+        if ((mb_strlen($this->container['currency_code']) > 3)) {
             $invalidProperties[] = "invalid value for 'currency_code', the character length must be smaller than or equal to 3.";
         }
 
@@ -268,7 +268,7 @@ class CurrencyAmount implements ModelInterface, ArrayAccess
      */
     public function setCurrencyCode($currency_code)
     {
-        if (mb_strlen($currency_code) > 3) {
+        if ((mb_strlen($currency_code) > 3)) {
             throw new \InvalidArgumentException('invalid length for $currency_code when calling CurrencyAmount., must be smaller than or equal to 3.');
         }
 

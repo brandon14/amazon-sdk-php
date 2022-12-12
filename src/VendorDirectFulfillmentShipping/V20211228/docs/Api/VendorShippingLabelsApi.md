@@ -4,10 +4,62 @@ All URIs are relative to *https://sellingpartnerapi-na.amazon.com*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
+[**createShippingLabels**](VendorShippingLabelsApi.md#createShippingLabels) | **POST** /vendor/directFulfillment/shipping/2021-12-28/shippingLabels/{purchaseOrderNumber} | 
 [**getShippingLabel**](VendorShippingLabelsApi.md#getShippingLabel) | **GET** /vendor/directFulfillment/shipping/2021-12-28/shippingLabels/{purchaseOrderNumber} | 
 [**getShippingLabels**](VendorShippingLabelsApi.md#getShippingLabels) | **GET** /vendor/directFulfillment/shipping/2021-12-28/shippingLabels | 
 [**submitShippingLabelRequest**](VendorShippingLabelsApi.md#submitShippingLabelRequest) | **POST** /vendor/directFulfillment/shipping/2021-12-28/shippingLabels | 
 
+
+# **createShippingLabels**
+> \TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Model\ShippingLabel createShippingLabels($purchase_order_number, $body)
+
+
+
+Creates shipping labels for a purchase order and returns the labels.  **Usage Plan:**  | Rate (requests per second) | Burst | | ---- | ---- | | 10 | 10 |  The `x-amzn-RateLimit-Limit` response header returns the usage plan rate limits that were applied to the requested operation, when available. The table above indicates the default rate and burst values for this operation. Selling partners whose business demands require higher throughput may see higher rate and burst values then those shown here. For more information, see [Usage Plans and Rate Limits in the Selling Partner API](doc:usage-plans-and-rate-limits-in-the-sp-api).
+
+### Example
+```php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$apiInstance = new TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Api\VendorShippingLabelsApi(
+    // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
+    // This is optional, `GuzzleHttp\Client` will be used as default.
+    new GuzzleHttp\Client()
+);
+$purchase_order_number = "purchase_order_number_example"; // string | The purchase order number for which you want to return the shipping labels. It should be the same purchaseOrderNumber as received in the order.
+$body = new \TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Model\CreateShippingLabelsRequest(); // \TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Model\CreateShippingLabelsRequest | 
+
+try {
+    $result = $apiInstance->createShippingLabels($purchase_order_number, $body);
+    print_r($result);
+} catch (Exception $e) {
+    echo 'Exception when calling VendorShippingLabelsApi->createShippingLabels: ', $e->getMessage(), PHP_EOL;
+}
+?>
+```
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **purchase_order_number** | **string**| The purchase order number for which you want to return the shipping labels. It should be the same purchaseOrderNumber as received in the order. |
+ **body** | [**\TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Model\CreateShippingLabelsRequest**](../Model/CreateShippingLabelsRequest.md)|  |
+
+### Return type
+
+[**\TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Model\ShippingLabel**](../Model/ShippingLabel.md)
+
+### Authorization
+
+No authorization required
+
+### HTTP request headers
+
+ - **Content-Type**: application/json
+ - **Accept**: application/json
+
+[[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getShippingLabel**
 > \TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Model\ShippingLabel getShippingLabel($purchase_order_number)

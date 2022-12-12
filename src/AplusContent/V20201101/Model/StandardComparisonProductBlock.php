@@ -251,11 +251,11 @@ class StandardComparisonProductBlock implements ModelInterface, ArrayAccess
         if ($this->container['position'] === null) {
             $invalidProperties[] = "'position' can't be null";
         }
-        if ($this->container['position'] > 6) {
+        if (($this->container['position'] > 6)) {
             $invalidProperties[] = "invalid value for 'position', must be smaller than or equal to 6.";
         }
 
-        if ($this->container['position'] < 1) {
+        if (($this->container['position'] < 1)) {
             $invalidProperties[] = "invalid value for 'position', must be bigger than or equal to 1.";
         }
 
@@ -300,10 +300,10 @@ class StandardComparisonProductBlock implements ModelInterface, ArrayAccess
      */
     public function setPosition($position)
     {
-        if ($position > 6) {
+        if (($position > 6)) {
             throw new \InvalidArgumentException('invalid value for $position when calling StandardComparisonProductBlock., must be smaller than or equal to 6.');
         }
-        if ($position < 1) {
+        if (($position < 1)) {
             throw new \InvalidArgumentException('invalid value for $position when calling StandardComparisonProductBlock., must be bigger than or equal to 1.');
         }
 

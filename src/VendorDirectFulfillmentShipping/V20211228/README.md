@@ -57,18 +57,18 @@ Please follow the [installation procedure](#installation--usage) and then run th
 <?php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$apiInstance = new TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Api\VendorShippingLabelsApi(
+$apiInstance = new TNT\Amazon\VendorDirectFulfillmentShipping\V20211228\Api\CustomerInvoicesApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client()
 );
-$purchase_order_number = "purchase_order_number_example"; // string | The purchase order number for which you want to return the shipping label. It should be the same purchaseOrderNumber as received in the order.
+$purchase_order_number = "purchase_order_number_example"; // string | Purchase order number of the shipment for which to return the invoice.
 
 try {
-    $result = $apiInstance->getShippingLabel($purchase_order_number);
+    $result = $apiInstance->getCustomerInvoice($purchase_order_number);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling VendorShippingLabelsApi->getShippingLabel: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling CustomerInvoicesApi->getCustomerInvoice: ', $e->getMessage(), PHP_EOL;
 }
 
 ?>
@@ -80,6 +80,13 @@ All URIs are relative to *https://sellingpartnerapi-na.amazon.com*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
+*CustomerInvoicesApi* | [**getCustomerInvoice**](docs/Api/CustomerInvoicesApi.md#getcustomerinvoice) | **GET** /vendor/directFulfillment/shipping/2021-12-28/customerInvoices/{purchaseOrderNumber} | 
+*CustomerInvoicesApi* | [**getCustomerInvoices**](docs/Api/CustomerInvoicesApi.md#getcustomerinvoices) | **GET** /vendor/directFulfillment/shipping/2021-12-28/customerInvoices | 
+*VendorShippingApi* | [**getPackingSlip**](docs/Api/VendorShippingApi.md#getpackingslip) | **GET** /vendor/directFulfillment/shipping/2021-12-28/packingSlips/{purchaseOrderNumber} | 
+*VendorShippingApi* | [**getPackingSlips**](docs/Api/VendorShippingApi.md#getpackingslips) | **GET** /vendor/directFulfillment/shipping/2021-12-28/packingSlips | 
+*VendorShippingApi* | [**submitShipmentConfirmations**](docs/Api/VendorShippingApi.md#submitshipmentconfirmations) | **POST** /vendor/directFulfillment/shipping/2021-12-28/shipmentConfirmations | 
+*VendorShippingApi* | [**submitShipmentStatusUpdates**](docs/Api/VendorShippingApi.md#submitshipmentstatusupdates) | **POST** /vendor/directFulfillment/shipping/2021-12-28/shipmentStatusUpdates | 
+*VendorShippingLabelsApi* | [**createShippingLabels**](docs/Api/VendorShippingLabelsApi.md#createshippinglabels) | **POST** /vendor/directFulfillment/shipping/2021-12-28/shippingLabels/{purchaseOrderNumber} | 
 *VendorShippingLabelsApi* | [**getShippingLabel**](docs/Api/VendorShippingLabelsApi.md#getshippinglabel) | **GET** /vendor/directFulfillment/shipping/2021-12-28/shippingLabels/{purchaseOrderNumber} | 
 *VendorShippingLabelsApi* | [**getShippingLabels**](docs/Api/VendorShippingLabelsApi.md#getshippinglabels) | **GET** /vendor/directFulfillment/shipping/2021-12-28/shippingLabels | 
 *VendorShippingLabelsApi* | [**submitShippingLabelRequest**](docs/Api/VendorShippingLabelsApi.md#submitshippinglabelrequest) | **POST** /vendor/directFulfillment/shipping/2021-12-28/shippingLabels | 
@@ -89,27 +96,32 @@ Class | Method | HTTP request | Description
 
  - [Address](docs/Model/Address.md)
  - [Container](docs/Model/Container.md)
+ - [CreateShippingLabelsRequest](docs/Model/CreateShippingLabelsRequest.md)
  - [CustomerInvoice](docs/Model/CustomerInvoice.md)
  - [CustomerInvoiceList](docs/Model/CustomerInvoiceList.md)
  - [Decimal](docs/Model/Decimal.md)
  - [Dimensions](docs/Model/Dimensions.md)
  - [Error](docs/Model/Error.md)
  - [ErrorList](docs/Model/ErrorList.md)
- - [GetCustomerInvoiceResponse](docs/Model/GetCustomerInvoiceResponse.md)
- - [GetCustomerInvoicesResponse](docs/Model/GetCustomerInvoicesResponse.md)
- - [GetShippingLabelListResponse](docs/Model/GetShippingLabelListResponse.md)
- - [GetShippingLabelResponse](docs/Model/GetShippingLabelResponse.md)
  - [Item](docs/Model/Item.md)
  - [ItemQuantity](docs/Model/ItemQuantity.md)
  - [LabelData](docs/Model/LabelData.md)
  - [PackedItem](docs/Model/PackedItem.md)
+ - [PackingSlip](docs/Model/PackingSlip.md)
+ - [PackingSlipList](docs/Model/PackingSlipList.md)
  - [Pagination](docs/Model/Pagination.md)
  - [PartyIdentification](docs/Model/PartyIdentification.md)
+ - [ShipmentConfirmation](docs/Model/ShipmentConfirmation.md)
+ - [ShipmentDetails](docs/Model/ShipmentDetails.md)
+ - [ShipmentSchedule](docs/Model/ShipmentSchedule.md)
+ - [ShipmentStatusUpdate](docs/Model/ShipmentStatusUpdate.md)
  - [ShippingLabel](docs/Model/ShippingLabel.md)
  - [ShippingLabelList](docs/Model/ShippingLabelList.md)
  - [ShippingLabelRequest](docs/Model/ShippingLabelRequest.md)
+ - [StatusUpdateDetails](docs/Model/StatusUpdateDetails.md)
+ - [SubmitShipmentConfirmationsRequest](docs/Model/SubmitShipmentConfirmationsRequest.md)
+ - [SubmitShipmentStatusUpdatesRequest](docs/Model/SubmitShipmentStatusUpdatesRequest.md)
  - [SubmitShippingLabelsRequest](docs/Model/SubmitShippingLabelsRequest.md)
- - [SubmitShippingLabelsResponse](docs/Model/SubmitShippingLabelsResponse.md)
  - [TaxRegistrationDetails](docs/Model/TaxRegistrationDetails.md)
  - [TransactionReference](docs/Model/TransactionReference.md)
  - [Weight](docs/Model/Weight.md)

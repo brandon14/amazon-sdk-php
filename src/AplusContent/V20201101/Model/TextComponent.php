@@ -227,11 +227,11 @@ class TextComponent implements ModelInterface, ArrayAccess
         if ($this->container['value'] === null) {
             $invalidProperties[] = "'value' can't be null";
         }
-        if (mb_strlen($this->container['value']) > 10000) {
+        if ((mb_strlen($this->container['value']) > 10000)) {
             $invalidProperties[] = "invalid value for 'value', the character length must be smaller than or equal to 10000.";
         }
 
-        if (mb_strlen($this->container['value']) < 1) {
+        if ((mb_strlen($this->container['value']) < 1)) {
             $invalidProperties[] = "invalid value for 'value', the character length must be bigger than or equal to 1.";
         }
 
@@ -268,10 +268,10 @@ class TextComponent implements ModelInterface, ArrayAccess
      */
     public function setValue($value)
     {
-        if (mb_strlen($value) > 10000) {
+        if ((mb_strlen($value) > 10000)) {
             throw new \InvalidArgumentException('invalid length for $value when calling TextComponent., must be smaller than or equal to 10000.');
         }
-        if (mb_strlen($value) < 1) {
+        if ((mb_strlen($value) < 1)) {
             throw new \InvalidArgumentException('invalid length for $value when calling TextComponent., must be bigger than or equal to 1.');
         }
 

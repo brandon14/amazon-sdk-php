@@ -67,7 +67,7 @@ use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
  * GetListingOffersBatchResponse Class Doc Comment.
  *
  * @category Class
- * @description The response associated with the getListingOffersBatch API call.
+ * @description The response associated with the &#x60;getListingOffersBatch&#x60; API call.
  *
  * @author   Swagger Codegen team
  *

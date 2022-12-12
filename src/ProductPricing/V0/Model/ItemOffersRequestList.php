@@ -67,7 +67,7 @@ use TNT\Amazon\ProductPricing\V0\ObjectSerializer;
  * ItemOffersRequestList Class Doc Comment.
  *
  * @category Class
- * @description A list of getItemOffers batched requests to run.
+ * @description A list of &#x60;getListingOffers&#x60; batched requests to run.
  *
  * @author   Swagger Codegen team
  *

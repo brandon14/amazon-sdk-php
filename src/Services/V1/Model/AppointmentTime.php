@@ -230,7 +230,7 @@ class AppointmentTime implements ModelInterface, ArrayAccess
         if ($this->container['duration_in_minutes'] === null) {
             $invalidProperties[] = "'duration_in_minutes' can't be null";
         }
-        if ($this->container['duration_in_minutes'] < 1) {
+        if (($this->container['duration_in_minutes'] < 1)) {
             $invalidProperties[] = "invalid value for 'duration_in_minutes', must be bigger than or equal to 1.";
         }
 
@@ -291,7 +291,7 @@ class AppointmentTime implements ModelInterface, ArrayAccess
      */
     public function setDurationInMinutes($duration_in_minutes)
     {
-        if ($duration_in_minutes < 1) {
+        if (($duration_in_minutes < 1)) {
             throw new \InvalidArgumentException('invalid value for $duration_in_minutes when calling AppointmentTime., must be bigger than or equal to 1.');
         }
 

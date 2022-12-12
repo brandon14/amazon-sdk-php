@@ -352,7 +352,7 @@ class Marketplace implements ModelInterface, ArrayAccess
      */
     public function setCountryCode($country_code)
     {
-        if (! preg_match('/^([A-Z]{2})$/', $country_code)) {
+        if ((! preg_match('/^([A-Z]{2})$/', $country_code))) {
             throw new \InvalidArgumentException("invalid value for $country_code when calling Marketplace., must conform to the pattern /^([A-Z]{2})$/.");
         }
 

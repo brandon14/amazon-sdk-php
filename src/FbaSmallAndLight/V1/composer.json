@@ -1,7 +1,7 @@
 {
     "name": "brandon14/amazon-fba-small-and-light-v1",
     "description": "",
-    "keywords": ["swagger", "swagger-codegen, "openapi", "php", "sdk", "rest", "api", "amazon"],
+    "keywords": ["swagger", "swagger-codegen", "openapi", "php", "sdk", "rest", "api", "amazon"],
     "homepage": "https://github.com/brandon14/amazon-fba-small-and-light-v1",
     "license": "MIT",
     "authors": [

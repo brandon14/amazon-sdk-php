@@ -50,7 +50,7 @@
         "lint:php-cs-fixer:fix": [
             "@putenv PHP_CS_FIXER_IGNORE_ENV=1",
             "Composer\\Config::disableProcessTimeout",
-            "php-cs-fixer list-files --config=./.php-cs-fixer.dist.php | xargs -n 10 -P 8 php-cs-fixer fix --config=./.php-cs-fixer.dist.php"
+            "php-cs-fixer list-files --config=./.php-cs-fixer.dist.php | xargs -n 10 -P 8 php-cs-fixer fix --config=./.php-cs-fixer.dist.php --allow-risky=yes"
         ],
         "lint:php-cs-fixer:check": [
             "Composer\\Config::disableProcessTimeout",

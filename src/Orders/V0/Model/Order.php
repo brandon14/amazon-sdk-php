@@ -1099,7 +1099,7 @@ class Order implements ModelInterface, ArrayAccess
     /**
      * Sets easy_ship_shipment_status.
      *
-     * @param \TNT\Amazon\Orders\V0\Model\EasyShipShipmentStatus $easy_ship_shipment_status The status of the Amazon Easy-Ship order. This property is included only for Amazon Easy-Ship orders.
+     * @param \TNT\Amazon\Orders\V0\Model\EasyShipShipmentStatus $easy_ship_shipment_status The status of the Amazon Easy Ship order. This property is included only for Amazon Easy Ship orders.
      *
      * @return $this
      */

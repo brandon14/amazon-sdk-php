@@ -293,7 +293,7 @@ class BuyerInfo implements ModelInterface, ArrayAccess
     /**
      * Sets buyer_name.
      *
-     * @param string $buyer_name the name of the buyer
+     * @param string $buyer_name the buyer name or the recipient name
      *
      * @return $this
      */

@@ -239,7 +239,7 @@ class GetFulfillmentPreviewItem implements ModelInterface, ArrayAccess
         if ($this->container['seller_sku'] === null) {
             $invalidProperties[] = "'seller_sku' can't be null";
         }
-        if (mb_strlen($this->container['seller_sku']) > 50) {
+        if ((mb_strlen($this->container['seller_sku']) > 50)) {
             $invalidProperties[] = "invalid value for 'seller_sku', the character length must be smaller than or equal to 50.";
         }
 
@@ -249,7 +249,7 @@ class GetFulfillmentPreviewItem implements ModelInterface, ArrayAccess
         if ($this->container['seller_fulfillment_order_item_id'] === null) {
             $invalidProperties[] = "'seller_fulfillment_order_item_id' can't be null";
         }
-        if (mb_strlen($this->container['seller_fulfillment_order_item_id']) > 50) {
+        if ((mb_strlen($this->container['seller_fulfillment_order_item_id']) > 50)) {
             $invalidProperties[] = "invalid value for 'seller_fulfillment_order_item_id', the character length must be smaller than or equal to 50.";
         }
 
@@ -286,7 +286,7 @@ class GetFulfillmentPreviewItem implements ModelInterface, ArrayAccess
      */
     public function setSellerSku($seller_sku)
     {
-        if (mb_strlen($seller_sku) > 50) {
+        if ((mb_strlen($seller_sku) > 50)) {
             throw new \InvalidArgumentException('invalid length for $seller_sku when calling GetFulfillmentPreviewItem., must be smaller than or equal to 50.');
         }
 
@@ -362,7 +362,7 @@ class GetFulfillmentPreviewItem implements ModelInterface, ArrayAccess
      */
     public function setSellerFulfillmentOrderItemId($seller_fulfillment_order_item_id)
     {
-        if (mb_strlen($seller_fulfillment_order_item_id) > 50) {
+        if ((mb_strlen($seller_fulfillment_order_item_id) > 50)) {
             throw new \InvalidArgumentException('invalid length for $seller_fulfillment_order_item_id when calling GetFulfillmentPreviewItem., must be smaller than or equal to 50.');
         }
 

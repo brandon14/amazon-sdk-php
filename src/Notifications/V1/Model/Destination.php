@@ -233,7 +233,7 @@ class Destination implements ModelInterface, ArrayAccess
         if ($this->container['name'] === null) {
             $invalidProperties[] = "'name' can't be null";
         }
-        if (mb_strlen($this->container['name']) > 256) {
+        if ((mb_strlen($this->container['name']) > 256)) {
             $invalidProperties[] = "invalid value for 'name', the character length must be smaller than or equal to 256.";
         }
 
@@ -277,7 +277,7 @@ class Destination implements ModelInterface, ArrayAccess
      */
     public function setName($name)
     {
-        if (mb_strlen($name) > 256) {
+        if ((mb_strlen($name) > 256)) {
             throw new \InvalidArgumentException('invalid length for $name when calling Destination., must be smaller than or equal to 256.');
         }
 

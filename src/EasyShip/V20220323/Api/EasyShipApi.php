@@ -43,7 +43,7 @@ declare(strict_types=1);
 /**
  * Selling Partner API for Easy Ship.
  *
- * The Selling Partner API for Easy Ship helps you build applications that help sellers manage and ship Amazon Easy Ship orders.  Your Easy Ship applications can:  * Get available time slots for packages to be scheduled for delivery.  * Schedule, reschedule, and cancel Easy Ship orders.  * Print labels, invoices, and warranties.  See the [Marketplace Support Table](doc:easy-ship-api-v2022-03-23-use-case-guide) for the differences in Easy Ship operations by marketplace.
+ * The Selling Partner API for Easy Ship helps you build applications that help sellers manage and ship Amazon Easy Ship orders.  Your Easy Ship applications can:  * Get available time slots for packages to be scheduled for delivery.  * Schedule, reschedule, and cancel Easy Ship orders.  * Print labels, invoices, and warranties.  See the [Marketplace Support Table](doc:easyship-api-v2022-03-23-use-case-guide#marketplace-support-table) for the differences in Easy Ship operations by marketplace.
  *
  * OpenAPI spec version: 2022-03-23
  * Contact: marketplaceapitest@amazon.com
@@ -175,7 +175,7 @@ class EasyShipApi
             $responseBody = $response->getBody();
 
             if ($returnType === '\SplFileObject') {
-                $content = $responseBody; // stream goes to serializer
+                $content = $responseBody; // Stream goes to serializer.
             } else {
                 $content = $responseBody->getContents();
 
@@ -308,7 +308,7 @@ class EasyShipApi
                     $responseBody = $response->getBody();
 
                     if ($returnType === '\SplFileObject') {
-                        $content = $responseBody; // stream goes to serializer
+                        $content = $responseBody; // Stream goes to serializer.
                     } else {
                         $content = $responseBody->getContents();
                         if ($returnType !== 'string') {
@@ -358,6 +358,314 @@ class EasyShipApi
         $_tempBody = null;
         if (isset($create_scheduled_package_request)) {
             $_tempBody = $create_scheduled_package_request;
+        }
+
+        if ($multipart) {
+            $headers = $this->headerSelector->selectHeadersForMultipart(
+                ['application/json']
+            );
+        } else {
+            $headers = $this->headerSelector->selectHeaders(
+                ['application/json'],
+                ['application/json']
+            );
+        }
+
+        // For model (json/xml).
+        if (isset($_tempBody)) {
+            // $_tempBody is the method argument, if present
+            $httpBody = $_tempBody;
+
+            if ($headers['Content-Type'] === 'application/json') {
+                // \stdClass has no __toString(), so we should encode it manually
+                if ($httpBody instanceof \stdClass) {
+                    $httpBody = \GuzzleHttp\json_encode($httpBody);
+                }
+
+                // array has no __toString(), so we should encode it manually
+                if (\is_array($httpBody)) {
+                    $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
+                }
+            }
+        } elseif (count($formParams) > 0) {
+            if ($multipart) {
+                $multipartContents = [];
+
+                foreach ($formParams as $formParamName => $formParamValue) {
+                    $multipartContents[] = [
+                        'name' => $formParamName,
+                        'contents' => $formParamValue,
+                    ];
+                }
+
+                // for HTTP post (form)
+                $httpBody = new MultipartStream($multipartContents);
+            } elseif ($headers['Content-Type'] === 'application/json') {
+                $httpBody = \GuzzleHttp\json_encode($formParams);
+            } else {
+                // for HTTP post (form)
+                $httpBody = \GuzzleHttp\Psr7\Query::build($formParams);
+            }
+        }
+
+        $defaultHeaders = [];
+        if ($this->config->getUserAgent()) {
+            $defaultHeaders['User-Agent'] = $this->config->getUserAgent();
+        }
+
+        $headers = array_merge(
+            $defaultHeaders,
+            $headerParams,
+            $headers
+        );
+
+        $query = \GuzzleHttp\Psr7\Query::build($queryParams);
+
+        return new Request(
+            'POST',
+            $this->config->getHost().$resourcePath.($query ? "?{$query}" : ''),
+            $headers,
+            $httpBody
+        );
+    }
+
+    /**
+     * Operation createScheduledPackageBulk.
+     *
+     * @param \TNT\Amazon\EasyShip\V20220323\Model\CreateScheduledPackagesRequest $create_scheduled_packages_request create_scheduled_packages_request (required)
+     *
+     * @throws \TNT\Amazon\EasyShip\V20220323\ApiException on non-2xx response
+     * @throws \InvalidArgumentException
+     *
+     * @return \TNT\Amazon\EasyShip\V20220323\Model\CreateScheduledPackagesResponse
+     */
+    public function createScheduledPackageBulk($create_scheduled_packages_request)
+    {
+        [$response] = $this->createScheduledPackageBulkWithHttpInfo($create_scheduled_packages_request);
+
+        return $response;
+    }
+
+    /**
+     * Operation createScheduledPackageBulkWithHttpInfo.
+     *
+     * @param \TNT\Amazon\EasyShip\V20220323\Model\CreateScheduledPackagesRequest $create_scheduled_packages_request (required)
+     *
+     * @throws \TNT\Amazon\EasyShip\V20220323\ApiException on non-2xx response
+     * @throws \InvalidArgumentException
+     *
+     * @return array of \TNT\Amazon\EasyShip\V20220323\Model\CreateScheduledPackagesResponse, HTTP status code, HTTP response headers (array of strings)
+     */
+    public function createScheduledPackageBulkWithHttpInfo($create_scheduled_packages_request)
+    {
+        $returnType = '\TNT\Amazon\EasyShip\V20220323\Model\CreateScheduledPackagesResponse';
+        $request = $this->createScheduledPackageBulkRequest($create_scheduled_packages_request);
+
+        try {
+            $options = $this->createHttpClientOption();
+
+            try {
+                $response = $this->client->send($request, $options);
+            } catch (RequestException $e) {
+                throw new ApiException("[{$e->getCode()}] {$e->getMessage()}", (int) $e->getCode(), $e->getResponse() ? $e->getResponse()->getHeaders() : null, $e->getResponse() ? $e->getResponse()->getBody()->getContents() : null, $e);
+            } catch (ConnectException $e) {
+                throw new ApiException("[{$e->getCode()}] {$e->getMessage()}", (int) $e->getCode(), null, null, $e);
+            } catch (GuzzleException $e) {
+                throw new ApiException("[{$e->getCode()}] {$e->getMessage()}", (int) $e->getCode(), null, null, $e);
+            }
+
+            $statusCode = $response->getStatusCode();
+
+            if ($statusCode < 200 || $statusCode > 299) {
+                throw new ApiException(sprintf('[%d] Error connecting to the API (%s)', $statusCode, (string) $request->getUri()), $statusCode, $response->getHeaders(), (string) $response->getBody());
+            }
+
+            $responseBody = $response->getBody();
+
+            if ($returnType === '\SplFileObject') {
+                $content = $responseBody; // Stream goes to serializer.
+            } else {
+                $content = $responseBody->getContents();
+
+                if ($returnType !== 'string') {
+                    $content = json_decode($content);
+                }
+            }
+
+            return [
+                ObjectSerializer::deserialize($content, $returnType, []),
+                $response->getStatusCode(),
+                $response->getHeaders(),
+            ];
+        } catch (ApiException $e) {
+            switch ($e->getCode()) {
+                case 200:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\TNT\Amazon\EasyShip\V20220323\Model\CreateScheduledPackagesResponse',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                    break;
+                case 400:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\TNT\Amazon\EasyShip\V20220323\Model\ErrorList',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                    break;
+                case 401:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\TNT\Amazon\EasyShip\V20220323\Model\ErrorList',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                    break;
+                case 403:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\TNT\Amazon\EasyShip\V20220323\Model\ErrorList',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                    break;
+                case 404:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\TNT\Amazon\EasyShip\V20220323\Model\ErrorList',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                    break;
+                case 429:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\TNT\Amazon\EasyShip\V20220323\Model\ErrorList',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                    break;
+                case 415:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\TNT\Amazon\EasyShip\V20220323\Model\ErrorList',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                    break;
+                case 500:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\TNT\Amazon\EasyShip\V20220323\Model\ErrorList',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                    break;
+                case 503:
+                    $data = ObjectSerializer::deserialize(
+                        $e->getResponseBody(),
+                        '\TNT\Amazon\EasyShip\V20220323\Model\ErrorList',
+                        $e->getResponseHeaders()
+                    );
+                    $e->setResponseObject($data);
+                    break;
+            }
+            throw $e;
+        }
+    }
+
+    /**
+     * Operation createScheduledPackageBulkAsync.
+     *
+     * @param \TNT\Amazon\EasyShip\V20220323\Model\CreateScheduledPackagesRequest $create_scheduled_packages_request (required)
+     *
+     * @throws \InvalidArgumentException
+     *
+     * @return \GuzzleHttp\Promise\PromiseInterface
+     */
+    public function createScheduledPackageBulkAsync($create_scheduled_packages_request)
+    {
+        return $this->createScheduledPackageBulkAsyncWithHttpInfo($create_scheduled_packages_request)
+            ->then(
+                function ($response) {
+                    return $response[0];
+                }
+            );
+    }
+
+    /**
+     * Operation createScheduledPackageBulkAsyncWithHttpInfo.
+     *
+     * @param \TNT\Amazon\EasyShip\V20220323\Model\CreateScheduledPackagesRequest $create_scheduled_packages_request (required)
+     *
+     * @throws \InvalidArgumentException
+     *
+     * @return \GuzzleHttp\Promise\PromiseInterface
+     */
+    public function createScheduledPackageBulkAsyncWithHttpInfo($create_scheduled_packages_request)
+    {
+        $returnType = '\TNT\Amazon\EasyShip\V20220323\Model\CreateScheduledPackagesResponse';
+        $request = $this->createScheduledPackageBulkRequest($create_scheduled_packages_request);
+
+        return $this->client
+            ->sendAsync($request, $this->createHttpClientOption())
+            ->then(
+                function ($response) use ($returnType) {
+                    $responseBody = $response->getBody();
+
+                    if ($returnType === '\SplFileObject') {
+                        $content = $responseBody; // Stream goes to serializer.
+                    } else {
+                        $content = $responseBody->getContents();
+                        if ($returnType !== 'string') {
+                            $content = json_decode($content);
+                        }
+                    }
+
+                    return [
+                        ObjectSerializer::deserialize($content, $returnType, []),
+                        $response->getStatusCode(),
+                        $response->getHeaders(),
+                    ];
+                },
+                function ($exception) {
+                    $response = $exception->getResponse();
+                    $statusCode = $response->getStatusCode();
+
+                    throw new ApiException(sprintf('[%d] Error connecting to the API (%s)', $statusCode, $exception->getRequest()->getUri()), $statusCode, $response->getHeaders(), (string) $response->getBody(), $exception);
+                }
+            );
+    }
+
+    /**
+     * Create request for operation 'createScheduledPackageBulk'.
+     *
+     * @param \TNT\Amazon\EasyShip\V20220323\Model\CreateScheduledPackagesRequest $create_scheduled_packages_request (required)
+     *
+     * @throws \InvalidArgumentException
+     *
+     * @return \GuzzleHttp\Psr7\Request
+     */
+    protected function createScheduledPackageBulkRequest($create_scheduled_packages_request)
+    {
+        // Verify the required parameter 'create_scheduled_packages_request' is set.
+        if ($create_scheduled_packages_request === null || (\is_array($create_scheduled_packages_request) && count($create_scheduled_packages_request) === 0)) {
+            throw new \InvalidArgumentException('Missing the required parameter $create_scheduled_packages_request when calling createScheduledPackageBulk');
+        }
+
+        $resourcePath = '/easyShip/2022-03-23/packages/bulk';
+        $formParams = [];
+        $queryParams = [];
+        $headerParams = [];
+        $httpBody = '';
+        $multipart = false;
+
+        // Body params.
+        $_tempBody = null;
+        if (isset($create_scheduled_packages_request)) {
+            $_tempBody = $create_scheduled_packages_request;
         }
 
         if ($multipart) {
@@ -485,7 +793,7 @@ class EasyShipApi
             $responseBody = $response->getBody();
 
             if ($returnType === '\SplFileObject') {
-                $content = $responseBody; // stream goes to serializer
+                $content = $responseBody; // Stream goes to serializer.
             } else {
                 $content = $responseBody->getContents();
 
@@ -620,7 +928,7 @@ class EasyShipApi
                     $responseBody = $response->getBody();
 
                     if ($returnType === '\SplFileObject') {
-                        $content = $responseBody; // stream goes to serializer
+                        $content = $responseBody; // Stream goes to serializer.
                     } else {
                         $content = $responseBody->getContents();
                         if ($returnType !== 'string') {
@@ -819,7 +1127,7 @@ class EasyShipApi
             $responseBody = $response->getBody();
 
             if ($returnType === '\SplFileObject') {
-                $content = $responseBody; // stream goes to serializer
+                $content = $responseBody; // Stream goes to serializer.
             } else {
                 $content = $responseBody->getContents();
 
@@ -952,7 +1260,7 @@ class EasyShipApi
                     $responseBody = $response->getBody();
 
                     if ($returnType === '\SplFileObject') {
-                        $content = $responseBody; // stream goes to serializer
+                        $content = $responseBody; // Stream goes to serializer.
                     } else {
                         $content = $responseBody->getContents();
                         if ($returnType !== 'string') {
@@ -1122,7 +1430,7 @@ class EasyShipApi
             $responseBody = $response->getBody();
 
             if ($returnType === '\SplFileObject') {
-                $content = $responseBody; // stream goes to serializer
+                $content = $responseBody; // Stream goes to serializer.
             } else {
                 $content = $responseBody->getContents();
 
@@ -1255,7 +1563,7 @@ class EasyShipApi
                     $responseBody = $response->getBody();
 
                     if ($returnType === '\SplFileObject') {
-                        $content = $responseBody; // stream goes to serializer
+                        $content = $responseBody; // Stream goes to serializer.
                     } else {
                         $content = $responseBody->getContents();
                         if ($returnType !== 'string') {
