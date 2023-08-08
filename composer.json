@@ -1,5 +1,5 @@
 {
-    "name": "brandon14/amazon-sdk-php",
+    "name": "trollandtoad/amazon-sdk-php",
     "description": "Combined Amazon SP-API SDK generated using the OpenAPI generator and the Amazon SP-API specifications",
     "type": "library",
     "keywords": ["openapitools", "openapi-generator", "openapi", "php", "sdk", "rest", "api", "amazon", "sp-api"],
