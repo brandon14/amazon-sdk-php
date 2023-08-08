@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the brandon14/amazon-sdk-php package.
+ * This file is part of the trollandtoad/amazon-sdk-php package.
  *
  * MIT License
  *

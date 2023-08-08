@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the brandon14/amazon-sdk-php package.
+ * This file is part of the trollandtoad/amazon-sdk-php package.
  *
  * MIT License
  *
@@ -287,10 +287,9 @@ class ObjectSerializer
     /**
      * Deserialize a JSON string into an object.
      *
-     * @param mixed    $data          object or primitive to be deserialized
-     * @param string   $class         class name is passed as a string
-     * @param string[] $httpHeaders   HTTP headers
-     * @param string   $discriminator discriminator if polymorphism is used
+     * @param mixed    $data        object or primitive to be deserialized
+     * @param string   $class       class name is passed as a string
+     * @param string[] $httpHeaders HTTP headers
      *
      * @return object|array|null an single or an array of $class instances
      */

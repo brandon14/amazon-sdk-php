@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the brandon14/amazon-sdk-php package.
+ * This file is part of the trollandtoad/amazon-sdk-php package.
  *
  * MIT License
  *
@@ -102,7 +102,7 @@ class ApiException extends \Exception
      * @param \stdClass|string|null $responseBody    HTTP decoded body of the server response either as \stdClass or string
      * @param \Throwable|null       $previous        Previous exception
      */
-    public function __construct($message = '', $code = 0, $responseHeaders = [], $responseBody = null, ?\Throwable $previous = null)
+    public function __construct($message = '', $code = 0, $responseHeaders = [], $responseBody = null, \Throwable $previous = null)
     {
         parent::__construct($message, $code, $previous);
 
